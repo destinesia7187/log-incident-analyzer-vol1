@@ -1,0 +1,2239 @@
+[
+  {
+    "case_ids": [
+      "CLI-002",
+      "CLI-003",
+      "CLI-004"
+    ],
+    "nodeid": "tests/test_cli_reporting_evaluation.py::test_analyze_codes[alert-10]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "CLI-002",
+      "CLI-003",
+      "CLI-004"
+    ],
+    "nodeid": "tests/test_cli_reporting_evaluation.py::test_analyze_codes[benign-0]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "CLI-002",
+      "CLI-003",
+      "CLI-004"
+    ],
+    "nodeid": "tests/test_cli_reporting_evaluation.py::test_analyze_codes[partial-3]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "E2E-001",
+      "E2E-002",
+      "E2E-003"
+    ],
+    "nodeid": "tests/test_cli_reporting_evaluation.py::test_cli_demo[attack-expected0-75]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "E2E-001",
+      "E2E-002",
+      "E2E-003"
+    ],
+    "nodeid": "tests/test_cli_reporting_evaluation.py::test_cli_demo[incomplete-expected2-60]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "E2E-001",
+      "E2E-002",
+      "E2E-003"
+    ],
+    "nodeid": "tests/test_cli_reporting_evaluation.py::test_cli_demo[recovery-expected1-55]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "REP-005"
+    ],
+    "nodeid": "tests/test_cli_reporting_evaluation.py::test_confidence",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "CLI-005"
+    ],
+    "nodeid": "tests/test_cli_reporting_evaluation.py::test_config_error",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "E2E-008"
+    ],
+    "nodeid": "tests/test_cli_reporting_evaluation.py::test_context_comparison",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "CLI-012"
+    ],
+    "nodeid": "tests/test_cli_reporting_evaluation.py::test_dataset_compare",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "E2E-007"
+    ],
+    "nodeid": "tests/test_cli_reporting_evaluation.py::test_denominators",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "REP-003"
+    ],
+    "nodeid": "tests/test_cli_reporting_evaluation.py::test_evidence",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "REP-002"
+    ],
+    "nodeid": "tests/test_cli_reporting_evaluation.py::test_formats",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "CLI-001"
+    ],
+    "nodeid": "tests/test_cli_reporting_evaluation.py::test_help",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "REP-006"
+    ],
+    "nodeid": "tests/test_cli_reporting_evaluation.py::test_html_static",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "CLI-006"
+    ],
+    "nodeid": "tests/test_cli_reporting_evaluation.py::test_io_error",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "CLI-008"
+    ],
+    "nodeid": "tests/test_cli_reporting_evaluation.py::test_json_read_commands",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "E2E-006"
+    ],
+    "nodeid": "tests/test_cli_reporting_evaluation.py::test_matching_duplicates",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "REP-008"
+    ],
+    "nodeid": "tests/test_cli_reporting_evaluation.py::test_metadata",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "CLI-011"
+    ],
+    "nodeid": "tests/test_cli_reporting_evaluation.py::test_missing_case",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "E2E-004"
+    ],
+    "nodeid": "tests/test_cli_reporting_evaluation.py::test_nat_story",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "REP-007"
+    ],
+    "nodeid": "tests/test_cli_reporting_evaluation.py::test_notes_separate",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "SEC-016"
+    ],
+    "nodeid": "tests/test_cli_reporting_evaluation.py::test_offline_demo_replay",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "REP-001"
+    ],
+    "nodeid": "tests/test_cli_reporting_evaluation.py::test_public_schemas",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "E2E-005"
+    ],
+    "nodeid": "tests/test_cli_reporting_evaluation.py::test_replay",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "CLI-007"
+    ],
+    "nodeid": "tests/test_cli_reporting_evaluation.py::test_require_complete",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "REP-004"
+    ],
+    "nodeid": "tests/test_cli_reporting_evaluation.py::test_truncation",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "CLI-009"
+    ],
+    "nodeid": "tests/test_cli_reporting_evaluation.py::test_unicode_paths",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [],
+    "nodeid": "tests/test_delivery_performance.py::test_benchmark_smoke",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "CI-001"
+    ],
+    "nodeid": "tests/test_delivery_performance.py::test_clean_wheel",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "SEC-020"
+    ],
+    "nodeid": "tests/test_delivery_performance.py::test_container",
+    "outcome": "skipped"
+  },
+  {
+    "case_ids": [
+      "CI-003"
+    ],
+    "nodeid": "tests/test_delivery_performance.py::test_coverage_policy",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "PERF-005"
+    ],
+    "nodeid": "tests/test_delivery_performance.py::test_dense_count",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "PERF-001",
+      "PERF-002"
+    ],
+    "nodeid": "tests/test_delivery_performance.py::test_fixed_linux_time_acceptance",
+    "outcome": "skipped"
+  },
+  {
+    "case_ids": [
+      "CI-006"
+    ],
+    "nodeid": "tests/test_delivery_performance.py::test_frozen_suite",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "PERF-004"
+    ],
+    "nodeid": "tests/test_delivery_performance.py::test_high_cardinality_limit",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "PERF-007"
+    ],
+    "nodeid": "tests/test_delivery_performance.py::test_html_volume",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "CI-005"
+    ],
+    "nodeid": "tests/test_delivery_performance.py::test_label_independence",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "CI-004"
+    ],
+    "nodeid": "tests/test_delivery_performance.py::test_mutation_record",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "CI-008"
+    ],
+    "nodeid": "tests/test_delivery_performance.py::test_quickstart",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "PERF-003",
+      "PERF-006"
+    ],
+    "nodeid": "tests/test_delivery_performance.py::test_recorded_benchmark[1000000]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "PERF-003",
+      "PERF-006"
+    ],
+    "nodeid": "tests/test_delivery_performance.py::test_recorded_benchmark[100000]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "PERF-008"
+    ],
+    "nodeid": "tests/test_delivery_performance.py::test_regression_policy",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "CI-002"
+    ],
+    "nodeid": "tests/test_delivery_performance.py::test_runtime_contract",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "CI-007"
+    ],
+    "nodeid": "tests/test_delivery_performance.py::test_supply_chain_configuration",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "D01-001"
+    ],
+    "nodeid": "tests/test_detectors.py::test_det001[D01-001]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "D01-002"
+    ],
+    "nodeid": "tests/test_detectors.py::test_det001[D01-002]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "D01-003"
+    ],
+    "nodeid": "tests/test_detectors.py::test_det001[D01-003]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "D01-004"
+    ],
+    "nodeid": "tests/test_detectors.py::test_det001[D01-004]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "D01-005"
+    ],
+    "nodeid": "tests/test_detectors.py::test_det001[D01-005]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "D01-006"
+    ],
+    "nodeid": "tests/test_detectors.py::test_det001[D01-006]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "D01-007"
+    ],
+    "nodeid": "tests/test_detectors.py::test_det001[D01-007]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "D01-008"
+    ],
+    "nodeid": "tests/test_detectors.py::test_det001[D01-008]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "D02-001"
+    ],
+    "nodeid": "tests/test_detectors.py::test_det002[D02-001]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "D02-002"
+    ],
+    "nodeid": "tests/test_detectors.py::test_det002[D02-002]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "D02-003"
+    ],
+    "nodeid": "tests/test_detectors.py::test_det002[D02-003]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "D02-004"
+    ],
+    "nodeid": "tests/test_detectors.py::test_det002[D02-004]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "D02-005"
+    ],
+    "nodeid": "tests/test_detectors.py::test_det002[D02-005]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "D02-006"
+    ],
+    "nodeid": "tests/test_detectors.py::test_det002[D02-006]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "D02-007"
+    ],
+    "nodeid": "tests/test_detectors.py::test_det002[D02-007]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "D02-008"
+    ],
+    "nodeid": "tests/test_detectors.py::test_det002[D02-008]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "D03-001"
+    ],
+    "nodeid": "tests/test_detectors.py::test_det003[D03-001]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "D03-002"
+    ],
+    "nodeid": "tests/test_detectors.py::test_det003[D03-002]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "D03-003"
+    ],
+    "nodeid": "tests/test_detectors.py::test_det003[D03-003]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "D03-004"
+    ],
+    "nodeid": "tests/test_detectors.py::test_det003[D03-004]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "D03-005"
+    ],
+    "nodeid": "tests/test_detectors.py::test_det003[D03-005]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "D03-006"
+    ],
+    "nodeid": "tests/test_detectors.py::test_det003[D03-006]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "D03-007"
+    ],
+    "nodeid": "tests/test_detectors.py::test_det003[D03-007]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "D03-008"
+    ],
+    "nodeid": "tests/test_detectors.py::test_det003[D03-008]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "D04-001"
+    ],
+    "nodeid": "tests/test_detectors.py::test_det004[D04-001]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "D04-002"
+    ],
+    "nodeid": "tests/test_detectors.py::test_det004[D04-002]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "D04-003"
+    ],
+    "nodeid": "tests/test_detectors.py::test_det004[D04-003]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "D04-004"
+    ],
+    "nodeid": "tests/test_detectors.py::test_det004[D04-004]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "D04-005"
+    ],
+    "nodeid": "tests/test_detectors.py::test_det004[D04-005]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "D04-006"
+    ],
+    "nodeid": "tests/test_detectors.py::test_det004[D04-006]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "D04-007"
+    ],
+    "nodeid": "tests/test_detectors.py::test_det004[D04-007]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "D04-008"
+    ],
+    "nodeid": "tests/test_detectors.py::test_det004[D04-008]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "D05-001"
+    ],
+    "nodeid": "tests/test_detectors.py::test_det005[D05-001]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "D05-002"
+    ],
+    "nodeid": "tests/test_detectors.py::test_det005[D05-002]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "D05-003"
+    ],
+    "nodeid": "tests/test_detectors.py::test_det005[D05-003]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "D05-004"
+    ],
+    "nodeid": "tests/test_detectors.py::test_det005[D05-004]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "D05-005"
+    ],
+    "nodeid": "tests/test_detectors.py::test_det005[D05-005]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "D05-006"
+    ],
+    "nodeid": "tests/test_detectors.py::test_det005[D05-006]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "D05-007"
+    ],
+    "nodeid": "tests/test_detectors.py::test_det005[D05-007]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "D05-008"
+    ],
+    "nodeid": "tests/test_detectors.py::test_det005[D05-008]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "D06-001"
+    ],
+    "nodeid": "tests/test_detectors.py::test_det006[D06-001]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "D06-002"
+    ],
+    "nodeid": "tests/test_detectors.py::test_det006[D06-002]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "D06-003"
+    ],
+    "nodeid": "tests/test_detectors.py::test_det006[D06-003]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "D06-004"
+    ],
+    "nodeid": "tests/test_detectors.py::test_det006[D06-004]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "D06-005"
+    ],
+    "nodeid": "tests/test_detectors.py::test_det006[D06-005]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "D06-006"
+    ],
+    "nodeid": "tests/test_detectors.py::test_det006[D06-006]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "D06-007"
+    ],
+    "nodeid": "tests/test_detectors.py::test_det006[D06-007]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "D06-008"
+    ],
+    "nodeid": "tests/test_detectors.py::test_det006[D06-008]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "D07-001"
+    ],
+    "nodeid": "tests/test_detectors.py::test_det007[D07-001]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "D07-002"
+    ],
+    "nodeid": "tests/test_detectors.py::test_det007[D07-002]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "D07-003"
+    ],
+    "nodeid": "tests/test_detectors.py::test_det007[D07-003]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "D07-004"
+    ],
+    "nodeid": "tests/test_detectors.py::test_det007[D07-004]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "D07-005"
+    ],
+    "nodeid": "tests/test_detectors.py::test_det007[D07-005]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "D07-006"
+    ],
+    "nodeid": "tests/test_detectors.py::test_det007[D07-006]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "D07-007"
+    ],
+    "nodeid": "tests/test_detectors.py::test_det007[D07-007]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "D07-008"
+    ],
+    "nodeid": "tests/test_detectors.py::test_det007[D07-008]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "D08-001"
+    ],
+    "nodeid": "tests/test_detectors.py::test_det008[D08-001]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "D08-002"
+    ],
+    "nodeid": "tests/test_detectors.py::test_det008[D08-002]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "D08-003"
+    ],
+    "nodeid": "tests/test_detectors.py::test_det008[D08-003]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "D08-004"
+    ],
+    "nodeid": "tests/test_detectors.py::test_det008[D08-004]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "D08-005"
+    ],
+    "nodeid": "tests/test_detectors.py::test_det008[D08-005]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "D08-006"
+    ],
+    "nodeid": "tests/test_detectors.py::test_det008[D08-006]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "D08-007"
+    ],
+    "nodeid": "tests/test_detectors.py::test_det008[D08-007]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "D08-008"
+    ],
+    "nodeid": "tests/test_detectors.py::test_det008[D08-008]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [],
+    "nodeid": "tests/test_episode_evidence.py::test_duplicate_alert_count_is_not_candidate_pair_count",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [],
+    "nodeid": "tests/test_episode_evidence.py::test_requalified_window_preserves_intermediate_evidence",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "ING-020"
+    ],
+    "nodeid": "tests/test_ingest.py::test_accounting",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "ING-001"
+    ],
+    "nodeid": "tests/test_ingest.py::test_app_rows",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "ING-019"
+    ],
+    "nodeid": "tests/test_ingest.py::test_archives[app.gz-\\x1f\\x8b\\x08\\x00:,\\xb9j\\x02\\xff\\xcb\\xcfK\\xe5\\x02\\x00\\x9f\\xa8\\x17\\xf8\\x04\\x00\\x00\\x00\\x1f\\x8b\\x08\\x00:,\\xb9j\\x02\\xff+)\\xcf\\xe7\\x02\\x00t\\x08\\x17\\x96\\x04\\x00\\x00\\x00]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "ING-019"
+    ],
+    "nodeid": "tests/test_ingest.py::test_archives[app.zip-PKfake]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "ING-009",
+      "ING-010"
+    ],
+    "nodeid": "tests/test_ingest.py::test_bad_line[\\xff\\xfe\\n]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "ING-009",
+      "ING-010"
+    ],
+    "nodeid": "tests/test_ingest.py::test_bad_line[{\"incomplete\":\\n]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "ING-007"
+    ],
+    "nodeid": "tests/test_ingest.py::test_blanks",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "ING-008"
+    ],
+    "nodeid": "tests/test_ingest.py::test_bom",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "ING-013"
+    ],
+    "nodeid": "tests/test_ingest.py::test_bomb",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "ING-018"
+    ],
+    "nodeid": "tests/test_ingest.py::test_changing_file",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "ING-003"
+    ],
+    "nodeid": "tests/test_ingest.py::test_combined",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "ING-006"
+    ],
+    "nodeid": "tests/test_ingest.py::test_empty",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "ING-015"
+    ],
+    "nodeid": "tests/test_ingest.py::test_file_limit",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "ING-004"
+    ],
+    "nodeid": "tests/test_ingest.py::test_gzip",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "ING-016"
+    ],
+    "nodeid": "tests/test_ingest.py::test_input_limit",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "ING-014"
+    ],
+    "nodeid": "tests/test_ingest.py::test_line_limit",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "ING-017"
+    ],
+    "nodeid": "tests/test_ingest.py::test_missing_file",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "ING-005",
+      "TIM-011"
+    ],
+    "nodeid": "tests/test_ingest.py::test_multi_file_order",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "ING-002"
+    ],
+    "nodeid": "tests/test_ingest.py::test_nginx_json",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "ING-012"
+    ],
+    "nodeid": "tests/test_ingest.py::test_truncated",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "ING-011"
+    ],
+    "nodeid": "tests/test_ingest.py::test_unknown_format",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "NRM-011"
+    ],
+    "nodeid": "tests/test_normalize.py::test_actor_target",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "NRM-020"
+    ],
+    "nodeid": "tests/test_normalize.py::test_bad_forwarded",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "NRM-009"
+    ],
+    "nodeid": "tests/test_normalize.py::test_bad_pair",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "NRM-005"
+    ],
+    "nodeid": "tests/test_normalize.py::test_case_sensitive",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "NRM-017"
+    ],
+    "nodeid": "tests/test_normalize.py::test_field_limits",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "NRM-010"
+    ],
+    "nodeid": "tests/test_normalize.py::test_http_not_auth[200]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "NRM-010"
+    ],
+    "nodeid": "tests/test_normalize.py::test_http_not_auth[302]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "NRM-004"
+    ],
+    "nodeid": "tests/test_normalize.py::test_http_status",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "NRM-001"
+    ],
+    "nodeid": "tests/test_normalize.py::test_ipv4",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "NRM-002"
+    ],
+    "nodeid": "tests/test_normalize.py::test_ipv6",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "NRM-008"
+    ],
+    "nodeid": "tests/test_normalize.py::test_literal_null",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "NRM-003"
+    ],
+    "nodeid": "tests/test_normalize.py::test_mapped",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "NRM-007"
+    ],
+    "nodeid": "tests/test_normalize.py::test_missing_user[12]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "NRM-007"
+    ],
+    "nodeid": "tests/test_normalize.py::test_missing_user[None]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "NRM-007"
+    ],
+    "nodeid": "tests/test_normalize.py::test_missing_user[]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "NRM-012",
+      "NRM-013"
+    ],
+    "nodeid": "tests/test_normalize.py::test_namespaces[application_id]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "NRM-012",
+      "NRM-013"
+    ],
+    "nodeid": "tests/test_normalize.py::test_namespaces[tenant_id]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "NRM-014"
+    ],
+    "nodeid": "tests/test_normalize.py::test_query_removed",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "NRM-015"
+    ],
+    "nodeid": "tests/test_normalize.py::test_single_decode",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "NRM-019"
+    ],
+    "nodeid": "tests/test_normalize.py::test_trusted_chain",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "NRM-006"
+    ],
+    "nodeid": "tests/test_normalize.py::test_unicode",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "NRM-016"
+    ],
+    "nodeid": "tests/test_normalize.py::test_unknown_fields",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "NRM-018"
+    ],
+    "nodeid": "tests/test_normalize.py::test_untrusted_forwarded",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "PROP-002"
+    ],
+    "nodeid": "tests/test_properties.py::test_idempotent",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "PROP-001"
+    ],
+    "nodeid": "tests/test_properties.py::test_permutation",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "PROP-008"
+    ],
+    "nodeid": "tests/test_properties.py::test_redaction",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "PROP-007"
+    ],
+    "nodeid": "tests/test_properties.py::test_roundtrip",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "PROP-003"
+    ],
+    "nodeid": "tests/test_properties.py::test_tenant_independence",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "PROP-005"
+    ],
+    "nodeid": "tests/test_properties.py::test_threshold_monotonicity",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "PROP-004"
+    ],
+    "nodeid": "tests/test_properties.py::test_time_translation",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "PROP-006"
+    ],
+    "nodeid": "tests/test_properties.py::test_unrelated_extension",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [],
+    "nodeid": "tests/test_review_recovery.py::test_failed_review_render_preserves_original",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [],
+    "nodeid": "tests/test_review_recovery.py::test_implicit_edges_and_duration_split",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [],
+    "nodeid": "tests/test_review_recovery.py::test_review_recovers_after_export_rename_failure",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [],
+    "nodeid": "tests/test_review_recovery.py::test_review_uncommitted_stage_is_discarded",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [],
+    "nodeid": "tests/test_review_recovery.py::test_schema_rejects_missing_evidence_and_invalid_priority",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "DSL-019"
+    ],
+    "nodeid": "tests/test_rules.py::test_attack_id",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "DSL-013"
+    ],
+    "nodeid": "tests/test_rules.py::test_cidr[192.0.2.0-True]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "DSL-013"
+    ],
+    "nodeid": "tests/test_rules.py::test_cidr[192.0.2.255-True]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "DSL-013"
+    ],
+    "nodeid": "tests/test_rules.py::test_cidr[198.51.100.1-False]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "DSL-015"
+    ],
+    "nodeid": "tests/test_rules.py::test_cycle",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "DSL-014"
+    ],
+    "nodeid": "tests/test_rules.py::test_distinct",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "DSL-004"
+    ],
+    "nodeid": "tests/test_rules.py::test_duplicate",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "DSL-005"
+    ],
+    "nodeid": "tests/test_rules.py::test_duplicate_yaml",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "DSL-011"
+    ],
+    "nodeid": "tests/test_rules.py::test_exists[-False]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "DSL-011"
+    ],
+    "nodeid": "tests/test_rules.py::test_exists[None-False]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "DSL-011"
+    ],
+    "nodeid": "tests/test_rules.py::test_exists[alice-True]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "DSL-016"
+    ],
+    "nodeid": "tests/test_rules.py::test_missing_dependency",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "DSL-002"
+    ],
+    "nodeid": "tests/test_rules.py::test_required[description]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "DSL-002"
+    ],
+    "nodeid": "tests/test_rules.py::test_required[required_capabilities]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "DSL-020"
+    ],
+    "nodeid": "tests/test_rules.py::test_rule_version",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "DSL-006",
+      "DSL-018"
+    ],
+    "nodeid": "tests/test_rules.py::test_schema[lia-rule/v99]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "DSL-006",
+      "DSL-018"
+    ],
+    "nodeid": "tests/test_rules.py::test_schema[sigma]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "DSL-017"
+    ],
+    "nodeid": "tests/test_rules.py::test_tenant_required",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "DSL-008"
+    ],
+    "nodeid": "tests/test_rules.py::test_thresholds[threshold0]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "DSL-008"
+    ],
+    "nodeid": "tests/test_rules.py::test_thresholds[threshold1]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "DSL-008"
+    ],
+    "nodeid": "tests/test_rules.py::test_thresholds[threshold2]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "DSL-008"
+    ],
+    "nodeid": "tests/test_rules.py::test_thresholds[threshold3]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "DSL-012"
+    ],
+    "nodeid": "tests/test_rules.py::test_truth_table",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "DSL-003"
+    ],
+    "nodeid": "tests/test_rules.py::test_unknown",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "DSL-009",
+      "DSL-010"
+    ],
+    "nodeid": "tests/test_rules.py::test_unknown_logic",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "DSL-001"
+    ],
+    "nodeid": "tests/test_rules.py::test_valid",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "DSL-007"
+    ],
+    "nodeid": "tests/test_rules.py::test_windows[-1m]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "DSL-007"
+    ],
+    "nodeid": "tests/test_rules.py::test_windows[0m]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "DSL-007"
+    ],
+    "nodeid": "tests/test_rules.py::test_windows[25h]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "DSL-007"
+    ],
+    "nodeid": "tests/test_rules.py::test_windows[5]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "DSL-007"
+    ],
+    "nodeid": "tests/test_rules.py::test_windows[None]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "STO-012"
+    ],
+    "nodeid": "tests/test_security_storage.py::test_artifact_integrity",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "STO-001",
+      "STO-002"
+    ],
+    "nodeid": "tests/test_security_storage.py::test_copied_artifact",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "STO-005"
+    ],
+    "nodeid": "tests/test_security_storage.py::test_foreign_key",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "SEC-018"
+    ],
+    "nodeid": "tests/test_security_storage.py::test_group_cap",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "SEC-001"
+    ],
+    "nodeid": "tests/test_security_storage.py::test_html_escape",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "STO-004"
+    ],
+    "nodeid": "tests/test_security_storage.py::test_id_conflict",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "STO-009"
+    ],
+    "nodeid": "tests/test_security_storage.py::test_interrupted[detect]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "STO-009"
+    ],
+    "nodeid": "tests/test_security_storage.py::test_interrupted[ingest]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "SEC-007"
+    ],
+    "nodeid": "tests/test_security_storage.py::test_json_depth",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "SEC-002"
+    ],
+    "nodeid": "tests/test_security_storage.py::test_markdown_escape",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "SEC-016",
+      "SEC-017"
+    ],
+    "nodeid": "tests/test_security_storage.py::test_offline_ssrf",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "CLI-010",
+      "SEC-010"
+    ],
+    "nodeid": "tests/test_security_storage.py::test_output_guard",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "STO-011"
+    ],
+    "nodeid": "tests/test_security_storage.py::test_schema_version",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "SEC-011",
+      "SEC-012",
+      "SEC-013"
+    ],
+    "nodeid": "tests/test_security_storage.py::test_secret_outputs",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "SEC-014",
+      "SEC-015"
+    ],
+    "nodeid": "tests/test_security_storage.py::test_session_hmac",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "SEC-019"
+    ],
+    "nodeid": "tests/test_security_storage.py::test_shareable",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "SEC-004"
+    ],
+    "nodeid": "tests/test_security_storage.py::test_sql_parameters",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "STO-007",
+      "STO-008"
+    ],
+    "nodeid": "tests/test_security_storage.py::test_storage_fault[error0]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "STO-007",
+      "STO-008"
+    ],
+    "nodeid": "tests/test_security_storage.py::test_storage_fault[error1]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "SEC-009"
+    ],
+    "nodeid": "tests/test_security_storage.py::test_symlink_guard",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "SEC-003"
+    ],
+    "nodeid": "tests/test_security_storage.py::test_terminal_escape",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "STO-006"
+    ],
+    "nodeid": "tests/test_security_storage.py::test_transaction_rollback",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "SEC-008"
+    ],
+    "nodeid": "tests/test_security_storage.py::test_traversal[../outside.jsonl]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "SEC-008"
+    ],
+    "nodeid": "tests/test_security_storage.py::test_traversal[/outside.jsonl]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "SEC-008"
+    ],
+    "nodeid": "tests/test_security_storage.py::test_traversal[C:\\\\outside.jsonl]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "STO-003"
+    ],
+    "nodeid": "tests/test_security_storage.py::test_web_duplicates",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "STO-010"
+    ],
+    "nodeid": "tests/test_security_storage.py::test_writer_lock",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "SEC-005",
+      "SEC-006"
+    ],
+    "nodeid": "tests/test_security_storage.py::test_yaml_execution[!!python/object/apply:os.system [echo compromised]]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "SEC-005",
+      "SEC-006"
+    ],
+    "nodeid": "tests/test_security_storage.py::test_yaml_execution[a: &a [1,2]\\nb: [*a,*a]]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [],
+    "nodeid": "tests/test_sequence_limits.py::test_sequence_episode_limit",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [],
+    "nodeid": "tests/test_sequence_limits.py::test_sequence_history_and_episode_eviction[1000-u]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [],
+    "nodeid": "tests/test_sequence_limits.py::test_sequence_history_and_episode_eviction[4000-v]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [],
+    "nodeid": "tests/test_sequence_limits.py::test_sequence_history_limit",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "TIM-004"
+    ],
+    "nodeid": "tests/test_time.py::test_ambiguous",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "TIM-006",
+      "TIM-007",
+      "TIM-008"
+    ],
+    "nodeid": "tests/test_time.py::test_boundaries",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "TIM-013"
+    ],
+    "nodeid": "tests/test_time.py::test_clock_offset",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "TIM-020"
+    ],
+    "nodeid": "tests/test_time.py::test_episode_limit",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "TIM-009"
+    ],
+    "nodeid": "tests/test_time.py::test_midnight",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "TIM-003"
+    ],
+    "nodeid": "tests/test_time.py::test_no_zone",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "TIM-005"
+    ],
+    "nodeid": "tests/test_time.py::test_nonexistent",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "TIM-001"
+    ],
+    "nodeid": "tests/test_time.py::test_offsets",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "TIM-010"
+    ],
+    "nodeid": "tests/test_time.py::test_order",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "TIM-012",
+      "TIM-019"
+    ],
+    "nodeid": "tests/test_time.py::test_order_not_invented[0]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "TIM-012",
+      "TIM-019"
+    ],
+    "nodeid": "tests/test_time.py::test_order_not_invented[9]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "TIM-017"
+    ],
+    "nodeid": "tests/test_time.py::test_precision",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "TIM-018"
+    ],
+    "nodeid": "tests/test_time.py::test_sequence_gap[600-True]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "TIM-018"
+    ],
+    "nodeid": "tests/test_time.py::test_sequence_gap[600.000001-False]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "TIM-002"
+    ],
+    "nodeid": "tests/test_time.py::test_timezone",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "TIM-014"
+    ],
+    "nodeid": "tests/test_time.py::test_uncertain_sequence",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "TIM-015",
+      "TIM-016"
+    ],
+    "nodeid": "tests/test_time.py::test_uncertainty_limit[30000-True]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "TIM-015",
+      "TIM-016"
+    ],
+    "nodeid": "tests/test_time.py::test_uncertainty_limit[30001-False]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "TRI-007"
+    ],
+    "nodeid": "tests/test_triage_quality.py::test_base_score",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "TRI-001"
+    ],
+    "nodeid": "tests/test_triage_quality.py::test_chain",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "TRI-016"
+    ],
+    "nodeid": "tests/test_triage_quality.py::test_close_reason",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "TRI-012"
+    ],
+    "nodeid": "tests/test_triage_quality.py::test_context_expiry",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "GAP-012"
+    ],
+    "nodeid": "tests/test_triage_quality.py::test_coverage_is_rule_readiness",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "TRI-006"
+    ],
+    "nodeid": "tests/test_triage_quality.py::test_duration_split",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "TRI-005"
+    ],
+    "nodeid": "tests/test_triage_quality.py::test_gap",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "GAP-011"
+    ],
+    "nodeid": "tests/test_triage_quality.py::test_heartbeat_contract",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "GAP-009"
+    ],
+    "nodeid": "tests/test_triage_quality.py::test_incomplete_session",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "GAP-004"
+    ],
+    "nodeid": "tests/test_triage_quality.py::test_no_data",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "GAP-010"
+    ],
+    "nodeid": "tests/test_triage_quality.py::test_no_heartbeat_contract",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "GAP-005"
+    ],
+    "nodeid": "tests/test_triage_quality.py::test_no_source",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "GAP-008"
+    ],
+    "nodeid": "tests/test_triage_quality.py::test_outcome_not_guessed",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "GAP-007"
+    ],
+    "nodeid": "tests/test_triage_quality.py::test_per_rule_fields",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "GAP-001",
+      "GAP-002",
+      "GAP-003"
+    ],
+    "nodeid": "tests/test_triage_quality.py::test_readiness[0-ready-10]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "GAP-001",
+      "GAP-002",
+      "GAP-003"
+    ],
+    "nodeid": "tests/test_triage_quality.py::test_readiness[10-unavailable-0]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "GAP-001",
+      "GAP-002",
+      "GAP-003"
+    ],
+    "nodeid": "tests/test_triage_quality.py::test_readiness[2-degraded-8]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "TRI-015"
+    ],
+    "nodeid": "tests/test_triage_quality.py::test_review_transitions",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "TRI-008",
+      "TRI-009",
+      "TRI-010",
+      "TRI-011"
+    ],
+    "nodeid": "tests/test_triage_quality.py::test_scoring[approved-DET-001-40-medium]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "TRI-008",
+      "TRI-009",
+      "TRI-010",
+      "TRI-011"
+    ],
+    "nodeid": "tests/test_triage_quality.py::test_scoring[critical-DET-001-75-high]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "TRI-008",
+      "TRI-009",
+      "TRI-010",
+      "TRI-011"
+    ],
+    "nodeid": "tests/test_triage_quality.py::test_scoring[critical-DET-006-90-critical]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "TRI-008",
+      "TRI-009",
+      "TRI-010",
+      "TRI-011"
+    ],
+    "nodeid": "tests/test_triage_quality.py::test_scoring[nat-DET-001-60-high]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "TRI-002",
+      "TRI-003",
+      "TRI-004"
+    ],
+    "nodeid": "tests/test_triage_quality.py::test_separation[application_id-a2]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "TRI-002",
+      "TRI-003",
+      "TRI-004"
+    ],
+    "nodeid": "tests/test_triage_quality.py::test_separation[tenant_id-t2]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "TRI-002",
+      "TRI-003",
+      "TRI-004"
+    ],
+    "nodeid": "tests/test_triage_quality.py::test_separation[user_id-v]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "TRI-013",
+      "TRI-014"
+    ],
+    "nodeid": "tests/test_triage_quality.py::test_suppression[DET-001-False]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "TRI-013",
+      "TRI-014"
+    ],
+    "nodeid": "tests/test_triage_quality.py::test_suppression[DET-006-True]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [
+      "GAP-006"
+    ],
+    "nodeid": "tests/test_triage_quality.py::test_undeclared",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [],
+    "nodeid": "tests/test_validation_edges.py::test_bad_config_limits",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [],
+    "nodeid": "tests/test_validation_edges.py::test_bad_timezone",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [],
+    "nodeid": "tests/test_validation_edges.py::test_context_scope_and_relations",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [],
+    "nodeid": "tests/test_validation_edges.py::test_detection_expiry_and_sort",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [],
+    "nodeid": "tests/test_validation_edges.py::test_expression_limits",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [],
+    "nodeid": "tests/test_validation_edges.py::test_invalid_aggregate[aggregate0]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [],
+    "nodeid": "tests/test_validation_edges.py::test_invalid_aggregate[aggregate1]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [],
+    "nodeid": "tests/test_validation_edges.py::test_invalid_aggregate[aggregate2]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [],
+    "nodeid": "tests/test_validation_edges.py::test_invalid_aggregate[aggregate3]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [],
+    "nodeid": "tests/test_validation_edges.py::test_invalid_aggregate[aggregate4]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [],
+    "nodeid": "tests/test_validation_edges.py::test_invalid_aggregate[aggregate5]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [],
+    "nodeid": "tests/test_validation_edges.py::test_invalid_aggregate[aggregate6]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [],
+    "nodeid": "tests/test_validation_edges.py::test_invalid_aggregate[aggregate7]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [],
+    "nodeid": "tests/test_validation_edges.py::test_invalid_expressions[expression0]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [],
+    "nodeid": "tests/test_validation_edges.py::test_invalid_expressions[expression10]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [],
+    "nodeid": "tests/test_validation_edges.py::test_invalid_expressions[expression1]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [],
+    "nodeid": "tests/test_validation_edges.py::test_invalid_expressions[expression2]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [],
+    "nodeid": "tests/test_validation_edges.py::test_invalid_expressions[expression3]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [],
+    "nodeid": "tests/test_validation_edges.py::test_invalid_expressions[expression4]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [],
+    "nodeid": "tests/test_validation_edges.py::test_invalid_expressions[expression5]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [],
+    "nodeid": "tests/test_validation_edges.py::test_invalid_expressions[expression6]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [],
+    "nodeid": "tests/test_validation_edges.py::test_invalid_expressions[expression7]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [],
+    "nodeid": "tests/test_validation_edges.py::test_invalid_expressions[expression8]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [],
+    "nodeid": "tests/test_validation_edges.py::test_invalid_expressions[expression9]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [],
+    "nodeid": "tests/test_validation_edges.py::test_invalid_rule_metadata[change0]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [],
+    "nodeid": "tests/test_validation_edges.py::test_invalid_rule_metadata[change1]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [],
+    "nodeid": "tests/test_validation_edges.py::test_invalid_rule_metadata[change2]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [],
+    "nodeid": "tests/test_validation_edges.py::test_invalid_rule_metadata[change3]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [],
+    "nodeid": "tests/test_validation_edges.py::test_invalid_rule_metadata[change4]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [],
+    "nodeid": "tests/test_validation_edges.py::test_invalid_rule_metadata[change5]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [],
+    "nodeid": "tests/test_validation_edges.py::test_invalid_rule_metadata[change6]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [],
+    "nodeid": "tests/test_validation_edges.py::test_invalid_rule_metadata[change7]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [],
+    "nodeid": "tests/test_validation_edges.py::test_invalid_rule_metadata[change8]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [],
+    "nodeid": "tests/test_validation_edges.py::test_invalid_time[123]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [],
+    "nodeid": "tests/test_validation_edges.py::test_invalid_time[2026-01-01]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [],
+    "nodeid": "tests/test_validation_edges.py::test_invalid_time[2026-13-01T00:00:00Z]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [],
+    "nodeid": "tests/test_validation_edges.py::test_invalid_time[None]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [],
+    "nodeid": "tests/test_validation_edges.py::test_invalid_time[nonsense]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [],
+    "nodeid": "tests/test_validation_edges.py::test_normalization_edge_cases",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [],
+    "nodeid": "tests/test_validation_edges.py::test_pipeline_guards",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [],
+    "nodeid": "tests/test_validation_edges.py::test_predicate_types",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [],
+    "nodeid": "tests/test_validation_edges.py::test_previous_window_snapshot",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [],
+    "nodeid": "tests/test_validation_edges.py::test_replay_guards",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [],
+    "nodeid": "tests/test_validation_edges.py::test_rules_limits",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [],
+    "nodeid": "tests/test_validation_edges.py::test_sequence_merge",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [],
+    "nodeid": "tests/test_validation_edges.py::test_statistics_empty_and_benign",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [],
+    "nodeid": "tests/test_validation_edges.py::test_strict_json[{\"x\":1,\"x\":2}]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [],
+    "nodeid": "tests/test_validation_edges.py::test_strict_json[{\"x\":Infinity}]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [],
+    "nodeid": "tests/test_validation_edges.py::test_strict_json[{\"x\":NaN}]",
+    "outcome": "passed"
+  },
+  {
+    "case_ids": [],
+    "nodeid": "tests/test_validation_edges.py::test_uncertainty_of_earlier_evidence",
+    "outcome": "passed"
+  }
+]

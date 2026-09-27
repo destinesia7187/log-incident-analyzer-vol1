@@ -1,0 +1,24 @@
+{
+  "input_root": ".",
+  "schema": "lia-input/v1",
+  "sources": [
+    {
+      "application_id": "demo",
+      "authority": "idp_audit",
+      "declared_capabilities": [
+        "auth.login.failure",
+        "auth.login.success",
+        "auth.mfa.challenge",
+        "auth.mfa.enroll",
+        "authz.denied",
+        "http.request",
+        "source.heartbeat"
+      ],
+      "format": "app-audit-v1",
+      "path": "app.jsonl",
+      "platform_scope": "identity_provider",
+      "source_id": "demo-audit",
+      "tenant_id": "local"
+    }
+  ]
+}

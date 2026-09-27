@@ -1,0 +1,2 @@
+192.0.2.30 - - [15/Jan/2026:12:02:00 +0000] "GET /admin HTTP/1.1" 403 128 "-" "SyntheticExample/1.0"
+192.0.2.30 - - [15/Jan/2026:12:02:01 +0000] "GET /.env HTTP/1.1" 404 128 "-" "SyntheticExample/1.0"

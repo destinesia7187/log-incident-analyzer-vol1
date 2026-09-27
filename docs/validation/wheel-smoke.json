@@ -1,0 +1,12 @@
+{
+  "demo": {
+    "alerts": 3,
+    "cases": 1,
+    "report": "demo/report.html",
+    "state": "completed_with_warnings"
+  },
+  "passed": true,
+  "python": "isolated virtual environment",
+  "wheel": "log_incident_analyzer-0.1.0-py3-none-any.whl",
+  "wheel_sha256": "eb90d067f76ebc29e0d7973d7f1398c12b435e7a0ce5e2c330dacee5d45ffc67"
+}

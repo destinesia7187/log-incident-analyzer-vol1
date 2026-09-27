@@ -1,0 +1,68 @@
+{
+  "analysis_hash": "a9754e7521ba0e700fe6d4cea8ba533874ebd42bb4fd7799bff623cc95c4fc85",
+  "artifacts": [
+    {
+      "sha256": "4dda7566a75ca6702686d3fb3e1b6c52ebac10ee2a006ba3b58617ff02eef512",
+      "size": 2645,
+      "source_id": "demo-audit"
+    }
+  ],
+  "config_hash": "28591f311b4c31f2574ab63658a481a19e03607fff07bc66e2dd54d8d1efa96e",
+  "counts": {
+    "accepted_unique": 12,
+    "blank_rows": 0,
+    "conflicted_rows": 0,
+    "duplicate_rows": 0,
+    "input_bytes": 2645,
+    "quarantined_rows": 0,
+    "reused_artifacts": 0,
+    "rows_seen": 12,
+    "unknown_field_rows": 0
+  },
+  "created_at": "2026-09-27T14:35:16.271443Z",
+  "dataset_hash": "9b7796292d10dd611c60e6a21aad57794ed12ae05aa208b6fec98b317e9d7c3c",
+  "duration_seconds": 1.35785840000608,
+  "exit_code": 0,
+  "manifest_hash": "ad901af0d0dfb930caa022824a8e551bac08cbd4b8c6c0d7f7385676b2269afe",
+  "parameters": {
+    "config": {
+      "context": [],
+      "enabled_rules": null,
+      "limits": {
+        "gzip_grace_bytes": 10485760,
+        "gzip_ratio": 100,
+        "input_bytes": 2147483648,
+        "line_bytes": 262144,
+        "max_files": 100,
+        "max_groups": 100000,
+        "workspace_bytes": 17179869184
+      },
+      "schema_name": "lia-config/v1",
+      "sensitive_paths": [
+        "/.env",
+        "/.git/config",
+        "/admin",
+        "/backup.zip",
+        "/config"
+      ],
+      "trusted_proxy_cidrs": []
+    },
+    "formats": [
+      "json",
+      "markdown",
+      "html"
+    ],
+    "shareable": false
+  },
+  "phase_timings": {
+    "detection_triage_seconds": 0.0006044000037945807,
+    "ingest_seconds": 1.063039700005902,
+    "persistence_export_seconds": 0.29394860001048073
+  },
+  "program_version": "0.1.0",
+  "pseudonym_key_id": "17fa5d4df7b47796",
+  "python": "3.12.14",
+  "rules_hash": "8e8f9030fdf889fd823cefab0bd45b80cf6ce7e0c78a5d8998bc8e658bb977aa",
+  "schema_version": "1.0",
+  "state": "completed_with_warnings"
+}

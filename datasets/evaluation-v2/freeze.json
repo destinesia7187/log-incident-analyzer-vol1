@@ -1,0 +1,10 @@
+{
+  "scenarios": 120,
+  "suite_sha256": "57172499842985f09f6ef8f1e2587a4d4eef53138bb44b9cb9abc7f2c8716881",
+  "targets_declared_before_replay": {
+    "eligible_recall": 0.9,
+    "family_recall": 0.8,
+    "precision": 0.85
+  },
+  "version": 2
+}

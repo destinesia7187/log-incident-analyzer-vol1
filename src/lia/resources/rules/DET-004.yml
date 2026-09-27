@@ -1,0 +1,81 @@
+{
+  "schema": "lia-rule/v1",
+  "id": "DET-004",
+  "version": 1,
+  "title": "Distributed failed sign-ins",
+  "status": "stable",
+  "description": "Distributed failed sign-ins. Review the supporting events.",
+  "rationale": "Observed events satisfy the documented rule conditions; intent requires analyst review.",
+  "owner": "project-maintainer",
+  "references": [
+    "https://attack.mitre.org/techniques/T1110/"
+  ],
+  "tests": [
+    "D04-001",
+    "D04-002",
+    "D04-003",
+    "D04-004",
+    "D04-005",
+    "D04-006",
+    "D04-007",
+    "D04-008"
+  ],
+  "required_capabilities": [
+    "auth.login.failure"
+  ],
+  "required_fields": [
+    "actor.user_id",
+    "network.client_ip"
+  ],
+  "select": {
+    "all": [
+      {
+        "field": "event.action",
+        "equals": "auth.login"
+      },
+      {
+        "field": "event.outcome",
+        "equals": "failure"
+      }
+    ]
+  },
+  "aggregate": {
+    "type": "multi_count",
+    "group_by": [
+      "tenant.id",
+      "app.id",
+      "actor.user_id"
+    ],
+    "window": "10m",
+    "measures": [
+      {
+        "name": "events",
+        "field": null,
+        "threshold": {
+          "gte": 20
+        }
+      },
+      {
+        "name": "distinct_ips",
+        "field": "network.client_ip",
+        "threshold": {
+          "gte": 5
+        }
+      }
+    ]
+  },
+  "severity": "medium",
+  "attack": [
+    {
+      "technique_id": "T1110",
+      "mapping_status": "candidate"
+    }
+  ],
+  "false_positives": [
+    "Shared service credentials or legitimate automation may generate failures."
+  ],
+  "next_steps": [
+    "Verify the account owner or service owner recognizes the activity.",
+    "Review related audit records and approved maintenance context."
+  ]
+}

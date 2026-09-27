@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.png -text
+*.whl -text
+*.gz -text
+# Frozen corpus checksums are byte-level contracts on every platform.
+datasets/** -text whitespace=cr-at-eol
+docs/validation/** -text whitespace=cr-at-eol

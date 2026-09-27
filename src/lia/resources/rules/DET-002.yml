@@ -1,0 +1,74 @@
+{
+  "schema": "lia-rule/v1",
+  "id": "DET-002",
+  "version": 1,
+  "title": "Many accounts from one source",
+  "status": "stable",
+  "description": "Many accounts from one source. Review the supporting events.",
+  "rationale": "Observed events satisfy the documented rule conditions; intent requires analyst review.",
+  "owner": "project-maintainer",
+  "references": [
+    "https://attack.mitre.org/techniques/T1110/",
+    "https://attack.mitre.org/techniques/T1110/003/"
+  ],
+  "tests": [
+    "D02-001",
+    "D02-002",
+    "D02-003",
+    "D02-004",
+    "D02-005",
+    "D02-006",
+    "D02-007",
+    "D02-008"
+  ],
+  "required_capabilities": [
+    "auth.login.failure"
+  ],
+  "required_fields": [
+    "actor.user_id",
+    "network.client_ip"
+  ],
+  "select": {
+    "all": [
+      {
+        "field": "event.action",
+        "equals": "auth.login"
+      },
+      {
+        "field": "event.outcome",
+        "equals": "failure"
+      }
+    ]
+  },
+  "aggregate": {
+    "type": "distinct_count",
+    "group_by": [
+      "tenant.id",
+      "app.id",
+      "network.client_ip"
+    ],
+    "window": "10m",
+    "threshold": {
+      "gte": 10
+    },
+    "field": "actor.user_id"
+  },
+  "severity": "medium",
+  "attack": [
+    {
+      "technique_id": "T1110",
+      "mapping_status": "candidate"
+    },
+    {
+      "technique_id": "T1110.003",
+      "mapping_status": "candidate"
+    }
+  ],
+  "false_positives": [
+    "A shared corporate NAT can combine independent users. Password equality is not observed."
+  ],
+  "next_steps": [
+    "Verify the account owner or service owner recognizes the activity.",
+    "Review related audit records and approved maintenance context."
+  ]
+}

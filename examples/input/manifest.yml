@@ -1,0 +1,29 @@
+schema: lia-input/v1
+input_root: .
+sources:
+  - path: app-audit-v1.jsonl
+    format: app-audit-v1
+    source_id: example-app
+    tenant_id: example-tenant
+    application_id: example-portal
+    authority: application_audit
+    platform_scope: generic_application
+    declared_capabilities:
+      - auth.login.failure
+      - auth.login.success
+    precision_us: 1
+    clock_uncertainty_ms: 0
+  - path: nginx-json-v1.jsonl
+    format: nginx-json-v1
+    source_id: example-nginx-json
+    tenant_id: example-tenant
+    application_id: example-portal
+    authority: web_access
+    declared_capabilities: [http.request]
+  - path: nginx-combined-v1.log
+    format: nginx-combined-v1
+    source_id: example-nginx-combined
+    tenant_id: example-tenant
+    application_id: example-portal
+    authority: web_access
+    declared_capabilities: [http.request]

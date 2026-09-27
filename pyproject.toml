@@ -1,0 +1,47 @@
+[build-system]
+requires = ["hatchling>=1.26,<2"]
+build-backend = "hatchling.build"
+
+[project]
+name = "log-incident-analyzer"
+version = "0.1.0"
+description = "Offline, evidence-based SOC L1 log triage"
+readme = "README.md"
+requires-python = ">=3.12"
+license = "MIT"
+dependencies = ["typer>=0.16,<1", "pydantic>=2.11,<3", "PyYAML>=6,<7", "jinja2>=3.1.6,<4", "tzdata>=2025.1"]
+
+[project.scripts]
+lia = "lia.cli:app"
+
+[dependency-groups]
+dev = ["pytest>=8,<10", "pytest-cov>=6,<8", "hypothesis>=6,<7", "ruff>=0.12,<1", "mypy>=1.16,<2", "types-PyYAML", "jsonschema>=4,<5", "psutil>=7,<8", "build>=1,<2", "pip-audit>=2,<3"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/lia"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra --strict-markers --basetemp=.pytest-tmp"
+markers = ["case(id): specification case identifier", "performance: dedicated performance runner", "delivery: distribution checks"]
+
+[tool.coverage.run]
+branch = true
+source = ["lia"]
+
+[tool.coverage.report]
+show_missing = true
+exclude_also = ["if __name__ == .__main__.:"]
+
+[tool.ruff]
+line-length = 110
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I"]
+
+[tool.mypy]
+python_version = "3.12"
+plugins = ["pydantic.mypy"]
+check_untyped_defs = true
+ignore_missing_imports = true

@@ -1,0 +1,1 @@
+{"schema_version":"app-audit-v1","event_id":"lab-00000","timestamp":"2026-09-27T14:28:42.858149+00:00","actor":{"user_id":"lab-owner"},"network":{"peer_ip":"127.0.0.1"},"action":"auth.login","outcome":"success","auth":{"session_ref":"lab-session-0"}}

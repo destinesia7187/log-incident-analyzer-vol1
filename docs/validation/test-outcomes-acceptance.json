@@ -1,0 +1,47 @@
+[
+  {
+    "nodeid": "tests/test_delivery_performance.py::test_recorded_benchmark[100000]",
+    "outcome": "passed",
+    "case_ids": [
+      "PERF-003",
+      "PERF-006"
+    ]
+  },
+  {
+    "nodeid": "tests/test_delivery_performance.py::test_recorded_benchmark[1000000]",
+    "outcome": "passed",
+    "case_ids": [
+      "PERF-003",
+      "PERF-006"
+    ]
+  },
+  {
+    "nodeid": "tests/test_delivery_performance.py::test_fixed_linux_time_acceptance",
+    "outcome": "skipped",
+    "case_ids": [
+      "PERF-001",
+      "PERF-002"
+    ]
+  },
+  {
+    "nodeid": "tests/test_delivery_performance.py::test_clean_wheel",
+    "outcome": "passed",
+    "case_ids": [
+      "CI-001"
+    ]
+  },
+  {
+    "nodeid": "tests/test_delivery_performance.py::test_mutation_record",
+    "outcome": "passed",
+    "case_ids": [
+      "CI-004"
+    ]
+  },
+  {
+    "nodeid": "tests/test_delivery_performance.py::test_container",
+    "outcome": "skipped",
+    "case_ids": [
+      "SEC-020"
+    ]
+  }
+]

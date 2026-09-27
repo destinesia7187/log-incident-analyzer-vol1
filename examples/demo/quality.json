@@ -1,0 +1,110 @@
+{
+  "findings": [],
+  "rules": [
+    {
+      "candidates": 10,
+      "eligible": 10,
+      "eligible_percent": 100.0,
+      "excluded": 0,
+      "missing_fields": {},
+      "recommendation": "Record the required fields and explicit outcomes; missing observations do not establish safety.",
+      "required_capabilities": [
+        "auth.login.failure"
+      ],
+      "rule_id": "DET-001",
+      "status": "ready"
+    },
+    {
+      "candidates": 10,
+      "eligible": 10,
+      "eligible_percent": 100.0,
+      "excluded": 0,
+      "missing_fields": {},
+      "recommendation": "Record the required fields and explicit outcomes; missing observations do not establish safety.",
+      "required_capabilities": [
+        "auth.login.failure"
+      ],
+      "rule_id": "DET-002",
+      "status": "ready"
+    },
+    {
+      "candidates": 1,
+      "eligible": 1,
+      "eligible_percent": 100.0,
+      "excluded": 0,
+      "missing_fields": {},
+      "recommendation": "Record the required fields and explicit outcomes; missing observations do not establish safety.",
+      "required_capabilities": [
+        "auth.login.success"
+      ],
+      "rule_id": "DET-003",
+      "status": "ready"
+    },
+    {
+      "candidates": 10,
+      "eligible": 10,
+      "eligible_percent": 100.0,
+      "excluded": 0,
+      "missing_fields": {},
+      "recommendation": "Record the required fields and explicit outcomes; missing observations do not establish safety.",
+      "required_capabilities": [
+        "auth.login.failure"
+      ],
+      "rule_id": "DET-004",
+      "status": "ready"
+    },
+    {
+      "candidates": 0,
+      "eligible": 0,
+      "eligible_percent": null,
+      "excluded": 0,
+      "missing_fields": {},
+      "recommendation": "Record the required fields and explicit outcomes; missing observations do not establish safety.",
+      "required_capabilities": [
+        "auth.mfa.challenge"
+      ],
+      "rule_id": "DET-005",
+      "status": "no_data"
+    },
+    {
+      "candidates": 1,
+      "eligible": 1,
+      "eligible_percent": 100.0,
+      "excluded": 0,
+      "missing_fields": {},
+      "recommendation": "Record the required fields and explicit outcomes; missing observations do not establish safety.",
+      "required_capabilities": [
+        "auth.mfa.enroll"
+      ],
+      "rule_id": "DET-006",
+      "status": "ready"
+    },
+    {
+      "candidates": 0,
+      "eligible": 0,
+      "eligible_percent": null,
+      "excluded": 0,
+      "missing_fields": {},
+      "recommendation": "Record the required fields and explicit outcomes; missing observations do not establish safety.",
+      "required_capabilities": [
+        "http.request"
+      ],
+      "rule_id": "DET-007",
+      "status": "no_data"
+    },
+    {
+      "candidates": 0,
+      "eligible": 0,
+      "eligible_percent": null,
+      "excluded": 0,
+      "missing_fields": {},
+      "recommendation": "Record the required fields and explicit outcomes; missing observations do not establish safety.",
+      "required_capabilities": [
+        "authz.denied"
+      ],
+      "rule_id": "DET-008",
+      "status": "no_data"
+    }
+  ],
+  "schema_version": "1.0"
+}

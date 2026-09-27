@@ -1,0 +1,12 @@
+.git
+.venv
+.pytest-tmp
+.pytest_cache
+.hypothesis
+.mypy_cache
+.ruff_cache
+reports
+dist
+__pycache__
+*.sqlite
+*.key

@@ -1,0 +1,4040 @@
+{
+  "schema_version": "1.0",
+  "document_date": "2026-09-27",
+  "project": "Log Incident Analyzer",
+  "status": "planned",
+  "total": 256,
+  "groups": [
+    {
+      "prefix": "ING",
+      "title": "Импорт и повреждённые файлы",
+      "level": "integration",
+      "requirements": [
+        "FR-001",
+        "FR-017"
+      ],
+      "count": 20
+    },
+    {
+      "prefix": "NRM",
+      "title": "Нормализация и идентичность",
+      "level": "unit",
+      "requirements": [
+        "FR-002",
+        "FR-011",
+        "FR-017"
+      ],
+      "count": 20
+    },
+    {
+      "prefix": "TIM",
+      "title": "Время и окна",
+      "level": "unit",
+      "requirements": [
+        "FR-003",
+        "FR-018",
+        "NFR-003"
+      ],
+      "count": 20
+    },
+    {
+      "prefix": "DSL",
+      "title": "Правила и семантика DSL",
+      "level": "unit",
+      "requirements": [
+        "FR-004",
+        "FR-009",
+        "FR-017"
+      ],
+      "count": 20
+    },
+    {
+      "prefix": "D01",
+      "title": "DET-001 — повторные ошибки входа",
+      "level": "scenario",
+      "requirements": [
+        "FR-005",
+        "FR-009"
+      ],
+      "count": 8
+    },
+    {
+      "prefix": "D02",
+      "title": "DET-002 — множество аккаунтов",
+      "level": "scenario",
+      "requirements": [
+        "FR-005",
+        "FR-009"
+      ],
+      "count": 8
+    },
+    {
+      "prefix": "D03",
+      "title": "DET-003 — успех после ошибок",
+      "level": "scenario",
+      "requirements": [
+        "FR-005",
+        "FR-006"
+      ],
+      "count": 8
+    },
+    {
+      "prefix": "D04",
+      "title": "DET-004 — распределённые ошибки",
+      "level": "scenario",
+      "requirements": [
+        "FR-005",
+        "FR-009"
+      ],
+      "count": 8
+    },
+    {
+      "prefix": "D05",
+      "title": "DET-005 — серия MFA-запросов",
+      "level": "scenario",
+      "requirements": [
+        "FR-005",
+        "FR-009"
+      ],
+      "count": 8
+    },
+    {
+      "prefix": "D06",
+      "title": "DET-006 — регистрация MFA после входа",
+      "level": "scenario",
+      "requirements": [
+        "FR-005",
+        "FR-006",
+        "FR-009"
+      ],
+      "count": 8
+    },
+    {
+      "prefix": "D07",
+      "title": "DET-007 — обращения к чувствительным путям",
+      "level": "scenario",
+      "requirements": [
+        "FR-005",
+        "FR-009"
+      ],
+      "count": 8
+    },
+    {
+      "prefix": "D08",
+      "title": "DET-008 — серия отказов авторизации",
+      "level": "scenario",
+      "requirements": [
+        "FR-005",
+        "FR-009"
+      ],
+      "count": 8
+    },
+    {
+      "prefix": "TRI",
+      "title": "Связи, приоритет и работа аналитика",
+      "level": "integration",
+      "requirements": [
+        "FR-006",
+        "FR-007",
+        "FR-010",
+        "FR-014"
+      ],
+      "count": 16
+    },
+    {
+      "prefix": "GAP",
+      "title": "Достаточность телеметрии",
+      "level": "integration",
+      "requirements": [
+        "FR-008",
+        "FR-009"
+      ],
+      "count": 12
+    },
+    {
+      "prefix": "SEC",
+      "title": "Безопасность и конфиденциальность",
+      "level": "security",
+      "requirements": [
+        "FR-017",
+        "FR-013",
+        "NFR-005"
+      ],
+      "count": 20
+    },
+    {
+      "prefix": "STO",
+      "title": "SQLite, происхождение и восстановление",
+      "level": "integration",
+      "requirements": [
+        "FR-011",
+        "FR-018",
+        "NFR-004"
+      ],
+      "count": 12
+    },
+    {
+      "prefix": "CLI",
+      "title": "Командная строка и коды выхода",
+      "level": "end_to_end",
+      "requirements": [
+        "FR-012",
+        "NFR-005",
+        "NFR-006"
+      ],
+      "count": 12
+    },
+    {
+      "prefix": "REP",
+      "title": "Отчёты и доказательства",
+      "level": "integration",
+      "requirements": [
+        "FR-007",
+        "FR-013"
+      ],
+      "count": 8
+    },
+    {
+      "prefix": "E2E",
+      "title": "Полные пользовательские истории",
+      "level": "end_to_end",
+      "requirements": [
+        "FR-015",
+        "FR-016",
+        "FR-020",
+        "NFR-006"
+      ],
+      "count": 8
+    },
+    {
+      "prefix": "PROP",
+      "title": "Проверки свойств и генеративные тесты",
+      "level": "property",
+      "requirements": [
+        "FR-003",
+        "FR-005",
+        "FR-018",
+        "NFR-003"
+      ],
+      "count": 8
+    },
+    {
+      "prefix": "PERF",
+      "title": "Производительность и аварийная нагрузка",
+      "level": "performance",
+      "requirements": [
+        "NFR-001",
+        "NFR-002",
+        "NFR-004"
+      ],
+      "count": 8
+    },
+    {
+      "prefix": "CI",
+      "title": "Поставка, воспроизводимость и тестовые ограничения",
+      "level": "delivery",
+      "requirements": [
+        "FR-019",
+        "FR-020",
+        "NFR-003",
+        "NFR-005",
+        "NFR-006"
+      ],
+      "count": 8
+    }
+  ],
+  "cases": [
+    {
+      "id": "ING-001",
+      "title": "Корректный app JSONL",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-001",
+        "FR-017"
+      ],
+      "given_when": "Импортировать 3 разных валидных события",
+      "then": "Принято 3; quarantine=0; строки происхождения 1,2,3",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "ING-002",
+      "title": "Nginx JSON",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-001",
+        "FR-017"
+      ],
+      "given_when": "Импортировать фиксированный профиль с кавычкой в URI",
+      "then": "Запись разобрана; кавычка остаётся данными",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "ING-003",
+      "title": "Nginx combined",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-001",
+        "FR-017"
+      ],
+      "given_when": "Импортировать строку стандартного combined-профиля",
+      "then": "Поля совпадают с ручным эталоном; auth.login отсутствует",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "ING-004",
+      "title": "Gzip",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-001",
+        "FR-017"
+      ],
+      "given_when": "Сжать валидные 100 записей в один gzip stream",
+      "then": "100 событий; значения совпадают с несжатым входом",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "ING-005",
+      "title": "Несколько файлов",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-001",
+        "FR-017"
+      ],
+      "given_when": "Импортировать два файла по 3 разных события",
+      "then": "6 событий; provenance указывает правильный файл",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "ING-006",
+      "title": "Пустой файл",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-001",
+        "FR-017"
+      ],
+      "given_when": "Импортировать 0 bytes с объявленными capabilities",
+      "then": "no_data; 0 событий; отсутствие атак не утверждается",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "ING-007",
+      "title": "Пустые строки",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-001",
+        "FR-017"
+      ],
+      "given_when": "Две записи разделить тремя пустыми строками",
+      "then": "accepted=2; blank=3; реальные line_number сохранены",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "ING-008",
+      "title": "BOM",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-001",
+        "FR-017"
+      ],
+      "given_when": "Поставить UTF-8 BOM в начале файла",
+      "then": "Первая запись принимается; BOM внутри другой строки отклоняется",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "ING-009",
+      "title": "Некорректный UTF-8",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-001",
+        "FR-017"
+      ],
+      "given_when": "Между двумя валидными строками вставить ошибочные bytes",
+      "then": "2 приняты; 1 quarantine; replacement characters не подставлены",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "ING-010",
+      "title": "Битый JSON",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-001",
+        "FR-017"
+      ],
+      "given_when": "Вторая из трёх строк имеет незакрытую скобку",
+      "then": "2 приняты; 1 quarantine; completed_with_warnings; exit 3",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "ING-011",
+      "title": "Неизвестный формат",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-001",
+        "FR-017"
+      ],
+      "given_when": "Указать format=unknown",
+      "then": "exit 2 до чтения событий; полезный список поддерживаемых форматов",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "ING-012",
+      "title": "Обрезанный gzip",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-001",
+        "FR-017"
+      ],
+      "given_when": "Удалить хвост gzip с валидным началом",
+      "then": "failed; exit 4; завершённый отчёт не публикуется",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "ING-013",
+      "title": "Gzip bomb",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-001",
+        "FR-017"
+      ],
+      "given_when": "Превысить ratio 100:1 после 10 MiB распаковки",
+      "then": "Прерывание по лимиту; bounded memory; причина в run metadata",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "ING-014",
+      "title": "Лимит строки",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-001",
+        "FR-017"
+      ],
+      "given_when": "Проверить запись ровно 256 KiB и на byte больше",
+      "then": "Первая проходит size gate; вторая в quarantine с line_too_large",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "ING-015",
+      "title": "Лимит файлов",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-001",
+        "FR-017"
+      ],
+      "given_when": "Передать 100 затем 101 файл",
+      "then": "100 допустимы; 101 отклоняется до анализа",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "ING-016",
+      "title": "Суммарный объём",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-001",
+        "FR-017"
+      ],
+      "given_when": "Достичь 2 GiB затем добавить byte, используя reader fixture",
+      "then": "На превышении failed; нет тихого обрезания входа",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "ING-017",
+      "title": "Файл отсутствует",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-001",
+        "FR-017"
+      ],
+      "given_when": "Указать несуществующий локальный файл",
+      "then": "exit 4; указан source_id; не создаётся успешный пустой run",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "ING-018",
+      "title": "Файл меняется",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-001",
+        "FR-017"
+      ],
+      "given_when": "Изменить файл между начальным чтением и финальной проверкой",
+      "then": "input_changed; failed; результаты не публикуются",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "ING-019",
+      "title": "Неподдерживаемый архив",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-001",
+        "FR-017"
+      ],
+      "given_when": "Передать ZIP и gzip с несколькими members",
+      "then": "Явная ошибка формата; ничего не распаковывается на диск",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "ING-020",
+      "title": "Учёт записей",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-001",
+        "FR-017"
+      ],
+      "given_when": "10 строк: 5 валидных уникальных, 2 дубля, 2 битых, 1 пустая",
+      "then": "Counters 5/2/2/1; сумма 10; каждая строка учтена один раз",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "NRM-001",
+      "title": "IPv4",
+      "level": "unit",
+      "priority": "P0",
+      "requirements": [
+        "FR-002",
+        "FR-011",
+        "FR-017"
+      ],
+      "given_when": "Обработать валидный IPv4 и строку с недопустимым octet",
+      "then": "Первый канонизирован; второй NULL с quality flag",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "NRM-002",
+      "title": "IPv6",
+      "level": "unit",
+      "priority": "P0",
+      "requirements": [
+        "FR-002",
+        "FR-011",
+        "FR-017"
+      ],
+      "given_when": "Передать полную и сокращённую запись одного IPv6",
+      "then": "client_ip равны после канонизации",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "NRM-003",
+      "title": "IPv4-mapped IPv6",
+      "level": "unit",
+      "priority": "P0",
+      "requirements": [
+        "FR-002",
+        "FR-011",
+        "FR-017"
+      ],
+      "given_when": "Сравнить ::ffff:192.0.2.1 и 192.0.2.1",
+      "then": "Один канонический адрес по профилю v1",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "NRM-004",
+      "title": "Тип статуса",
+      "level": "unit",
+      "priority": "P0",
+      "requirements": [
+        "FR-002",
+        "FR-011",
+        "FR-017"
+      ],
+      "given_when": "Передать status=200 и status=abc",
+      "then": "200 принимается; abc не становится успехом авторизации",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "NRM-005",
+      "title": "Регистр user",
+      "level": "unit",
+      "priority": "P0",
+      "requirements": [
+        "FR-002",
+        "FR-011",
+        "FR-017"
+      ],
+      "given_when": "Два user ID Alice и alice без casefold-профиля",
+      "then": "Две разные сущности",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "NRM-006",
+      "title": "Unicode user",
+      "level": "unit",
+      "priority": "P0",
+      "requirements": [
+        "FR-002",
+        "FR-011",
+        "FR-017"
+      ],
+      "given_when": "Передать кириллицу и визуально похожие латинские символы",
+      "then": "Значения сохраняются; разные строки не объединяются",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "NRM-007",
+      "title": "Пустой user",
+      "level": "unit",
+      "priority": "P0",
+      "requirements": [
+        "FR-002",
+        "FR-011",
+        "FR-017"
+      ],
+      "given_when": "Поле user отсутствует, пустое и null",
+      "then": "Нет общего фиктивного пользователя; missing-field причины сохранены",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "NRM-008",
+      "title": "Строка null",
+      "level": "unit",
+      "priority": "P0",
+      "requirements": [
+        "FR-002",
+        "FR-011",
+        "FR-017"
+      ],
+      "given_when": "Передать буквальный user ID null в профиле без такого sentinel",
+      "then": "Сохраняется как строковый ID согласно профилю",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "NRM-009",
+      "title": "Неверный outcome",
+      "level": "unit",
+      "priority": "P0",
+      "requirements": [
+        "FR-002",
+        "FR-011",
+        "FR-017"
+      ],
+      "given_when": "Передать auth.login с outcome=requested",
+      "then": "Ошибка пары action/outcome; событие не участвует в детектах",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "NRM-010",
+      "title": "HTTP успех",
+      "level": "unit",
+      "priority": "P0",
+      "requirements": [
+        "FR-002",
+        "FR-011",
+        "FR-017"
+      ],
+      "given_when": "Nginx 200 и 302 для /login",
+      "then": "Оба остаются http.request; DET-003 не получает auth success",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "NRM-011",
+      "title": "Actor и target",
+      "level": "unit",
+      "priority": "P0",
+      "requirements": [
+        "FR-002",
+        "FR-011",
+        "FR-017"
+      ],
+      "given_when": "Admin регистрирует MFA для другого user",
+      "then": "Идентичности раздельны; self-enrolment не выдуман",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "NRM-012",
+      "title": "Tenant isolation",
+      "level": "unit",
+      "priority": "P0",
+      "requirements": [
+        "FR-002",
+        "FR-011",
+        "FR-017"
+      ],
+      "given_when": "Одинаковый user ID в двух tenant",
+      "then": "Разные сущности и UID namespace",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "NRM-013",
+      "title": "App isolation",
+      "level": "unit",
+      "priority": "P0",
+      "requirements": [
+        "FR-002",
+        "FR-011",
+        "FR-017"
+      ],
+      "given_when": "Одинаковый event_id в двух приложениях",
+      "then": "Разные event.uid",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "NRM-014",
+      "title": "Query separation",
+      "level": "unit",
+      "priority": "P0",
+      "requirements": [
+        "FR-002",
+        "FR-011",
+        "FR-017"
+      ],
+      "given_when": "URI /admin?token=CANARY и encoded path",
+      "then": "Query удалён до decoding; token не сохраняется",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "NRM-015",
+      "title": "Одно decoding",
+      "level": "unit",
+      "priority": "P0",
+      "requirements": [
+        "FR-002",
+        "FR-011",
+        "FR-017"
+      ],
+      "given_when": "Path содержит двойное percent-encoding",
+      "then": "Выполнен один проход; повторное decoding не происходит",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "NRM-016",
+      "title": "Неизвестные поля",
+      "level": "unit",
+      "priority": "P0",
+      "requirements": [
+        "FR-002",
+        "FR-011",
+        "FR-017"
+      ],
+      "given_when": "Добавить произвольные extra.password и free_text",
+      "then": "Поля не сохраняются; счётчик неизвестных полей увеличен",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "NRM-017",
+      "title": "Лимит поля",
+      "level": "unit",
+      "priority": "P0",
+      "requirements": [
+        "FR-002",
+        "FR-011",
+        "FR-017"
+      ],
+      "given_when": "Обязательный и необязательный поля длиннее 4096",
+      "then": "Обязательное отклоняет запись; необязательное NULL с причиной",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "NRM-018",
+      "title": "Peer без доверия",
+      "level": "unit",
+      "priority": "P0",
+      "requirements": [
+        "FR-002",
+        "FR-011",
+        "FR-017"
+      ],
+      "given_when": "Недоверенный peer прислал X-Forwarded-For",
+      "then": "client_ip=peer_ip; подставленный адрес не принят",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "NRM-019",
+      "title": "Цепочка прокси",
+      "level": "unit",
+      "priority": "P0",
+      "requirements": [
+        "FR-002",
+        "FR-011",
+        "FR-017"
+      ],
+      "given_when": "Trusted peer и цепочка trusted/untrusted hops",
+      "then": "Выбран ближайший справа недоверенный hop; basis сохранён",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "NRM-020",
+      "title": "Повреждённый forwarded",
+      "level": "unit",
+      "priority": "P0",
+      "requirements": [
+        "FR-002",
+        "FR-011",
+        "FR-017"
+      ],
+      "given_when": "Trusted peer прислал невалидную цепочку",
+      "then": "Fallback peer_ip; quality flag; исключений парсера нет",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "TIM-001",
+      "title": "UTC offset",
+      "level": "unit",
+      "priority": "P0",
+      "requirements": [
+        "FR-003",
+        "FR-018",
+        "NFR-003"
+      ],
+      "given_when": "Два времени обозначают один момент в разных offset",
+      "then": "Совпадают time_utc; original значения сохранены",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "TIM-002",
+      "title": "Timezone манифеста",
+      "level": "unit",
+      "priority": "P0",
+      "requirements": [
+        "FR-003",
+        "FR-018",
+        "NFR-003"
+      ],
+      "given_when": "Локальное время без зоны и явно заданная timezone",
+      "then": "Получен ожидаемый UTC по указанной зоне",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "TIM-003",
+      "title": "Нет зоны",
+      "level": "unit",
+      "priority": "P0",
+      "requirements": [
+        "FR-003",
+        "FR-018",
+        "NFR-003"
+      ],
+      "given_when": "Локальное время без timezone манифеста",
+      "then": "Запись в quarantine; timezone машины не используется",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "TIM-004",
+      "title": "DST ambiguity",
+      "level": "unit",
+      "priority": "P0",
+      "requirements": [
+        "FR-003",
+        "FR-018",
+        "NFR-003"
+      ],
+      "given_when": "Неоднозначное локальное время без offset/fold",
+      "then": "Ошибка ambiguous_time; порядок не угадывается",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "TIM-005",
+      "title": "Несуществующее время",
+      "level": "unit",
+      "priority": "P0",
+      "requirements": [
+        "FR-003",
+        "FR-018",
+        "NFR-003"
+      ],
+      "given_when": "Локальное время в DST gap",
+      "then": "Ошибка nonexistent_time",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "TIM-006",
+      "title": "Левая граница",
+      "level": "unit",
+      "priority": "P0",
+      "requirements": [
+        "FR-003",
+        "FR-018",
+        "NFR-003"
+      ],
+      "given_when": "Для W=5m включить события в t-W и t-W+1us",
+      "then": "Первое исключено, второе включено",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "TIM-007",
+      "title": "Правая граница",
+      "level": "unit",
+      "priority": "P0",
+      "requirements": [
+        "FR-003",
+        "FR-018",
+        "NFR-003"
+      ],
+      "given_when": "Добавить события в t и t+1us",
+      "then": "В окне t включено только первое",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "TIM-008",
+      "title": "Ровно порог",
+      "level": "unit",
+      "priority": "P0",
+      "requirements": [
+        "FR-003",
+        "FR-018",
+        "NFR-003"
+      ],
+      "given_when": "10 ошибок в допустимом окне DET-001",
+      "then": "Ровно одно threshold crossing; алерт присутствует",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "TIM-009",
+      "title": "Через полночь",
+      "level": "unit",
+      "priority": "P0",
+      "requirements": [
+        "FR-003",
+        "FR-018",
+        "NFR-003"
+      ],
+      "given_when": "Разместить 10 ошибок по обе стороны 00:00 UTC",
+      "then": "Счётчик не сбрасывается при смене даты",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "TIM-010",
+      "title": "Перестановка",
+      "level": "unit",
+      "priority": "P0",
+      "requirements": [
+        "FR-003",
+        "FR-018",
+        "NFR-003"
+      ],
+      "given_when": "Перемешать 100 событий одного набора",
+      "then": "Аналитический результат после сортировки совпадает",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "TIM-011",
+      "title": "Порядок файлов",
+      "level": "unit",
+      "priority": "P0",
+      "requirements": [
+        "FR-003",
+        "FR-018",
+        "NFR-003"
+      ],
+      "given_when": "Поменять местами файлы манифеста",
+      "then": "analysis hash совпадает при неизменном logical manifest",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "TIM-012",
+      "title": "Равные timestamp",
+      "level": "unit",
+      "priority": "P0",
+      "requirements": [
+        "FR-003",
+        "FR-018",
+        "NFR-003"
+      ],
+      "given_when": "Ошибка и успех имеют одинаковое время и нулевую uncertainty",
+      "then": "Строгая последовательность не доказана; UID sorting её не создаёт",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "TIM-013",
+      "title": "Clock offset",
+      "level": "unit",
+      "priority": "P0",
+      "requirements": [
+        "FR-003",
+        "FR-018",
+        "NFR-003"
+      ],
+      "given_when": "Источник смещён на +60s; конфигурация корректирует −60s",
+      "then": "Коррекция применена один раз; original сохранён",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "TIM-014",
+      "title": "Пересечение uncertainty",
+      "level": "unit",
+      "priority": "P0",
+      "requirements": [
+        "FR-003",
+        "FR-018",
+        "NFR-003"
+      ],
+      "given_when": "Интервалы failure/success перекрываются",
+      "then": "DET-003 отсутствует; order_unverified присутствует",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "TIM-015",
+      "title": "Большая uncertainty",
+      "level": "unit",
+      "priority": "P0",
+      "requirements": [
+        "FR-003",
+        "FR-018",
+        "NFR-003"
+      ],
+      "given_when": "Событие имеет uncertainty=30001ms",
+      "then": "Исключено из временных детектов; учтено в quality",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "TIM-016",
+      "title": "Допустимая uncertainty",
+      "level": "unit",
+      "priority": "P0",
+      "requirements": [
+        "FR-003",
+        "FR-018",
+        "NFR-003"
+      ],
+      "given_when": "Событие имеет uncertainty=30000ms",
+      "then": "Count-детект может использовать его; quality flag виден",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "TIM-017",
+      "title": "Precision",
+      "level": "unit",
+      "priority": "P0",
+      "requirements": [
+        "FR-003",
+        "FR-018",
+        "NFR-003"
+      ],
+      "given_when": "Источник пишет секунды; success/failure внутри одной секунды",
+      "then": "Искусственный микросекундный порядок не добавляется",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "TIM-018",
+      "title": "Предел sequence",
+      "level": "unit",
+      "priority": "P0",
+      "requirements": [
+        "FR-003",
+        "FR-018",
+        "NFR-003"
+      ],
+      "given_when": "Success через ровно 10m после qualifying window и через 10m+1us",
+      "then": "Первый допустим, второй не даёт DET-003",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "TIM-019",
+      "title": "Цепочка в обратном порядке",
+      "level": "unit",
+      "priority": "P0",
+      "requirements": [
+        "FR-003",
+        "FR-018",
+        "NFR-003"
+      ],
+      "given_when": "Успех раньше всех неудачных попыток",
+      "then": "DET-001 возможен; DET-003 отсутствует",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "TIM-020",
+      "title": "Длинный episode",
+      "level": "unit",
+      "priority": "P0",
+      "requirements": [
+        "FR-003",
+        "FR-018",
+        "NFR-003"
+      ],
+      "given_when": "Непрерывные квалифицирующие окна дольше 60m",
+      "then": "Создан новый episode после лимита; цепочка не растёт бесконечно",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "DSL-001",
+      "title": "Валидное правило",
+      "level": "unit",
+      "priority": "P0",
+      "requirements": [
+        "FR-004",
+        "FR-009",
+        "FR-017"
+      ],
+      "given_when": "Полная schema lia-rule/v1 для DET-001",
+      "then": "Валидация проходит; AST соответствует ручному ожиданию",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "DSL-002",
+      "title": "Обязательные поля",
+      "level": "unit",
+      "priority": "P0",
+      "requirements": [
+        "FR-004",
+        "FR-009",
+        "FR-017"
+      ],
+      "given_when": "Удалить description или required_capabilities",
+      "then": "exit 2; путь отсутствующего поля указан",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "DSL-003",
+      "title": "Неизвестный ключ",
+      "level": "unit",
+      "priority": "P0",
+      "requirements": [
+        "FR-004",
+        "FR-009",
+        "FR-017"
+      ],
+      "given_when": "Добавить unsupported_modifier",
+      "then": "Явная ошибка; ключ не игнорируется",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "DSL-004",
+      "title": "Повтор ID",
+      "level": "unit",
+      "priority": "P0",
+      "requirements": [
+        "FR-004",
+        "FR-009",
+        "FR-017"
+      ],
+      "given_when": "Два правила с одинаковым id",
+      "then": "Отклонён весь ruleset до запуска",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "DSL-005",
+      "title": "Повтор YAML ключа",
+      "level": "unit",
+      "priority": "P0",
+      "requirements": [
+        "FR-004",
+        "FR-009",
+        "FR-017"
+      ],
+      "given_when": "Два threshold в одном объекте",
+      "then": "Ошибка duplicate_key; последнее значение не выбирается",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "DSL-006",
+      "title": "Неизвестная версия",
+      "level": "unit",
+      "priority": "P0",
+      "requirements": [
+        "FR-004",
+        "FR-009",
+        "FR-017"
+      ],
+      "given_when": "schema=lia-rule/v99",
+      "then": "Ошибка incompatible_schema",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "DSL-007",
+      "title": "Неверное окно",
+      "level": "unit",
+      "priority": "P0",
+      "requirements": [
+        "FR-004",
+        "FR-009",
+        "FR-017"
+      ],
+      "given_when": "window=0m, отрицательное или без единицы",
+      "then": "Каждое значение отклоняется",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "DSL-008",
+      "title": "Неверный threshold",
+      "level": "unit",
+      "priority": "P0",
+      "requirements": [
+        "FR-004",
+        "FR-009",
+        "FR-017"
+      ],
+      "given_when": "Порог −1, дробный count или неизвестный оператор",
+      "then": "Ошибка типа/диапазона до анализа",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "DSL-009",
+      "title": "NULL equality",
+      "level": "unit",
+      "priority": "P0",
+      "requirements": [
+        "FR-004",
+        "FR-009",
+        "FR-017"
+      ],
+      "given_when": "Проверить missing user equals alice",
+      "then": "UNKNOWN; событие не выбирается",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "DSL-010",
+      "title": "NOT UNKNOWN",
+      "level": "unit",
+      "priority": "P0",
+      "requirements": [
+        "FR-004",
+        "FR-009",
+        "FR-017"
+      ],
+      "given_when": "Применить not к сравнению отсутствующего поля",
+      "then": "UNKNOWN сохраняется; отсутствующее поле не превращается в match",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "DSL-011",
+      "title": "Exists",
+      "level": "unit",
+      "priority": "P0",
+      "requirements": [
+        "FR-004",
+        "FR-009",
+        "FR-017"
+      ],
+      "given_when": "Проверить exists для null, пустого и валидного user",
+      "then": "true только для непустого валидного значения",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "DSL-012",
+      "title": "Boolean logic",
+      "level": "unit",
+      "priority": "P0",
+      "requirements": [
+        "FR-004",
+        "FR-009",
+        "FR-017"
+      ],
+      "given_when": "Матрица all/any/not для TRUE/FALSE/UNKNOWN",
+      "then": "Полностью соответствует зафиксированной трёхзначной таблице",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "DSL-013",
+      "title": "CIDR",
+      "level": "unit",
+      "priority": "P0",
+      "requirements": [
+        "FR-004",
+        "FR-009",
+        "FR-017"
+      ],
+      "given_when": "Проверить адрес внутри, снаружи и на границе сети",
+      "then": "Результаты совпадают с эталонной IP-библиотекой",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "DSL-014",
+      "title": "Distinct count",
+      "level": "unit",
+      "priority": "P0",
+      "requirements": [
+        "FR-004",
+        "FR-009",
+        "FR-017"
+      ],
+      "given_when": "Один user повторён 20 раз и 10 разных user",
+      "then": "Distinct=1 и 10 соответственно",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "DSL-015",
+      "title": "Цикл",
+      "level": "unit",
+      "priority": "P0",
+      "requirements": [
+        "FR-004",
+        "FR-009",
+        "FR-017"
+      ],
+      "given_when": "A зависит от B, B от A",
+      "then": "Отклонение dependency_cycle",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "DSL-016",
+      "title": "Отсутствующая зависимость",
+      "level": "unit",
+      "priority": "P0",
+      "requirements": [
+        "FR-004",
+        "FR-009",
+        "FR-017"
+      ],
+      "given_when": "Sequence ссылается на неизвестный detector",
+      "then": "Отклонение missing_dependency",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "DSL-017",
+      "title": "Область группировки",
+      "level": "unit",
+      "priority": "P0",
+      "requirements": [
+        "FR-004",
+        "FR-009",
+        "FR-017"
+      ],
+      "given_when": "Пользователь исключил tenant/app из group_by",
+      "then": "Валидация отклоняет небезопасную группировку",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "DSL-018",
+      "title": "Неподдержанная Sigma",
+      "level": "unit",
+      "priority": "P0",
+      "requirements": [
+        "FR-004",
+        "FR-009",
+        "FR-017"
+      ],
+      "given_when": "Передать Sigma rule непосредственно loader v1",
+      "then": "Сообщение unsupported_format; нет частичного исполнения",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "DSL-019",
+      "title": "ATT&CK ID",
+      "level": "unit",
+      "priority": "P0",
+      "requirements": [
+        "FR-004",
+        "FR-009",
+        "FR-017"
+      ],
+      "given_when": "Несуществующий или deprecated ID в локальном snapshot",
+      "then": "Несуществующий отклонён; deprecated отмечен предупреждением",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "DSL-020",
+      "title": "Версия правила",
+      "level": "unit",
+      "priority": "P0",
+      "requirements": [
+        "FR-004",
+        "FR-009",
+        "FR-017"
+      ],
+      "given_when": "Изменить threshold и поднять version",
+      "then": "Rule hash меняется; run фиксирует новую версию",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "D01-001",
+      "title": "Позитив",
+      "level": "scenario",
+      "priority": "P0",
+      "requirements": [
+        "FR-005",
+        "FR-009"
+      ],
+      "given_when": "10 ошибок user A с одного IP за 4m",
+      "then": "DET-001; evidence содержит все 10; severity medium",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "D01-002",
+      "title": "Ниже порога",
+      "level": "scenario",
+      "priority": "P0",
+      "requirements": [
+        "FR-005",
+        "FR-009"
+      ],
+      "given_when": "9 ошибок с теми же ключами",
+      "then": "DET-001 отсутствует",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "D01-003",
+      "title": "Вне окна",
+      "level": "scenario",
+      "priority": "P0",
+      "requirements": [
+        "FR-005",
+        "FR-009"
+      ],
+      "given_when": "10 ошибок равномерно за 10m без 10 в любом окне 5m",
+      "then": "DET-001 отсутствует",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "D01-004",
+      "title": "Другие outcomes",
+      "level": "scenario",
+      "priority": "P0",
+      "requirements": [
+        "FR-005",
+        "FR-009"
+      ],
+      "given_when": "9 failure и один network_error",
+      "then": "Порог не достигнут; network_error не засчитан",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "D01-005",
+      "title": "Два пользователя",
+      "level": "scenario",
+      "priority": "P0",
+      "requirements": [
+        "FR-005",
+        "FR-009"
+      ],
+      "given_when": "По 5 ошибок A и B с одного IP",
+      "then": "Ни одного DET-001",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "D01-006",
+      "title": "Два IP",
+      "level": "scenario",
+      "priority": "P0",
+      "requirements": [
+        "FR-005",
+        "FR-009"
+      ],
+      "given_when": "По 5 ошибок A с двух IP",
+      "then": "Ни одного DET-001",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "D01-007",
+      "title": "Недостающий user",
+      "level": "scenario",
+      "priority": "P0",
+      "requirements": [
+        "FR-005",
+        "FR-009"
+      ],
+      "given_when": "10 ошибок без user",
+      "then": "Детекта нет; пригодность unavailable; исключено 10",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "D01-008",
+      "title": "Ошибка владельца",
+      "level": "scenario",
+      "priority": "P0",
+      "requirements": [
+        "FR-005",
+        "FR-009"
+      ],
+      "given_when": "10 ошибок легитимного владельца без дополнительного context",
+      "then": "Детект остаётся review; компрометация и benign не объявлены",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "D02-001",
+      "title": "Позитив",
+      "level": "scenario",
+      "priority": "P0",
+      "requirements": [
+        "FR-005",
+        "FR-009"
+      ],
+      "given_when": "10 разных user ошиблись с одного IP за 9m",
+      "then": "DET-002; unique_users=10; T1110 и кандидат T1110.003",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "D02-002",
+      "title": "Ниже distinct",
+      "level": "scenario",
+      "priority": "P0",
+      "requirements": [
+        "FR-005",
+        "FR-009"
+      ],
+      "given_when": "100 ошибок девяти user за 9m",
+      "then": "DET-002 отсутствует",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "D02-003",
+      "title": "Дубликаты user",
+      "level": "scenario",
+      "priority": "P0",
+      "requirements": [
+        "FR-005",
+        "FR-009"
+      ],
+      "given_when": "20 ошибок одного user",
+      "then": "DET-002 отсутствует; distinct=1",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "D02-004",
+      "title": "Разные IP",
+      "level": "scenario",
+      "priority": "P0",
+      "requirements": [
+        "FR-005",
+        "FR-009"
+      ],
+      "given_when": "По 5 разных user на двух IP",
+      "then": "DET-002 отсутствует",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "D02-005",
+      "title": "NAT",
+      "level": "scenario",
+      "priority": "P0",
+      "requirements": [
+        "FR-005",
+        "FR-009"
+      ],
+      "given_when": "Те же 10 аккаунтов; IP отмечен corporate NAT",
+      "then": "Алерт сохранён; NAT указан как альтернатива, автоматического benign нет",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "D02-006",
+      "title": "Добавленная ошибка",
+      "level": "scenario",
+      "priority": "P0",
+      "requirements": [
+        "FR-005",
+        "FR-009"
+      ],
+      "given_when": "К позитивному набору добавить ещё одну ошибку одного user",
+      "then": "DET-002 сохраняется; count увеличен",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "D02-007",
+      "title": "Пароли неизвестны",
+      "level": "scenario",
+      "priority": "P0",
+      "requirements": [
+        "FR-005",
+        "FR-009"
+      ],
+      "given_when": "В логах нет паролей и данных их равенства",
+      "then": "Текст не утверждает использование одного пароля",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "D02-008",
+      "title": "Нет IP",
+      "level": "scenario",
+      "priority": "P0",
+      "requirements": [
+        "FR-005",
+        "FR-009"
+      ],
+      "given_when": "10 ошибок разных user без client_ip",
+      "then": "Не объединяются под unknown IP; quality finding",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "D03-001",
+      "title": "Позитив",
+      "level": "scenario",
+      "priority": "P0",
+      "requirements": [
+        "FR-005",
+        "FR-006"
+      ],
+      "given_when": "DET-001 window затем success через 2m того же user/IP",
+      "then": "DET-003 high; evidence включает window и success",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "D03-002",
+      "title": "Успех раньше",
+      "level": "scenario",
+      "priority": "P0",
+      "requirements": [
+        "FR-005",
+        "FR-006"
+      ],
+      "given_when": "Success затем 10 failures",
+      "then": "DET-003 отсутствует",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "D03-003",
+      "title": "Другой аккаунт",
+      "level": "scenario",
+      "priority": "P0",
+      "requirements": [
+        "FR-005",
+        "FR-006"
+      ],
+      "given_when": "Window для A, success для B",
+      "then": "DET-003 отсутствует",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "D03-004",
+      "title": "Другой IP",
+      "level": "scenario",
+      "priority": "P0",
+      "requirements": [
+        "FR-005",
+        "FR-006"
+      ],
+      "given_when": "Window с IP1, success с IP2",
+      "then": "DET-003 отсутствует; совпадение user не подменяет ключ",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "D03-005",
+      "title": "Поздний успех",
+      "level": "scenario",
+      "priority": "P0",
+      "requirements": [
+        "FR-005",
+        "FR-006"
+      ],
+      "given_when": "Success спустя 10m+1us",
+      "then": "DET-003 отсутствует",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "D03-006",
+      "title": "HTTP 200",
+      "level": "scenario",
+      "priority": "P0",
+      "requirements": [
+        "FR-005",
+        "FR-006"
+      ],
+      "given_when": "После window есть только nginx /login 200",
+      "then": "DET-003 отсутствует; нужен auth.login/success",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "D03-007",
+      "title": "Порядок не доказан",
+      "level": "scenario",
+      "priority": "P0",
+      "requirements": [
+        "FR-005",
+        "FR-006"
+      ],
+      "given_when": "Timestamp uncertainty failure/success пересекается",
+      "then": "DET-003 отсутствует; order_unverified",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "D03-008",
+      "title": "Два qualifying window",
+      "level": "scenario",
+      "priority": "P0",
+      "requirements": [
+        "FR-005",
+        "FR-006"
+      ],
+      "given_when": "Оба окна завершились до success и подходят по времени",
+      "then": "Выбрано последнее; выбор и evidence детерминированы",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "D04-001",
+      "title": "Позитив",
+      "level": "scenario",
+      "priority": "P0",
+      "requirements": [
+        "FR-005",
+        "FR-009"
+      ],
+      "given_when": "20 failures одного user с 5 IP за 9m",
+      "then": "DET-004 medium; mapping T1110",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "D04-002",
+      "title": "Мало событий",
+      "level": "scenario",
+      "priority": "P0",
+      "requirements": [
+        "FR-005",
+        "FR-009"
+      ],
+      "given_when": "19 failures с 5 IP",
+      "then": "DET-004 отсутствует",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "D04-003",
+      "title": "Мало источников",
+      "level": "scenario",
+      "priority": "P0",
+      "requirements": [
+        "FR-005",
+        "FR-009"
+      ],
+      "given_when": "20 failures с 4 IP",
+      "then": "DET-004 отсутствует",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "D04-004",
+      "title": "Разные user",
+      "level": "scenario",
+      "priority": "P0",
+      "requirements": [
+        "FR-005",
+        "FR-009"
+      ],
+      "given_when": "По 10 failures двух user суммарно с 5 IP",
+      "then": "DET-004 отсутствует",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "D04-005",
+      "title": "IPv6 эквиваленты",
+      "level": "scenario",
+      "priority": "P0",
+      "requirements": [
+        "FR-005",
+        "FR-009"
+      ],
+      "given_when": "Пять текстовых вариантов одного IPv6",
+      "then": "Distinct IP=1; DET-004 отсутствует",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "D04-006",
+      "title": "Смешанный tenant",
+      "level": "scenario",
+      "priority": "P0",
+      "requirements": [
+        "FR-005",
+        "FR-009"
+      ],
+      "given_when": "Порог получается только после объединения tenant",
+      "then": "DET-004 отсутствует в каждом tenant",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "D04-007",
+      "title": "Ошибки поля IP",
+      "level": "scenario",
+      "priority": "P0",
+      "requirements": [
+        "FR-005",
+        "FR-009"
+      ],
+      "given_when": "Из 5 адресов один невалиден; остаётся 4",
+      "then": "Детект отсутствует; invalid IP учтён",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "D04-008",
+      "title": "Неизвестный подтип",
+      "level": "scenario",
+      "priority": "P0",
+      "requirements": [
+        "FR-005",
+        "FR-009"
+      ],
+      "given_when": "Позитивная история без данных происхождения credentials",
+      "then": "Не заявлены credential stuffing или равенство паролей",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "D05-001",
+      "title": "Позитив",
+      "level": "scenario",
+      "priority": "P0",
+      "requirements": [
+        "FR-005",
+        "FR-009"
+      ],
+      "given_when": "Пять разных request_id для user за 4m",
+      "then": "DET-005 medium; evidence содержит пять challenge",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "D05-002",
+      "title": "Ниже порога",
+      "level": "scenario",
+      "priority": "P0",
+      "requirements": [
+        "FR-005",
+        "FR-009"
+      ],
+      "given_when": "Четыре разных request_id",
+      "then": "DET-005 отсутствует",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "D05-003",
+      "title": "Повтор доставки",
+      "level": "scenario",
+      "priority": "P0",
+      "requirements": [
+        "FR-005",
+        "FR-009"
+      ],
+      "given_when": "Пять строк одного challenge ID",
+      "then": "Unique requests=1; DET-005 отсутствует",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "D05-004",
+      "title": "Нет request ID",
+      "level": "scenario",
+      "priority": "P0",
+      "requirements": [
+        "FR-005",
+        "FR-009"
+      ],
+      "given_when": "Пять challenge без идентификатора",
+      "then": "Не считаются пятью независимыми запросами; quality finding",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "D05-005",
+      "title": "Другие аккаунты",
+      "level": "scenario",
+      "priority": "P0",
+      "requirements": [
+        "FR-005",
+        "FR-009"
+      ],
+      "given_when": "По три challenge для A и B",
+      "then": "DET-005 отсутствует",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "D05-006",
+      "title": "Вне окна",
+      "level": "scenario",
+      "priority": "P0",
+      "requirements": [
+        "FR-005",
+        "FR-009"
+      ],
+      "given_when": "Пять challenge без пяти в любом окне 5m",
+      "then": "DET-005 отсутствует",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "D05-007",
+      "title": "Другой тип MFA",
+      "level": "scenario",
+      "priority": "P0",
+      "requirements": [
+        "FR-005",
+        "FR-009"
+      ],
+      "given_when": "Пять auth.mfa.enroll/success",
+      "then": "DET-005 отсутствует",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "D05-008",
+      "title": "Последующее одобрение",
+      "level": "scenario",
+      "priority": "P0",
+      "requirements": [
+        "FR-005",
+        "FR-009"
+      ],
+      "given_when": "После пяти запросов есть MFA approval",
+      "then": "Алерт остаётся; approval отображён как контекст без объявления безопасности",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "D06-001",
+      "title": "Позитив",
+      "level": "scenario",
+      "priority": "P0",
+      "requirements": [
+        "FR-005",
+        "FR-006",
+        "FR-009"
+      ],
+      "given_when": "DET-003 затем self enrolment через 5m той же session с device_ref",
+      "then": "DET-006 high; полная цепочка evidence",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "D06-002",
+      "title": "Нет предыдущей цепочки",
+      "level": "scenario",
+      "priority": "P0",
+      "requirements": [
+        "FR-005",
+        "FR-006",
+        "FR-009"
+      ],
+      "given_when": "Enrolment после обычного success без DET-003",
+      "then": "DET-006 отсутствует",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "D06-003",
+      "title": "Нет session",
+      "level": "scenario",
+      "priority": "P0",
+      "requirements": [
+        "FR-005",
+        "FR-006",
+        "FR-009"
+      ],
+      "given_when": "Успех или enrolment не содержит session_ref",
+      "then": "DET-006 отсутствует; причина недоступной корреляции видна",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "D06-004",
+      "title": "Другая session",
+      "level": "scenario",
+      "priority": "P0",
+      "requirements": [
+        "FR-005",
+        "FR-006",
+        "FR-009"
+      ],
+      "given_when": "User совпадает, session_ref отличается",
+      "then": "DET-006 отсутствует",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "D06-005",
+      "title": "Неверный порядок",
+      "level": "scenario",
+      "priority": "P0",
+      "requirements": [
+        "FR-005",
+        "FR-006",
+        "FR-009"
+      ],
+      "given_when": "Enrolment до success",
+      "then": "DET-006 отсутствует",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "D06-006",
+      "title": "Временная граница",
+      "level": "scenario",
+      "priority": "P0",
+      "requirements": [
+        "FR-005",
+        "FR-006",
+        "FR-009"
+      ],
+      "given_when": "Enrolment ровно через 15m и через 15m+1us",
+      "then": "Первый match; второй no match",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "D06-007",
+      "title": "Администратор",
+      "level": "scenario",
+      "priority": "P0",
+      "requirements": [
+        "FR-005",
+        "FR-006",
+        "FR-009"
+      ],
+      "given_when": "Actor=admin, target=user из DET-003",
+      "then": "Нет self-enrolment цепочки; административный контекст сохранён",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "D06-008",
+      "title": "Platform scope",
+      "level": "scenario",
+      "priority": "P0",
+      "requirements": [
+        "FR-005",
+        "FR-006",
+        "FR-009"
+      ],
+      "given_when": "Одинаковая история для IdP и generic local app",
+      "then": "Детект в обоих; T1098.005 только при подходящем platform scope",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "D07-001",
+      "title": "Позитив",
+      "level": "scenario",
+      "priority": "P0",
+      "requirements": [
+        "FR-005",
+        "FR-009"
+      ],
+      "given_when": "5 разных configured sensitive paths с одного IP за 9m",
+      "then": "DET-007 low; 5 путей в evidence",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "D07-002",
+      "title": "Повтор пути",
+      "level": "scenario",
+      "priority": "P0",
+      "requirements": [
+        "FR-005",
+        "FR-009"
+      ],
+      "given_when": "50 запросов только к /.env",
+      "then": "DET-007 отсутствует; distinct paths=1",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "D07-003",
+      "title": "Ниже порога",
+      "level": "scenario",
+      "priority": "P0",
+      "requirements": [
+        "FR-005",
+        "FR-009"
+      ],
+      "given_when": "4 sensitive paths",
+      "then": "DET-007 отсутствует",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "D07-004",
+      "title": "Обычные пути",
+      "level": "scenario",
+      "priority": "P0",
+      "requirements": [
+        "FR-005",
+        "FR-009"
+      ],
+      "given_when": "10 путей вне configured list",
+      "then": "DET-007 отсутствует",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "D07-005",
+      "title": "Разные источники",
+      "level": "scenario",
+      "priority": "P0",
+      "requirements": [
+        "FR-005",
+        "FR-009"
+      ],
+      "given_when": "3 sensitive paths IP1 и 2 IP2",
+      "then": "DET-007 отсутствует",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "D07-006",
+      "title": "HTTP статусы",
+      "level": "scenario",
+      "priority": "P0",
+      "requirements": [
+        "FR-005",
+        "FR-009"
+      ],
+      "given_when": "Пять путей со статусами 200,302,401,403,404",
+      "then": "Детект присутствует; успешное извлечение данных не утверждается",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "D07-007",
+      "title": "Разрешённый сканер",
+      "level": "scenario",
+      "priority": "P0",
+      "requirements": [
+        "FR-005",
+        "FR-009"
+      ],
+      "given_when": "Позитивная история с действующим approved context",
+      "then": "Алерт сохранён; effect context объяснён",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "D07-008",
+      "title": "Encoding",
+      "level": "scenario",
+      "priority": "P0",
+      "requirements": [
+        "FR-005",
+        "FR-009"
+      ],
+      "given_when": "Путь после одного разрешённого decoding равен sensitive path",
+      "then": "Сравнение по документированной нормализации; query не раскрывается",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "D08-001",
+      "title": "Позитив",
+      "level": "scenario",
+      "priority": "P0",
+      "requirements": [
+        "FR-005",
+        "FR-009"
+      ],
+      "given_when": "10 denied user A к 3 resource_id за 4m",
+      "then": "DET-008 medium; counts 10 и 3",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "D08-002",
+      "title": "Мало denied",
+      "level": "scenario",
+      "priority": "P0",
+      "requirements": [
+        "FR-005",
+        "FR-009"
+      ],
+      "given_when": "9 denied к 3 ресурсам",
+      "then": "DET-008 отсутствует",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "D08-003",
+      "title": "Мало ресурсов",
+      "level": "scenario",
+      "priority": "P0",
+      "requirements": [
+        "FR-005",
+        "FR-009"
+      ],
+      "given_when": "10 denied к 2 ресурсам",
+      "then": "DET-008 отсутствует",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "D08-004",
+      "title": "Другой outcome",
+      "level": "scenario",
+      "priority": "P0",
+      "requirements": [
+        "FR-005",
+        "FR-009"
+      ],
+      "given_when": "9 denied и один success",
+      "then": "DET-008 отсутствует",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "D08-005",
+      "title": "Нет ресурса",
+      "level": "scenario",
+      "priority": "P0",
+      "requirements": [
+        "FR-005",
+        "FR-009"
+      ],
+      "given_when": "10 denied без resource_id",
+      "then": "Невозможно distinct count; quality finding",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "D08-006",
+      "title": "Разные пользователи",
+      "level": "scenario",
+      "priority": "P0",
+      "requirements": [
+        "FR-005",
+        "FR-009"
+      ],
+      "given_when": "По 5 denied A и B к трём ресурсам",
+      "then": "DET-008 отсутствует",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "D08-007",
+      "title": "HTTP 403",
+      "level": "scenario",
+      "priority": "P0",
+      "requirements": [
+        "FR-005",
+        "FR-009"
+      ],
+      "given_when": "Только nginx 403 без app authz-события",
+      "then": "Не выдаётся за явный authz.check с user/resource",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "D08-008",
+      "title": "Граница вывода",
+      "level": "scenario",
+      "priority": "P0",
+      "requirements": [
+        "FR-005",
+        "FR-009"
+      ],
+      "given_when": "Полный позитивный набор",
+      "then": "Отчёт говорит об отказах; IDOR/утечка/обход проверки не объявлены",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "TRI-001",
+      "title": "Явная цепочка",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-006",
+        "FR-007",
+        "FR-010",
+        "FR-014"
+      ],
+      "given_when": "Алерты DET-001/003/006 с shared evidence",
+      "then": "Один кейс; каждое ребро имеет reason и evidence",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "TRI-002",
+      "title": "Общий NAT",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-006",
+        "FR-007",
+        "FR-010",
+        "FR-014"
+      ],
+      "given_when": "Два разных пользователя с общим IP без shared evidence",
+      "then": "Разные кейсы; общий IP не объединяет их",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "TRI-003",
+      "title": "Граница tenant",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-006",
+        "FR-007",
+        "FR-010",
+        "FR-014"
+      ],
+      "given_when": "Два алерта с одинаковыми user/time в разных tenant",
+      "then": "Разные кейсы",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "TRI-004",
+      "title": "Граница приложения",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-006",
+        "FR-007",
+        "FR-010",
+        "FR-014"
+      ],
+      "given_when": "Два алерта одинакового user в разных app",
+      "then": "Разные кейсы",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "TRI-005",
+      "title": "Временной разрыв",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-006",
+        "FR-007",
+        "FR-010",
+        "FR-014"
+      ],
+      "given_when": "Алерты одного user разделены более чем 15m",
+      "then": "Разные кейсы при отсутствии прямой зависимости",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "TRI-006",
+      "title": "Предел кейса",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-006",
+        "FR-007",
+        "FR-010",
+        "FR-014"
+      ],
+      "given_when": "Связная активность продолжается более 60m",
+      "then": "Разбита на связанные кейсы с явной причиной",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "TRI-007",
+      "title": "Базовый score",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-006",
+        "FR-007",
+        "FR-010",
+        "FR-014"
+      ],
+      "given_when": "В кейсе low, medium, high без context",
+      "then": "Score=60; база=max, не сумма",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "TRI-008",
+      "title": "Критичный актив",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-006",
+        "FR-007",
+        "FR-010",
+        "FR-014"
+      ],
+      "given_when": "High case для critical user",
+      "then": "Score=75; priority high; добавка один раз",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "TRI-009",
+      "title": "MFA цепочка",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-006",
+        "FR-007",
+        "FR-010",
+        "FR-014"
+      ],
+      "given_when": "High case с DET-006 и critical user",
+      "then": "Score=90; priority critical",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "TRI-010",
+      "title": "Approved context",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-006",
+        "FR-007",
+        "FR-010",
+        "FR-014"
+      ],
+      "given_when": "High case с точным approved activity",
+      "then": "Score=40; context/evidence сохранены; решение policy объяснено",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "TRI-011",
+      "title": "NAT context",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-006",
+        "FR-007",
+        "FR-010",
+        "FR-014"
+      ],
+      "given_when": "Medium case на известном NAT без approved activity",
+      "then": "Score=40; знакомый IP не уменьшает оценку",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "TRI-012",
+      "title": "Истёкший context",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-006",
+        "FR-007",
+        "FR-010",
+        "FR-014"
+      ],
+      "given_when": "Event time равен expires_at",
+      "then": "Скидка не применяется; интервал справа открыт",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "TRI-013",
+      "title": "Suppression",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-006",
+        "FR-007",
+        "FR-010",
+        "FR-014"
+      ],
+      "given_when": "Точное действующее исключение для DET-001",
+      "then": "suppressed=true; evidence и счётчик сохранены; обычная очередь скрывает",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "TRI-014",
+      "title": "Suppression DET-006",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-006",
+        "FR-007",
+        "FR-010",
+        "FR-014"
+      ],
+      "given_when": "Точное исключение для DET-006",
+      "then": "Видим в high-risk очереди; рекомендация проверки остаётся",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "TRI-015",
+      "title": "Переходы статусов",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-006",
+        "FR-007",
+        "FR-010",
+        "FR-014"
+      ],
+      "given_when": "new→in_review→closed с verdict/reason, затем reopen",
+      "then": "Все переходы сохранены; closed→in_review разрешён",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "TRI-016",
+      "title": "Закрытие без причины",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-006",
+        "FR-007",
+        "FR-010",
+        "FR-014"
+      ],
+      "given_when": "High case закрывается с пустым reason",
+      "then": "Команда отклонена; прежний статус и история не изменены",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "GAP-001",
+      "title": "Ready",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-008",
+        "FR-009"
+      ],
+      "given_when": "Capability заявлена; 10 подходящих событий полностью валидны",
+      "then": "Статус ready; eligible=10/10",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "GAP-002",
+      "title": "Degraded",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-008",
+        "FR-009"
+      ],
+      "given_when": "Из 10 failures у двух отсутствует user",
+      "then": "Degraded; eligible=8/10; процент 80",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "GAP-003",
+      "title": "Unavailable",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-008",
+        "FR-009"
+      ],
+      "given_when": "Все 10 failures без нужного user",
+      "then": "Unavailable; excluded=10; нет заявления об отсутствии атак",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "GAP-004",
+      "title": "No data",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-008",
+        "FR-009"
+      ],
+      "given_when": "Capability есть, источник пустой",
+      "then": "No_data; знаменатель 0; процент null, не 100",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "GAP-005",
+      "title": "Нет источника",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-008",
+        "FR-009"
+      ],
+      "given_when": "Есть только nginx при включённом DET-005",
+      "then": "Unavailable с отсутствующей MFA capability",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "GAP-006",
+      "title": "Capability неизвестна",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-008",
+        "FR-009"
+      ],
+      "given_when": "Поля валидны, декларации capability нет",
+      "then": "Degraded; наблюдаемые алерты доступны",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "GAP-007",
+      "title": "Разная пригодность",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-008",
+        "FR-009"
+      ],
+      "given_when": "Событие имеет IP/path, но не имеет user",
+      "then": "Пригодно для DET-007, непригодно для user-based rule",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "GAP-008",
+      "title": "Нет outcome",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-008",
+        "FR-009"
+      ],
+      "given_when": "Присутствуют только auth attempt без результата",
+      "then": "Success/failure не угадываются; рекомендация добавить outcome",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "GAP-009",
+      "title": "Нет session_ref",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-008",
+        "FR-009"
+      ],
+      "given_when": "DET-003 возможен, MFA enrolment не имеет session",
+      "then": "DET-003 сохранён; DET-006 unavailable/degraded по набору",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "GAP-010",
+      "title": "Пустой период",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-008",
+        "FR-009"
+      ],
+      "given_when": "Нет событий 1h, но heartbeat/coverage не объявлены",
+      "then": "Не утверждается остановка логирования",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "GAP-011",
+      "title": "Известный heartbeat",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-008",
+        "FR-009"
+      ],
+      "given_when": "Контракт ожидает heartbeat раз в минуту; в покрытом интервале разрыв",
+      "then": "Отдельный quality finding с интервалом и контрактом",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "GAP-012",
+      "title": "Честное покрытие",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-008",
+        "FR-009"
+      ],
+      "given_when": "Запущены 8 правил, 3 неприменимы",
+      "then": "Показано 5 применимых из 8; не заявлен процент всей ATT&CK",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "SEC-001",
+      "title": "HTML injection",
+      "level": "security",
+      "priority": "P0",
+      "requirements": [
+        "FR-017",
+        "FR-013",
+        "NFR-005"
+      ],
+      "given_when": "User/path содержит script и img onerror",
+      "then": "HTML DOM содержит текст; скрипт не исполняется; сеть пуста",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "SEC-002",
+      "title": "Markdown injection",
+      "level": "security",
+      "priority": "P0",
+      "requirements": [
+        "FR-017",
+        "FR-013",
+        "NFR-005"
+      ],
+      "given_when": "Поле содержит HTML, link и заголовок",
+      "then": "Поле экранировано; структура карточки не подменяется",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "SEC-003",
+      "title": "ANSI/OSC injection",
+      "level": "security",
+      "priority": "P0",
+      "requirements": [
+        "FR-017",
+        "FR-013",
+        "NFR-005"
+      ],
+      "given_when": "User содержит escape и OSC clipboard sequence",
+      "then": "CLI не посылает управляющие последовательности терминалу",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "SEC-004",
+      "title": "SQL injection",
+      "level": "security",
+      "priority": "P0",
+      "requirements": [
+        "FR-017",
+        "FR-013",
+        "NFR-005"
+      ],
+      "given_when": "User содержит SQL-метасимволы",
+      "then": "Значение хранится как параметр; таблицы не меняются",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "SEC-005",
+      "title": "YAML object tag",
+      "level": "security",
+      "priority": "P0",
+      "requirements": [
+        "FR-017",
+        "FR-013",
+        "NFR-005"
+      ],
+      "given_when": "Rule содержит пользовательский object constructor",
+      "then": "Валидация отклоняет; код не исполняется",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "SEC-006",
+      "title": "YAML aliases",
+      "level": "security",
+      "priority": "P0",
+      "requirements": [
+        "FR-017",
+        "FR-013",
+        "NFR-005"
+      ],
+      "given_when": "Rule использует expansion aliases",
+      "then": "Отклонение до expansion; bounded memory",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "SEC-007",
+      "title": "Глубокий JSON",
+      "level": "security",
+      "priority": "P0",
+      "requirements": [
+        "FR-017",
+        "FR-013",
+        "NFR-005"
+      ],
+      "given_when": "Запись вложена на 17 уровней",
+      "then": "Ошибка depth_limit; процесс продолжает допустимые записи",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "SEC-008",
+      "title": "Path traversal",
+      "level": "security",
+      "priority": "P0",
+      "requirements": [
+        "FR-017",
+        "FR-013",
+        "NFR-005"
+      ],
+      "given_when": "Manifest содержит ../outside и абсолютный внешний путь",
+      "then": "Отклонение за пределом разрешённого input root",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "SEC-009",
+      "title": "Symlink/reparse",
+      "level": "security",
+      "priority": "P0",
+      "requirements": [
+        "FR-017",
+        "FR-013",
+        "NFR-005"
+      ],
+      "given_when": "Файл манифеста является ссылкой наружу",
+      "then": "Отклонение; внешний target не читается",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "SEC-010",
+      "title": "Output overwrite",
+      "level": "security",
+      "priority": "P0",
+      "requirements": [
+        "FR-017",
+        "FR-013",
+        "NFR-005"
+      ],
+      "given_when": "Output совпадает с input или существующим файлом",
+      "then": "Команда отклонена; входные bytes не изменены",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "SEC-011",
+      "title": "Секреты полей",
+      "level": "security",
+      "priority": "P0",
+      "requirements": [
+        "FR-017",
+        "FR-013",
+        "NFR-005"
+      ],
+      "given_when": "Вход содержит synthetic password, bearer, cookie",
+      "then": "Ни одного canary в БД, отчётах и служебных логах",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "SEC-012",
+      "title": "Секреты query",
+      "level": "security",
+      "priority": "P0",
+      "requirements": [
+        "FR-017",
+        "FR-013",
+        "NFR-005"
+      ],
+      "given_when": "Query содержит token=CANARY",
+      "then": "Значение отсутствует во всех persisted outputs",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "SEC-013",
+      "title": "Секрет в ошибке",
+      "level": "security",
+      "priority": "P0",
+      "requirements": [
+        "FR-017",
+        "FR-013",
+        "NFR-005"
+      ],
+      "given_when": "Битая строка содержит CANARY",
+      "then": "Quarantine/debug/stderr содержат metadata и code без сырой строки",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "SEC-014",
+      "title": "HMAC session",
+      "level": "security",
+      "priority": "P0",
+      "requirements": [
+        "FR-017",
+        "FR-013",
+        "NFR-005"
+      ],
+      "given_when": "Два события с одной raw session и фиксированным ключом",
+      "then": "Ref одинаков; raw session и ключ не сохранены",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "SEC-015",
+      "title": "Другой ключ",
+      "level": "security",
+      "priority": "P0",
+      "requirements": [
+        "FR-017",
+        "FR-013",
+        "NFR-005"
+      ],
+      "given_when": "Те же события обработаны другим HMAC-ключом",
+      "then": "Ref меняется; key_id меняется; контексты не смешиваются",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "SEC-016",
+      "title": "Offline",
+      "level": "security",
+      "priority": "P0",
+      "requirements": [
+        "FR-017",
+        "FR-013",
+        "NFR-005"
+      ],
+      "given_when": "Заблокировать создание sockets при analyze/replay/demo",
+      "then": "Все три команды работают; сетевых попыток нет",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "SEC-017",
+      "title": "SSRF строкой",
+      "level": "security",
+      "priority": "P0",
+      "requirements": [
+        "FR-017",
+        "FR-013",
+        "NFR-005"
+      ],
+      "given_when": "URL события указывает localhost и metadata endpoint",
+      "then": "Нет HTTP/DNS-запроса; URL не открывается",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "SEC-018",
+      "title": "Resource exhaustion",
+      "level": "security",
+      "priority": "P0",
+      "requirements": [
+        "FR-017",
+        "FR-013",
+        "NFR-005"
+      ],
+      "given_when": "Большое число уникальных групп превышает установленный cap",
+      "then": "Контролируемый failed; нет OOM и тихого drop",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "SEC-019",
+      "title": "Shareable export",
+      "level": "security",
+      "priority": "P0",
+      "requirements": [
+        "FR-017",
+        "FR-013",
+        "NFR-005"
+      ],
+      "given_when": "Экспорт кейса с user/IP/device и локальными путями",
+      "then": "Идентификаторы псевдонимизированы; пути удалены; связи сохранены",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "SEC-020",
+      "title": "Контейнер",
+      "level": "security",
+      "priority": "P0",
+      "requirements": [
+        "FR-017",
+        "FR-013",
+        "NFR-005"
+      ],
+      "given_when": "Запустить образ без root с read-only input",
+      "then": "Анализ проходит; input неизменен; запись ограничена workspace/output",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "STO-001",
+      "title": "Повторный импорт",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-011",
+        "FR-018",
+        "NFR-004"
+      ],
+      "given_when": "Один артефакт импортировать дважды",
+      "then": "События не удвоены; provenance повторной попытки сохранён",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "STO-002",
+      "title": "Копия файла",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-011",
+        "FR-018",
+        "NFR-004"
+      ],
+      "given_when": "Тот же файл под другим именем",
+      "then": "Artifact hash тот же; события не удвоены",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "STO-003",
+      "title": "Одинаковые строки",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-011",
+        "FR-018",
+        "NFR-004"
+      ],
+      "given_when": "Два разных nginx-файла без устойчивых event IDs",
+      "then": "Строки не схлопнуты автоматически; предупреждение о возможном дубле",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "STO-004",
+      "title": "Конфликт event ID",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-011",
+        "FR-018",
+        "NFR-004"
+      ],
+      "given_when": "Два app-события одного namespace/id с разным содержимым",
+      "then": "Обе версии исключены из текущего анализа; conflict finding",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "STO-005",
+      "title": "Foreign keys",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-011",
+        "FR-018",
+        "NFR-004"
+      ],
+      "given_when": "Попытаться сохранить alert_event без event",
+      "then": "Транзакция отклонена; нет висячей ссылки",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "STO-006",
+      "title": "Rollback",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-011",
+        "FR-018",
+        "NFR-004"
+      ],
+      "given_when": "Исключение в середине фиксации результатов",
+      "then": "Аналитические таблицы не содержат половину завершённого результата",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "STO-007",
+      "title": "Диск заполнен",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-011",
+        "FR-018",
+        "NFR-004"
+      ],
+      "given_when": "Инъекция ENOSPC при записи БД/экспорта",
+      "then": "Failed exit 4; completed report отсутствует",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "STO-008",
+      "title": "Нет прав",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-011",
+        "FR-018",
+        "NFR-004"
+      ],
+      "given_when": "Output недоступен для записи",
+      "then": "Понятная I/O ошибка без утечки входных строк",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "STO-009",
+      "title": "Ctrl+C",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-011",
+        "FR-018",
+        "NFR-004"
+      ],
+      "given_when": "Прервать ingest и analyze",
+      "then": "Interrupted; exit 130; DB закрыта; чужие файлы не удалены",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "STO-010",
+      "title": "Два writer",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-011",
+        "FR-018",
+        "NFR-004"
+      ],
+      "given_when": "Запустить два analyze одного workspace",
+      "then": "Второй получает workspace_busy; первый сохраняет корректный результат",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "STO-011",
+      "title": "Миграция",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-011",
+        "FR-018",
+        "NFR-004"
+      ],
+      "given_when": "Открыть поддерживаемую старую схему и неподдерживаемую будущую",
+      "then": "Первая мигрируется с проверкой; вторая явно отклоняется",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "STO-012",
+      "title": "Tamper evidence",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-011",
+        "FR-018",
+        "NFR-004"
+      ],
+      "given_when": "Изменить сохранённый исходный файл после run",
+      "then": "Verification digest не совпадает; источник не объявляется аутентичным",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "CLI-001",
+      "title": "Help",
+      "level": "end_to_end",
+      "priority": "P0",
+      "requirements": [
+        "FR-012",
+        "NFR-005",
+        "NFR-006"
+      ],
+      "given_when": "Выполнить lia --help и help каждой команды",
+      "then": "Все команды/параметры описаны; exit 0",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "CLI-002",
+      "title": "Успешный analyze",
+      "level": "end_to_end",
+      "priority": "P0",
+      "requirements": [
+        "FR-012",
+        "NFR-005",
+        "NFR-006"
+      ],
+      "given_when": "Валидный benign fixture, без fail-on-alert",
+      "then": "Exit 0; заявленные файлы результата существуют",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "CLI-003",
+      "title": "Alerts code",
+      "level": "end_to_end",
+      "priority": "P0",
+      "requirements": [
+        "FR-012",
+        "NFR-005",
+        "NFR-006"
+      ],
+      "given_when": "Позитивный fixture с --fail-on-alert",
+      "then": "Exit 10 после полного анализа; отчёт доступен",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "CLI-004",
+      "title": "Partial precedence",
+      "level": "end_to_end",
+      "priority": "P0",
+      "requirements": [
+        "FR-012",
+        "NFR-005",
+        "NFR-006"
+      ],
+      "given_when": "Алерт и повреждённая строка с --fail-on-alert",
+      "then": "Exit 3, не 10; partial отражён",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "CLI-005",
+      "title": "Config error",
+      "level": "end_to_end",
+      "priority": "P0",
+      "requirements": [
+        "FR-012",
+        "NFR-005",
+        "NFR-006"
+      ],
+      "given_when": "Невалидная config/schema",
+      "then": "Exit 2; анализ не запущен",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "CLI-006",
+      "title": "I/O error",
+      "level": "end_to_end",
+      "priority": "P0",
+      "requirements": [
+        "FR-012",
+        "NFR-005",
+        "NFR-006"
+      ],
+      "given_when": "Входной путь недоступен",
+      "then": "Exit 4; понятная причина",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "CLI-007",
+      "title": "Require complete",
+      "level": "end_to_end",
+      "priority": "P0",
+      "requirements": [
+        "FR-012",
+        "NFR-005",
+        "NFR-006"
+      ],
+      "given_when": "Одно включённое правило unavailable и --require-complete",
+      "then": "Exit 3; отчёт о пригодности сохранён",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "CLI-008",
+      "title": "JSON stdout",
+      "level": "end_to_end",
+      "priority": "P0",
+      "requirements": [
+        "FR-012",
+        "NFR-005",
+        "NFR-006"
+      ],
+      "given_when": "Любая read-only команда с --json",
+      "then": "Stdout парсится одним JSON; прогресс только stderr",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "CLI-009",
+      "title": "Unicode paths",
+      "level": "end_to_end",
+      "priority": "P0",
+      "requirements": [
+        "FR-012",
+        "NFR-005",
+        "NFR-006"
+      ],
+      "given_when": "Input/output содержат пробелы и кириллицу",
+      "then": "Анализ работает; пути не разбиты на аргументы",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "CLI-010",
+      "title": "Existing output",
+      "level": "end_to_end",
+      "priority": "P0",
+      "requirements": [
+        "FR-012",
+        "NFR-005",
+        "NFR-006"
+      ],
+      "given_when": "Analyze в непустой существующий output",
+      "then": "Нет перезаписи; exit 2 с предложением нового пути",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "CLI-011",
+      "title": "Unknown case",
+      "level": "end_to_end",
+      "priority": "P0",
+      "requirements": [
+        "FR-012",
+        "NFR-005",
+        "NFR-006"
+      ],
+      "given_when": "Explain и note для отсутствующего case ID",
+      "then": "Понятная ошибка; никакой новый кейс не создаётся",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "CLI-012",
+      "title": "Compare dataset",
+      "level": "end_to_end",
+      "priority": "P0",
+      "requirements": [
+        "FR-012",
+        "NFR-005",
+        "NFR-006"
+      ],
+      "given_when": "Сравнить два run разных dataset hash",
+      "then": "Compare отклонён; несопоставимые метрики не объединены",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "REP-001",
+      "title": "JSON Schema",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-007",
+        "FR-013"
+      ],
+      "given_when": "Проверить все публичные JSON на schemas",
+      "then": "Каждый соответствует заявленной версии",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "REP-002",
+      "title": "Согласованность форматов",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-007",
+        "FR-013"
+      ],
+      "given_when": "Экспорт одного run в JSON/Markdown/HTML",
+      "then": "Case IDs, counts, priority и evidence совпадают",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "REP-003",
+      "title": "Evidence completeness",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-007",
+        "FR-013"
+      ],
+      "given_when": "Проверить каждый факт каждого кейса",
+      "then": "Evidence IDs существуют и поддерживают тип факта",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "REP-004",
+      "title": "Ограничение карточки",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-007",
+        "FR-013"
+      ],
+      "given_when": "Кейс содержит 75 событий",
+      "then": "В карточке 50 с отметкой усечения; все 75 доступны в полном экспорте",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "REP-005",
+      "title": "Confidence",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-007",
+        "FR-013"
+      ],
+      "given_when": "Создать supported и limited кейсы по quality flags",
+      "then": "Категории и причины соответствуют политике; процентов вероятности нет",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "REP-006",
+      "title": "Статический HTML",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-007",
+        "FR-013"
+      ],
+      "given_when": "Открыть отчёт offline, проверить DOM/клавиатуру/печать",
+      "then": "Нет внешних ресурсов; заголовки/таблицы/якоря доступны",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "REP-007",
+      "title": "Заметка аналитика",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-007",
+        "FR-013"
+      ],
+      "given_when": "Добавить note с неподтверждённым утверждением",
+      "then": "Note визуально и структурно отделена от логовых фактов",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "REP-008",
+      "title": "Run metadata",
+      "level": "integration",
+      "priority": "P0",
+      "requirements": [
+        "FR-007",
+        "FR-013"
+      ],
+      "given_when": "Анализ с custom thresholds и context",
+      "then": "Версии, hashes, параметры и duration доступны в run.json",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "E2E-001",
+      "title": "Атака на аккаунт",
+      "level": "end_to_end",
+      "priority": "P0",
+      "requirements": [
+        "FR-015",
+        "FR-016",
+        "FR-020",
+        "NFR-006"
+      ],
+      "given_when": "Demo цепочка failures→success→MFA enrolment",
+      "then": "DET-001/003/006; связанный кейс; правильная эскалация и evidence",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "E2E-002",
+      "title": "Восстановление доступа",
+      "level": "end_to_end",
+      "priority": "P0",
+      "requirements": [
+        "FR-015",
+        "FR-016",
+        "FR-020",
+        "NFR-006"
+      ],
+      "given_when": "Похожая история с проверенным approved context",
+      "then": "Контекст меняет score по политике; подозрительные факты сохранены",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "E2E-003",
+      "title": "Неполные логи",
+      "level": "end_to_end",
+      "priority": "P0",
+      "requirements": [
+        "FR-015",
+        "FR-016",
+        "FR-020",
+        "NFR-006"
+      ],
+      "given_when": "Из копии истории удалить session_ref",
+      "then": "DET-006 исчезает; DET-001/003 сохраняются; quality объясняет причину",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "E2E-004",
+      "title": "NAT история",
+      "level": "end_to_end",
+      "priority": "P0",
+      "requirements": [
+        "FR-015",
+        "FR-016",
+        "FR-020",
+        "NFR-006"
+      ],
+      "given_when": "Несколько сотрудников за NAT и отдельный атакующий эпизод",
+      "then": "Нет смешивания аккаунтов; ambiguous benign-alert учитывается честно",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "E2E-005",
+      "title": "Replay",
+      "level": "end_to_end",
+      "priority": "P0",
+      "requirements": [
+        "FR-015",
+        "FR-016",
+        "FR-020",
+        "NFR-006"
+      ],
+      "given_when": "Запустить 48 базовых сценариев с фиксированным manifest",
+      "then": "Expected assertions выполнены; результаты раздельны по сценарию",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "E2E-006",
+      "title": "Evaluation matching",
+      "level": "end_to_end",
+      "priority": "P0",
+      "requirements": [
+        "FR-015",
+        "FR-016",
+        "FR-020",
+        "NFR-006"
+      ],
+      "given_when": "Один episode, два алерта и отдельный пропущенный episode",
+      "then": "TP=1, duplicate/FP=1, FN=1 по заданному сопоставлению",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "E2E-007",
+      "title": "Eligible denominator",
+      "level": "end_to_end",
+      "priority": "P0",
+      "requirements": [
+        "FR-015",
+        "FR-016",
+        "FR-020",
+        "NFR-006"
+      ],
+      "given_when": "Один атакующий episode не имеет нужных полей",
+      "then": "Он остаётся в end-to-end recall denominator; отдельно показан unassessed",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "E2E-008",
+      "title": "A/B/C сравнение",
+      "level": "end_to_end",
+      "priority": "P0",
+      "requirements": [
+        "FR-015",
+        "FR-016",
+        "FR-020",
+        "NFR-006"
+      ],
+      "given_when": "Один dataset для rules / cases / cases+context",
+      "then": "Опубликованы counts/FP/FN/duplicates; уменьшение кейсов не названо улучшением precision",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "PROP-001",
+      "title": "Permutation invariance",
+      "level": "property",
+      "priority": "P0",
+      "requirements": [
+        "FR-003",
+        "FR-005",
+        "FR-018",
+        "NFR-003"
+      ],
+      "given_when": "Генерировать перестановки одного event set",
+      "then": "analysis одинаков при фиксированных версиях и ключе",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "PROP-002",
+      "title": "Duplicate idempotence",
+      "level": "property",
+      "priority": "P0",
+      "requirements": [
+        "FR-003",
+        "FR-005",
+        "FR-018",
+        "NFR-003"
+      ],
+      "given_when": "Добавлять копии событий с устойчивым ID",
+      "then": "Алерты и счётчики уникальных событий не меняются",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "PROP-003",
+      "title": "Tenant independence",
+      "level": "property",
+      "priority": "P0",
+      "requirements": [
+        "FR-003",
+        "FR-005",
+        "FR-018",
+        "NFR-003"
+      ],
+      "given_when": "Добавить произвольный независимый tenant",
+      "then": "Результаты исходного tenant не меняются",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "PROP-004",
+      "title": "Time translation",
+      "level": "property",
+      "priority": "P0",
+      "requirements": [
+        "FR-003",
+        "FR-005",
+        "FR-018",
+        "NFR-003"
+      ],
+      "given_when": "Сдвинуть события и valid intervals на одинаковую дельту",
+      "then": "Совпадают связи/счётчики/решения после обратного сдвига времени",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "PROP-005",
+      "title": "Threshold monotonicity",
+      "level": "property",
+      "priority": "P0",
+      "requirements": [
+        "FR-003",
+        "FR-005",
+        "FR-018",
+        "NFR-003"
+      ],
+      "given_when": "Для фиксированного окна поднять порог count",
+      "then": "Новых matches не появляется; сравниваются matches, не episode counts",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "PROP-006",
+      "title": "Benign extension",
+      "level": "property",
+      "priority": "P0",
+      "requirements": [
+        "FR-003",
+        "FR-005",
+        "FR-018",
+        "NFR-003"
+      ],
+      "given_when": "Добавить события другого action вне интервалов/ключей",
+      "then": "Детекты исходной истории сохраняются",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "PROP-007",
+      "title": "Serialization roundtrip",
+      "level": "property",
+      "priority": "P0",
+      "requirements": [
+        "FR-003",
+        "FR-005",
+        "FR-018",
+        "NFR-003"
+      ],
+      "given_when": "Генерировать допустимые модели и JSON roundtrip",
+      "then": "Значения/NULL/UTC/Unicode сохраняются без изменения типов",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "PROP-008",
+      "title": "Redaction invariant",
+      "level": "property",
+      "priority": "P0",
+      "requirements": [
+        "FR-003",
+        "FR-005",
+        "FR-018",
+        "NFR-003"
+      ],
+      "given_when": "В разрешённых местах генерировать canary-секреты",
+      "then": "Canary не появляется ни в одном persisted export или diagnostic",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "PERF-001",
+      "title": "100k standard",
+      "level": "performance",
+      "priority": "P1",
+      "requirements": [
+        "NFR-001",
+        "NFR-002",
+        "NFR-004"
+      ],
+      "given_when": "1 warmup + 5 run стандартного набора 100000",
+      "then": "На фиксированном стенде median≤30s; peak RSS≤1GiB",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "PERF-002",
+      "title": "1M standard",
+      "level": "performance",
+      "priority": "P1",
+      "requirements": [
+        "NFR-001",
+        "NFR-002",
+        "NFR-004"
+      ],
+      "given_when": "1 warmup + 5 run стандартного набора 1000000",
+      "then": "Median≤180s; peak RSS≤2GiB; counts полны",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "PERF-003",
+      "title": "Дисковый бюджет",
+      "level": "performance",
+      "priority": "P1",
+      "requirements": [
+        "NFR-001",
+        "NFR-002",
+        "NFR-004"
+      ],
+      "given_when": "Измерить DB+temp+exports standard profile",
+      "then": "Размер≤6×распакованный вход+100MiB",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "PERF-004",
+      "title": "Много сущностей",
+      "level": "performance",
+      "priority": "P1",
+      "requirements": [
+        "NFR-001",
+        "NFR-002",
+        "NFR-004"
+      ],
+      "given_when": "1M событий с высокой кардинальностью group keys",
+      "then": "Нет OOM; лимит завершает run контролируемо при превышении",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "PERF-005",
+      "title": "Плотный алерт",
+      "level": "performance",
+      "priority": "P1",
+      "requirements": [
+        "NFR-001",
+        "NFR-002",
+        "NFR-004"
+      ],
+      "given_when": "Все события соответствуют одному детекту",
+      "then": "Episode split≤60m; evidence не дублируется бесконтрольно внутри episode",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "PERF-006",
+      "title": "Повреждённый поток",
+      "level": "performance",
+      "priority": "P1",
+      "requirements": [
+        "NFR-001",
+        "NFR-002",
+        "NFR-004"
+      ],
+      "given_when": "1% битых строк в standard profile",
+      "then": "Все ошибки учтены; время и память публикуются вместе с throughput",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "PERF-007",
+      "title": "Отдельный HTML",
+      "level": "performance",
+      "priority": "P1",
+      "requirements": [
+        "NFR-001",
+        "NFR-002",
+        "NFR-004"
+      ],
+      "given_when": "Измерить HTML для 1000 кейсов",
+      "then": "Результат отдельно от core SLA; корректные truncation и полный JSON",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "PERF-008",
+      "title": "Регрессия",
+      "level": "performance",
+      "priority": "P1",
+      "requirements": [
+        "NFR-001",
+        "NFR-002",
+        "NFR-004"
+      ],
+      "given_when": "Сравнить benchmark с предыдущим релизом на том же стенде",
+      "then": ">20% замедления требует разбора; не скрывается сменой dataset/profile",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "CI-001",
+      "title": "Чистый wheel",
+      "level": "delivery",
+      "priority": "P0",
+      "requirements": [
+        "FR-019",
+        "FR-020",
+        "NFR-003",
+        "NFR-005",
+        "NFR-006"
+      ],
+      "given_when": "Установить wheel в чистое окружение из lock-compatible dependencies",
+      "then": "lia demo работает без checkout исходников",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "CI-002",
+      "title": "CI matrix",
+      "level": "delivery",
+      "priority": "P0",
+      "requirements": [
+        "FR-019",
+        "FR-020",
+        "NFR-003",
+        "NFR-005",
+        "NFR-006"
+      ],
+      "given_when": "Запустить обязательные suites на Python 3.12/3.13 Linux и Windows smoke",
+      "then": "Семантические результаты совпадают; платформенные skips объяснены",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "CI-003",
+      "title": "Coverage gate",
+      "level": "delivery",
+      "priority": "P0",
+      "requirements": [
+        "FR-019",
+        "FR-020",
+        "NFR-003",
+        "NFR-005",
+        "NFR-006"
+      ],
+      "given_when": "Снизить branch coverage ниже заданных порогов",
+      "then": "Pipeline не проходит; указаны недостающие ветви",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "CI-004",
+      "title": "Mutation gates",
+      "level": "delivery",
+      "priority": "P0",
+      "requirements": [
+        "FR-019",
+        "FR-020",
+        "NFR-003",
+        "NFR-005",
+        "NFR-006"
+      ],
+      "given_when": "Внести шесть целевых мутаций из ТЗ по одной",
+      "then": "Каждая вызывает падение релевантного теста",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "CI-005",
+      "title": "Label leakage",
+      "level": "delivery",
+      "priority": "P0",
+      "requirements": [
+        "FR-019",
+        "FR-020",
+        "NFR-003",
+        "NFR-005",
+        "NFR-006"
+      ],
+      "given_when": "Добавить метки only в evaluator storage",
+      "then": "Runtime detector не читает labels; перестановка labels не меняет alerts",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "CI-006",
+      "title": "Frozen evaluation",
+      "level": "delivery",
+      "priority": "P0",
+      "requirements": [
+        "FR-019",
+        "FR-020",
+        "NFR-003",
+        "NFR-005",
+        "NFR-006"
+      ],
+      "given_when": "Изменить вход/метки frozen suite без новой версии",
+      "then": "Hash gate падает; baseline не перезаписывается молча",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "CI-007",
+      "title": "Supply chain",
+      "level": "delivery",
+      "priority": "P0",
+      "requirements": [
+        "FR-019",
+        "FR-020",
+        "NFR-003",
+        "NFR-005",
+        "NFR-006"
+      ],
+      "given_when": "Проверить actions pins, lockfile, секреты и dependency report",
+      "then": "Есть проверяемый результат; применимые блокирующие проблемы останавливают релиз",
+      "status": "planned",
+      "automation": "automated"
+    },
+    {
+      "id": "CI-008",
+      "title": "README quickstart",
+      "level": "delivery",
+      "priority": "P0",
+      "requirements": [
+        "FR-019",
+        "FR-020",
+        "NFR-003",
+        "NFR-005",
+        "NFR-006"
+      ],
+      "given_when": "Выполнить документированные шаги в чистой среде",
+      "then": "Все команды и файлы совпадают с документацией; нет вымышленных результатов",
+      "status": "planned",
+      "automation": "automated"
+    }
+  ]
+}

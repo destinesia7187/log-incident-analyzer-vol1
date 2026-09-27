@@ -1,0 +1,9 @@
+schema: lia-config/v1
+trusted_proxy_cidrs: []
+sensitive_paths:
+  - /.env
+  - /.git/config
+  - /admin
+  - /backup.zip
+  - /config
+context: []

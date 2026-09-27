@@ -1,0 +1,69 @@
+{
+  "schema": "lia-rule/v1",
+  "id": "DET-005",
+  "version": 1,
+  "title": "Repeated MFA challenges",
+  "status": "stable",
+  "description": "Repeated MFA challenges. Review the supporting events.",
+  "rationale": "Observed events satisfy the documented rule conditions; intent requires analyst review.",
+  "owner": "project-maintainer",
+  "references": [
+    "https://attack.mitre.org/techniques/T1621/"
+  ],
+  "tests": [
+    "D05-001",
+    "D05-002",
+    "D05-003",
+    "D05-004",
+    "D05-005",
+    "D05-006",
+    "D05-007",
+    "D05-008"
+  ],
+  "required_capabilities": [
+    "auth.mfa.challenge"
+  ],
+  "required_fields": [
+    "actor.user_id",
+    "auth.mfa_request_id"
+  ],
+  "select": {
+    "all": [
+      {
+        "field": "event.action",
+        "equals": "auth.mfa.challenge"
+      },
+      {
+        "field": "event.outcome",
+        "equals": "requested"
+      }
+    ]
+  },
+  "aggregate": {
+    "type": "distinct_count",
+    "group_by": [
+      "tenant.id",
+      "app.id",
+      "actor.user_id"
+    ],
+    "window": "5m",
+    "threshold": {
+      "gte": 5
+    },
+    "field": "auth.mfa_request_id"
+  },
+  "severity": "medium",
+  "attack": [
+    {
+      "technique_id": "T1621",
+      "mapping_status": "candidate"
+    }
+  ],
+  "false_positives": [
+    "Repeated user retries may generate several distinct challenges."
+  ],
+  "next_steps": [
+    "Verify the account owner or service owner recognizes the activity.",
+    "Review related audit records and approved maintenance context."
+  ]
+}

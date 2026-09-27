@@ -1,0 +1,82 @@
+{
+  "captured_at": "2026-09-27T14:28:48.510771+00:00",
+  "origin": "HTTP requests recorded by tools/capture_lab.py on 127.0.0.1",
+  "passed": true,
+  "scenarios": [
+    {
+      "expected_rules": [
+        "DET-001",
+        "DET-003",
+        "DET-006"
+      ],
+      "false_positive_expected": false,
+      "label": "attack",
+      "observed_rules": [
+        "DET-001",
+        "DET-003",
+        "DET-006"
+      ],
+      "passed": true,
+      "requests": 12,
+      "scenario": "attack-login-mfa"
+    },
+    {
+      "expected_rules": [
+        "DET-002"
+      ],
+      "false_positive_expected": false,
+      "label": "attack",
+      "observed_rules": [
+        "DET-002"
+      ],
+      "passed": true,
+      "requests": 10,
+      "scenario": "attack-spray"
+    },
+    {
+      "expected_rules": [
+        "DET-008"
+      ],
+      "false_positive_expected": false,
+      "label": "attack",
+      "observed_rules": [
+        "DET-008"
+      ],
+      "passed": true,
+      "requests": 10,
+      "scenario": "attack-authorization"
+    },
+    {
+      "expected_rules": [],
+      "false_positive_expected": false,
+      "label": "benign",
+      "observed_rules": [],
+      "passed": true,
+      "requests": 1,
+      "scenario": "benign-login"
+    },
+    {
+      "expected_rules": [
+        "DET-001"
+      ],
+      "false_positive_expected": true,
+      "label": "benign",
+      "observed_rules": [
+        "DET-001"
+      ],
+      "passed": true,
+      "requests": 10,
+      "scenario": "benign-owner-errors"
+    },
+    {
+      "expected_rules": [],
+      "false_positive_expected": false,
+      "label": "benign",
+      "observed_rules": [],
+      "passed": true,
+      "requests": 2,
+      "scenario": "benign-mfa-maintenance"
+    }
+  ],
+  "scope": "Toy application with synthetic identities; not a production IdP validation"
+}

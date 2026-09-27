@@ -1,0 +1,2 @@
+{"timestamp":"2026-01-15T12:01:00.000000Z","network":{"peer_ip":"192.0.2.20"},"http":{"method":"GET","path":"/admin","status":403,"request_id":"example-request-1"}}
+{"timestamp":"2026-01-15T12:01:01.000000Z","network":{"peer_ip":"192.0.2.20"},"http":{"method":"GET","path":"/.env","status":404,"request_id":"example-request-2"}}

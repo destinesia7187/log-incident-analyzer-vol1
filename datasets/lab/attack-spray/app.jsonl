@@ -1,0 +1,10 @@
+{"schema_version":"app-audit-v1","event_id":"lab-00000","timestamp":"2026-09-27T14:28:41.465138+00:00","actor":{"user_id":"lab-user-0"},"network":{"peer_ip":"127.0.0.1"},"action":"auth.login","outcome":"failure"}
+{"schema_version":"app-audit-v1","event_id":"lab-00001","timestamp":"2026-09-27T14:28:41.477109+00:00","actor":{"user_id":"lab-user-1"},"network":{"peer_ip":"127.0.0.1"},"action":"auth.login","outcome":"failure"}
+{"schema_version":"app-audit-v1","event_id":"lab-00002","timestamp":"2026-09-27T14:28:41.478126+00:00","actor":{"user_id":"lab-user-2"},"network":{"peer_ip":"127.0.0.1"},"action":"auth.login","outcome":"failure"}
+{"schema_version":"app-audit-v1","event_id":"lab-00003","timestamp":"2026-09-27T14:28:41.489301+00:00","actor":{"user_id":"lab-user-3"},"network":{"peer_ip":"127.0.0.1"},"action":"auth.login","outcome":"failure"}
+{"schema_version":"app-audit-v1","event_id":"lab-00004","timestamp":"2026-09-27T14:28:41.501378+00:00","actor":{"user_id":"lab-user-4"},"network":{"peer_ip":"127.0.0.1"},"action":"auth.login","outcome":"failure"}
+{"schema_version":"app-audit-v1","event_id":"lab-00005","timestamp":"2026-09-27T14:28:41.513570+00:00","actor":{"user_id":"lab-user-5"},"network":{"peer_ip":"127.0.0.1"},"action":"auth.login","outcome":"failure"}
+{"schema_version":"app-audit-v1","event_id":"lab-00006","timestamp":"2026-09-27T14:28:41.525217+00:00","actor":{"user_id":"lab-user-6"},"network":{"peer_ip":"127.0.0.1"},"action":"auth.login","outcome":"failure"}
+{"schema_version":"app-audit-v1","event_id":"lab-00007","timestamp":"2026-09-27T14:28:41.537814+00:00","actor":{"user_id":"lab-user-7"},"network":{"peer_ip":"127.0.0.1"},"action":"auth.login","outcome":"failure"}
+{"schema_version":"app-audit-v1","event_id":"lab-00008","timestamp":"2026-09-27T14:28:41.549381+00:00","actor":{"user_id":"lab-user-8"},"network":{"peer_ip":"127.0.0.1"},"action":"auth.login","outcome":"failure"}
+{"schema_version":"app-audit-v1","event_id":"lab-00009","timestamp":"2026-09-27T14:28:41.561488+00:00","actor":{"user_id":"lab-user-9"},"network":{"peer_ip":"127.0.0.1"},"action":"auth.login","outcome":"failure"}

@@ -1,0 +1,76 @@
+{
+  "schema": "lia-rule/v1",
+  "id": "DET-008",
+  "version": 1,
+  "title": "Repeated authorization denials",
+  "status": "stable",
+  "description": "Repeated authorization denials. Review the supporting events.",
+  "rationale": "Observed events satisfy the documented rule conditions; intent requires analyst review.",
+  "owner": "project-maintainer",
+  "references": [
+    "https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html"
+  ],
+  "tests": [
+    "D08-001",
+    "D08-002",
+    "D08-003",
+    "D08-004",
+    "D08-005",
+    "D08-006",
+    "D08-007",
+    "D08-008"
+  ],
+  "required_capabilities": [
+    "authz.denied"
+  ],
+  "required_fields": [
+    "actor.user_id",
+    "target.resource_id"
+  ],
+  "select": {
+    "all": [
+      {
+        "field": "event.action",
+        "equals": "authz.check"
+      },
+      {
+        "field": "event.outcome",
+        "equals": "denied"
+      }
+    ]
+  },
+  "aggregate": {
+    "type": "multi_count",
+    "group_by": [
+      "tenant.id",
+      "app.id",
+      "actor.user_id"
+    ],
+    "window": "5m",
+    "measures": [
+      {
+        "name": "events",
+        "field": null,
+        "threshold": {
+          "gte": 10
+        }
+      },
+      {
+        "name": "distinct_resources",
+        "field": "target.resource_id",
+        "threshold": {
+          "gte": 3
+        }
+      }
+    ]
+  },
+  "severity": "medium",
+  "attack": [],
+  "false_positives": [
+    "An application misconfiguration may generate denials. Denial does not prove IDOR."
+  ],
+  "next_steps": [
+    "Verify the account owner or service owner recognizes the activity.",
+    "Review related audit records and approved maintenance context."
+  ]
+}

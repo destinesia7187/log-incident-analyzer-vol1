@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "findings": {
+      "items": {
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "rules": {
+      "items": {
+        "properties": {
+          "candidates": {
+            "minimum": 0,
+            "type": "integer"
+          },
+          "eligible": {
+            "minimum": 0,
+            "type": "integer"
+          },
+          "excluded": {
+            "minimum": 0,
+            "type": "integer"
+          },
+          "missing_fields": {
+            "additionalProperties": {
+              "minimum": 0,
+              "type": "integer"
+            },
+            "type": "object"
+          },
+          "rule_id": {
+            "type": "string"
+          },
+          "status": {
+            "enum": [
+              "ready",
+              "degraded",
+              "unavailable",
+              "no_data"
+            ]
+          }
+        },
+        "required": [
+          "rule_id",
+          "status",
+          "candidates",
+          "eligible",
+          "excluded",
+          "missing_fields"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "schema_version": {
+      "const": "1.0"
+    }
+  },
+  "required": [
+    "schema_version",
+    "rules",
+    "findings"
+  ],
+  "type": "object"
+}

@@ -1,0 +1,2 @@
+{"schema_version":"app-audit-v1","event_id":"example-1","timestamp":"2026-01-15T12:00:00.000000Z","action":"auth.login","outcome":"failure","actor":{"user_id":"example-user"},"network":{"peer_ip":"192.0.2.10"}}
+{"schema_version":"app-audit-v1","event_id":"example-2","timestamp":"2026-01-15T12:00:10.000000Z","action":"auth.login","outcome":"success","actor":{"user_id":"example-user"},"network":{"peer_ip":"192.0.2.10"},"auth":{"session_ref":"synthetic-correlation-reference"}}

@@ -1,0 +1,41 @@
+{
+  "mutations": [
+    {
+      "name": "threshold",
+      "killed": true,
+      "exit_code": 1,
+      "test": "tests/test_detectors.py::test_det001"
+    },
+    {
+      "name": "tenant_key",
+      "killed": true,
+      "exit_code": 1,
+      "test": "tests/test_detectors.py::test_det004"
+    },
+    {
+      "name": "left_boundary",
+      "killed": true,
+      "exit_code": 1,
+      "test": "tests/test_time.py::test_boundaries"
+    },
+    {
+      "name": "redaction",
+      "killed": true,
+      "exit_code": 1,
+      "test": "tests/test_security_storage.py::test_secret_outputs"
+    },
+    {
+      "name": "html_escape",
+      "killed": true,
+      "exit_code": 1,
+      "test": "tests/test_security_storage.py::test_html_escape"
+    },
+    {
+      "name": "sequence_order",
+      "killed": true,
+      "exit_code": 1,
+      "test": "tests/test_time.py::test_order_not_invented"
+    }
+  ],
+  "passed": true
+}

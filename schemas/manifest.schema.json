@@ -1,0 +1,203 @@
+{
+  "$defs": {
+    "Heartbeat": {
+      "additionalProperties": false,
+      "properties": {
+        "coverage_end": {
+          "title": "Coverage End",
+          "type": "string"
+        },
+        "coverage_start": {
+          "title": "Coverage Start",
+          "type": "string"
+        },
+        "expected_interval_s": {
+          "exclusiveMinimum": 0,
+          "title": "Expected Interval S",
+          "type": "integer"
+        },
+        "max_gap_s": {
+          "exclusiveMinimum": 0,
+          "title": "Max Gap S",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "coverage_start",
+        "coverage_end",
+        "expected_interval_s",
+        "max_gap_s"
+      ],
+      "title": "Heartbeat",
+      "type": "object"
+    },
+    "Source": {
+      "additionalProperties": false,
+      "properties": {
+        "application_id": {
+          "maxLength": 256,
+          "minLength": 1,
+          "title": "Application Id",
+          "type": "string"
+        },
+        "authority": {
+          "default": "unverified",
+          "enum": [
+            "application_audit",
+            "idp_audit",
+            "web_access",
+            "unverified"
+          ],
+          "title": "Authority",
+          "type": "string"
+        },
+        "available_fields": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Available Fields",
+          "type": "array"
+        },
+        "casefold_user": {
+          "default": false,
+          "title": "Casefold User",
+          "type": "boolean"
+        },
+        "clock_offset_ms": {
+          "default": 0,
+          "title": "Clock Offset Ms",
+          "type": "integer"
+        },
+        "clock_uncertainty_ms": {
+          "default": 0,
+          "minimum": 0,
+          "title": "Clock Uncertainty Ms",
+          "type": "integer"
+        },
+        "declared_capabilities": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Declared Capabilities",
+          "type": "array"
+        },
+        "format": {
+          "enum": [
+            "app-audit-v1",
+            "nginx-json-v1",
+            "nginx-combined-v1"
+          ],
+          "title": "Format",
+          "type": "string"
+        },
+        "forwarded_enabled": {
+          "default": false,
+          "title": "Forwarded Enabled",
+          "type": "boolean"
+        },
+        "heartbeat": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Heartbeat"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "path": {
+          "title": "Path",
+          "type": "string"
+        },
+        "platform_scope": {
+          "default": "generic_application",
+          "title": "Platform Scope",
+          "type": "string"
+        },
+        "precision_us": {
+          "anyOf": [
+            {
+              "minimum": 1,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Precision Us"
+        },
+        "rounding": {
+          "default": "truncate",
+          "enum": [
+            "truncate",
+            "unknown"
+          ],
+          "title": "Rounding",
+          "type": "string"
+        },
+        "source_id": {
+          "maxLength": 256,
+          "minLength": 1,
+          "title": "Source Id",
+          "type": "string"
+        },
+        "tenant_id": {
+          "maxLength": 256,
+          "minLength": 1,
+          "title": "Tenant Id",
+          "type": "string"
+        },
+        "timezone": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Timezone"
+        }
+      },
+      "required": [
+        "path",
+        "format",
+        "source_id",
+        "tenant_id",
+        "application_id"
+      ],
+      "title": "Source",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "input_root": {
+      "title": "Input Root",
+      "type": "string"
+    },
+    "schema": {
+      "const": "lia-input/v1",
+      "title": "Schema",
+      "type": "string"
+    },
+    "sources": {
+      "items": {
+        "$ref": "#/$defs/Source"
+      },
+      "minItems": 1,
+      "title": "Sources",
+      "type": "array"
+    }
+  },
+  "required": [
+    "schema",
+    "input_root",
+    "sources"
+  ],
+  "title": "Manifest",
+  "type": "object"
+}

@@ -1,0 +1,794 @@
+{
+  "alerts": [
+    {
+      "alternatives": [
+        "The owner may have recovered access. A successful login alone does not prove compromise."
+      ],
+      "application_id": "demo",
+      "attack": [
+        {
+          "mapping_status": "candidate",
+          "rationale": "Observed events satisfy the documented rule conditions; intent requires analyst review.",
+          "snapshot_date": "2026-09-27",
+          "technique_id": "T1110.001",
+          "url": "https://attack.mitre.org/techniques/T1110/001/"
+        }
+      ],
+      "client_ip": "192.0.2.10",
+      "confidence": "supported",
+      "context_ids": [],
+      "end": 1768478500000000,
+      "episode_started": 1768478500000000,
+      "evidence_ids": [
+        "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+        "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+        "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+        "106c16d0f1c454b536a394637d930175cc6a2689cc7dcac4648984600c108d87",
+        "1f4eb268c9cee97277bb6bbc3cd2146efc3ab589c0659a444afaf0ea78ef573d",
+        "a056a8437f9461e477fdce998d55bfe047fd931c6eb02ab614bb592f4bc8dcce",
+        "f34a80d06acfa1f9d10945c83122da5587111710c231b393dbbb32bcdbb928bb",
+        "ffcddb9d966fbd50bf21aa140a360eadbe7894c8cb7a6b99f9f4bb7b55f415c4",
+        "b22c7b325a12234a752a5691ac1e739ea6c916dabe0f97f91afd8a48483ef5e8",
+        "8e1cd4b72237e4bae782008f87bd679ff48fac2e7b1e620a7b87d41601adb14d",
+        "504fc8dc69286e0dabda18b96f9e026f704ba286b05eb9d05632778f99d7b1f1"
+      ],
+      "group_key": [
+        "local",
+        "demo",
+        "demo-user",
+        "192.0.2.10"
+      ],
+      "id": "ALT-6d1085b1961d714e3734c44d",
+      "limitations": [
+        "Observed behavior requires analyst review; compromise is not established."
+      ],
+      "metrics": {},
+      "next_steps": [
+        "Verify the account owner or service owner recognizes the activity.",
+        "Review related audit records and approved maintenance context."
+      ],
+      "rule_id": "DET-003",
+      "rule_version": 1,
+      "severity": "high",
+      "start": 1768478400000000,
+      "suppressed": false,
+      "suppression_ids": [],
+      "tenant_id": "local",
+      "title": "Successful sign-in after failures",
+      "upstream_alert_ids": [
+        "ALT-9823ed940afe3e13f11b6cd7"
+      ],
+      "user_id": "demo-user"
+    },
+    {
+      "alternatives": [
+        "The account owner may have mistyped or used an outdated password."
+      ],
+      "application_id": "demo",
+      "attack": [
+        {
+          "mapping_status": "candidate",
+          "rationale": "Observed events satisfy the documented rule conditions; intent requires analyst review.",
+          "snapshot_date": "2026-09-27",
+          "technique_id": "T1110.001",
+          "url": "https://attack.mitre.org/techniques/T1110/001/"
+        }
+      ],
+      "client_ip": "192.0.2.10",
+      "confidence": "supported",
+      "context_ids": [],
+      "end": 1768478490000000,
+      "episode_started": 1768478490000000,
+      "evidence_ids": [
+        "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+        "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+        "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+        "106c16d0f1c454b536a394637d930175cc6a2689cc7dcac4648984600c108d87",
+        "1f4eb268c9cee97277bb6bbc3cd2146efc3ab589c0659a444afaf0ea78ef573d",
+        "a056a8437f9461e477fdce998d55bfe047fd931c6eb02ab614bb592f4bc8dcce",
+        "f34a80d06acfa1f9d10945c83122da5587111710c231b393dbbb32bcdbb928bb",
+        "ffcddb9d966fbd50bf21aa140a360eadbe7894c8cb7a6b99f9f4bb7b55f415c4",
+        "b22c7b325a12234a752a5691ac1e739ea6c916dabe0f97f91afd8a48483ef5e8",
+        "8e1cd4b72237e4bae782008f87bd679ff48fac2e7b1e620a7b87d41601adb14d"
+      ],
+      "group_key": [
+        "local",
+        "demo",
+        "demo-user",
+        "192.0.2.10"
+      ],
+      "id": "ALT-9823ed940afe3e13f11b6cd7",
+      "limitations": [
+        "Observed behavior requires analyst review; compromise is not established."
+      ],
+      "metrics": {
+        "events": 10
+      },
+      "next_steps": [
+        "Verify the account owner or service owner recognizes the activity.",
+        "Review related audit records and approved maintenance context."
+      ],
+      "rule_id": "DET-001",
+      "rule_version": 1,
+      "severity": "medium",
+      "start": 1768478400000000,
+      "suppressed": false,
+      "suppression_ids": [],
+      "tenant_id": "local",
+      "title": "Repeated failed sign-ins",
+      "upstream_alert_ids": [],
+      "user_id": "demo-user"
+    },
+    {
+      "alternatives": [
+        "An authorized account recovery may include registration of a new device."
+      ],
+      "application_id": "demo",
+      "attack": [
+        {
+          "mapping_status": "candidate",
+          "rationale": "Observed events satisfy the documented rule conditions; intent requires analyst review.",
+          "snapshot_date": "2026-09-27",
+          "technique_id": "T1098.005",
+          "url": "https://attack.mitre.org/techniques/T1098/005/"
+        }
+      ],
+      "client_ip": "192.0.2.10",
+      "confidence": "supported",
+      "context_ids": [],
+      "end": 1768478520000000,
+      "episode_started": 1768478520000000,
+      "evidence_ids": [
+        "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+        "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+        "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+        "106c16d0f1c454b536a394637d930175cc6a2689cc7dcac4648984600c108d87",
+        "1f4eb268c9cee97277bb6bbc3cd2146efc3ab589c0659a444afaf0ea78ef573d",
+        "a056a8437f9461e477fdce998d55bfe047fd931c6eb02ab614bb592f4bc8dcce",
+        "f34a80d06acfa1f9d10945c83122da5587111710c231b393dbbb32bcdbb928bb",
+        "ffcddb9d966fbd50bf21aa140a360eadbe7894c8cb7a6b99f9f4bb7b55f415c4",
+        "b22c7b325a12234a752a5691ac1e739ea6c916dabe0f97f91afd8a48483ef5e8",
+        "8e1cd4b72237e4bae782008f87bd679ff48fac2e7b1e620a7b87d41601adb14d",
+        "504fc8dc69286e0dabda18b96f9e026f704ba286b05eb9d05632778f99d7b1f1",
+        "223a9874a4ef9929b53afa683b840c78cbd9e5500cfa1de0f9bd2162c779d924"
+      ],
+      "group_key": [
+        "local",
+        "demo",
+        "demo-user",
+        "473a0d7640a54a35e6fe9348b1726b5d005d308445f2ec784e0e12608eddbefe"
+      ],
+      "id": "ALT-ef94454ac2f152e0c005f268",
+      "limitations": [
+        "Observed behavior requires analyst review; compromise is not established."
+      ],
+      "metrics": {},
+      "next_steps": [
+        "Verify the account owner or service owner recognizes the activity.",
+        "Review related audit records and approved maintenance context."
+      ],
+      "rule_id": "DET-006",
+      "rule_version": 1,
+      "severity": "high",
+      "start": 1768478400000000,
+      "suppressed": false,
+      "suppression_ids": [],
+      "tenant_id": "local",
+      "title": "MFA device registration after suspicious sign-in",
+      "upstream_alert_ids": [
+        "ALT-6d1085b1961d714e3734c44d"
+      ],
+      "user_id": "demo-user"
+    }
+  ],
+  "cases": [
+    {
+      "alert_ids": [
+        "ALT-6d1085b1961d714e3734c44d",
+        "ALT-9823ed940afe3e13f11b6cd7",
+        "ALT-ef94454ac2f152e0c005f268"
+      ],
+      "alternatives": [
+        "An authorized account recovery may include registration of a new device.",
+        "The account owner may have mistyped or used an outdated password.",
+        "The owner may have recovered access. A successful login alone does not prove compromise."
+      ],
+      "application_id": "demo",
+      "attack": [
+        {
+          "mapping_status": "candidate",
+          "rationale": "Observed events satisfy the documented rule conditions; intent requires analyst review.",
+          "snapshot_date": "2026-09-27",
+          "technique_id": "T1110.001",
+          "url": "https://attack.mitre.org/techniques/T1110/001/"
+        },
+        {
+          "mapping_status": "candidate",
+          "rationale": "Observed events satisfy the documented rule conditions; intent requires analyst review.",
+          "snapshot_date": "2026-09-27",
+          "technique_id": "T1098.005",
+          "url": "https://attack.mitre.org/techniques/T1098/005/"
+        }
+      ],
+      "client_ip": "192.0.2.10",
+      "confidence": "supported",
+      "confidence_reasons": [
+        "Required evidence fields and ordering are available."
+      ],
+      "context_details": [],
+      "context_ids": [],
+      "decision": "escalate",
+      "edges": [
+        {
+          "evidence_ids": [
+            "106c16d0f1c454b536a394637d930175cc6a2689cc7dcac4648984600c108d87",
+            "1f4eb268c9cee97277bb6bbc3cd2146efc3ab589c0659a444afaf0ea78ef573d",
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "8e1cd4b72237e4bae782008f87bd679ff48fac2e7b1e620a7b87d41601adb14d",
+            "a056a8437f9461e477fdce998d55bfe047fd931c6eb02ab614bb592f4bc8dcce",
+            "b22c7b325a12234a752a5691ac1e739ea6c916dabe0f97f91afd8a48483ef5e8",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "f34a80d06acfa1f9d10945c83122da5587111710c231b393dbbb32bcdbb928bb",
+            "ffcddb9d966fbd50bf21aa140a360eadbe7894c8cb7a6b99f9f4bb7b55f415c4"
+          ],
+          "from": "ALT-9823ed940afe3e13f11b6cd7",
+          "reason": "explicit_sequence",
+          "to": "ALT-6d1085b1961d714e3734c44d"
+        },
+        {
+          "evidence_ids": [
+            "106c16d0f1c454b536a394637d930175cc6a2689cc7dcac4648984600c108d87",
+            "1f4eb268c9cee97277bb6bbc3cd2146efc3ab589c0659a444afaf0ea78ef573d",
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "504fc8dc69286e0dabda18b96f9e026f704ba286b05eb9d05632778f99d7b1f1",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "8e1cd4b72237e4bae782008f87bd679ff48fac2e7b1e620a7b87d41601adb14d",
+            "a056a8437f9461e477fdce998d55bfe047fd931c6eb02ab614bb592f4bc8dcce",
+            "b22c7b325a12234a752a5691ac1e739ea6c916dabe0f97f91afd8a48483ef5e8",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "f34a80d06acfa1f9d10945c83122da5587111710c231b393dbbb32bcdbb928bb",
+            "ffcddb9d966fbd50bf21aa140a360eadbe7894c8cb7a6b99f9f4bb7b55f415c4"
+          ],
+          "from": "ALT-6d1085b1961d714e3734c44d",
+          "reason": "explicit_sequence",
+          "to": "ALT-ef94454ac2f152e0c005f268"
+        }
+      ],
+      "end": 1768478520000000,
+      "evidence_ids": [
+        "106c16d0f1c454b536a394637d930175cc6a2689cc7dcac4648984600c108d87",
+        "1f4eb268c9cee97277bb6bbc3cd2146efc3ab589c0659a444afaf0ea78ef573d",
+        "223a9874a4ef9929b53afa683b840c78cbd9e5500cfa1de0f9bd2162c779d924",
+        "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+        "504fc8dc69286e0dabda18b96f9e026f704ba286b05eb9d05632778f99d7b1f1",
+        "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+        "8e1cd4b72237e4bae782008f87bd679ff48fac2e7b1e620a7b87d41601adb14d",
+        "a056a8437f9461e477fdce998d55bfe047fd931c6eb02ab614bb592f4bc8dcce",
+        "b22c7b325a12234a752a5691ac1e739ea6c916dabe0f97f91afd8a48483ef5e8",
+        "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+        "f34a80d06acfa1f9d10945c83122da5587111710c231b393dbbb32bcdbb928bb",
+        "ffcddb9d966fbd50bf21aa140a360eadbe7894c8cb7a6b99f9f4bb7b55f415c4"
+      ],
+      "facts": [
+        {
+          "evidence_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "106c16d0f1c454b536a394637d930175cc6a2689cc7dcac4648984600c108d87",
+            "1f4eb268c9cee97277bb6bbc3cd2146efc3ab589c0659a444afaf0ea78ef573d",
+            "a056a8437f9461e477fdce998d55bfe047fd931c6eb02ab614bb592f4bc8dcce",
+            "f34a80d06acfa1f9d10945c83122da5587111710c231b393dbbb32bcdbb928bb",
+            "ffcddb9d966fbd50bf21aa140a360eadbe7894c8cb7a6b99f9f4bb7b55f415c4",
+            "b22c7b325a12234a752a5691ac1e739ea6c916dabe0f97f91afd8a48483ef5e8",
+            "8e1cd4b72237e4bae782008f87bd679ff48fac2e7b1e620a7b87d41601adb14d",
+            "504fc8dc69286e0dabda18b96f9e026f704ba286b05eb9d05632778f99d7b1f1"
+          ],
+          "rule_id": "DET-003",
+          "text": "Successful sign-in after failures: documented rule conditions matched."
+        },
+        {
+          "evidence_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "106c16d0f1c454b536a394637d930175cc6a2689cc7dcac4648984600c108d87",
+            "1f4eb268c9cee97277bb6bbc3cd2146efc3ab589c0659a444afaf0ea78ef573d",
+            "a056a8437f9461e477fdce998d55bfe047fd931c6eb02ab614bb592f4bc8dcce",
+            "f34a80d06acfa1f9d10945c83122da5587111710c231b393dbbb32bcdbb928bb",
+            "ffcddb9d966fbd50bf21aa140a360eadbe7894c8cb7a6b99f9f4bb7b55f415c4",
+            "b22c7b325a12234a752a5691ac1e739ea6c916dabe0f97f91afd8a48483ef5e8",
+            "8e1cd4b72237e4bae782008f87bd679ff48fac2e7b1e620a7b87d41601adb14d"
+          ],
+          "rule_id": "DET-001",
+          "text": "Repeated failed sign-ins: documented rule conditions matched."
+        },
+        {
+          "evidence_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "106c16d0f1c454b536a394637d930175cc6a2689cc7dcac4648984600c108d87",
+            "1f4eb268c9cee97277bb6bbc3cd2146efc3ab589c0659a444afaf0ea78ef573d",
+            "a056a8437f9461e477fdce998d55bfe047fd931c6eb02ab614bb592f4bc8dcce",
+            "f34a80d06acfa1f9d10945c83122da5587111710c231b393dbbb32bcdbb928bb",
+            "ffcddb9d966fbd50bf21aa140a360eadbe7894c8cb7a6b99f9f4bb7b55f415c4",
+            "b22c7b325a12234a752a5691ac1e739ea6c916dabe0f97f91afd8a48483ef5e8",
+            "8e1cd4b72237e4bae782008f87bd679ff48fac2e7b1e620a7b87d41601adb14d",
+            "504fc8dc69286e0dabda18b96f9e026f704ba286b05eb9d05632778f99d7b1f1",
+            "223a9874a4ef9929b53afa683b840c78cbd9e5500cfa1de0f9bd2162c779d924"
+          ],
+          "rule_id": "DET-006",
+          "text": "MFA device registration after suspicious sign-in: documented rule conditions matched."
+        }
+      ],
+      "history": [],
+      "hypotheses": [
+        "Potential unauthorized activity; verify with the account or service owner."
+      ],
+      "id": "CASE-5c25878f2d3916bb74f3f976",
+      "limitations": [
+        "Observed behavior requires analyst review; compromise is not established."
+      ],
+      "next_steps": [
+        "Review related audit records and approved maintenance context.",
+        "Verify the account owner or service owner recognizes the activity."
+      ],
+      "notes": [],
+      "priority": "high",
+      "queue_visible": true,
+      "related": [],
+      "related_reasons": [],
+      "score": 75,
+      "score_components": [
+        {
+          "reason": "maximum_rule_severity",
+          "value": 60
+        },
+        {
+          "reason": "mfa_registration_sequence",
+          "value": 15
+        }
+      ],
+      "severity": "high",
+      "start": 1768478400000000,
+      "status": "new",
+      "suppressed": false,
+      "tenant_id": "local",
+      "title": "MFA device registration after suspicious sign-in",
+      "user_id": "demo-user"
+    }
+  ],
+  "config_hash": "28591f311b4c31f2574ab63658a481a19e03607fff07bc66e2dd54d8d1efa96e",
+  "dataset_hash": "9b7796292d10dd611c60e6a21aad57794ed12ae05aa208b6fec98b317e9d7c3c",
+  "event_count": 12,
+  "evidence": [
+    {
+      "artifact": "4dda7566a75ca6702686d3fb3e1b6c52ebac10ee2a006ba3b58617ff02eef512",
+      "fields": {
+        "actor.user_id": "demo-user",
+        "app.id": "demo",
+        "event.action": "auth.login",
+        "event.original_id": "event-00000003",
+        "event.outcome": "failure",
+        "event.time_original": "2026-01-15T12:00:30Z",
+        "network.client_ip": "192.0.2.10",
+        "network.client_ip_basis": "peer",
+        "network.peer_ip": "192.0.2.10",
+        "source.authority": "idp_audit",
+        "source.platform_scope": "identity_provider",
+        "tenant.id": "local"
+      },
+      "flags": [],
+      "line": 4,
+      "offset": 618,
+      "precision_us": 1000000,
+      "record_digest": "427cb8e8b01c3165bb9b3bb93224d7833d58ae66127edd2c8f66d2bcf877b695",
+      "source_id": "demo-audit",
+      "time": 1768478430000000,
+      "uid": "106c16d0f1c454b536a394637d930175cc6a2689cc7dcac4648984600c108d87",
+      "uncertainty_us": 0
+    },
+    {
+      "artifact": "4dda7566a75ca6702686d3fb3e1b6c52ebac10ee2a006ba3b58617ff02eef512",
+      "fields": {
+        "actor.user_id": "demo-user",
+        "app.id": "demo",
+        "event.action": "auth.login",
+        "event.original_id": "event-00000004",
+        "event.outcome": "failure",
+        "event.time_original": "2026-01-15T12:00:40Z",
+        "network.client_ip": "192.0.2.10",
+        "network.client_ip_basis": "peer",
+        "network.peer_ip": "192.0.2.10",
+        "source.authority": "idp_audit",
+        "source.platform_scope": "identity_provider",
+        "tenant.id": "local"
+      },
+      "flags": [],
+      "line": 5,
+      "offset": 824,
+      "precision_us": 1000000,
+      "record_digest": "212b430d0a5016db6cdf70b66ffb93e79966ee2f043a486b5c5b0b25e7218b75",
+      "source_id": "demo-audit",
+      "time": 1768478440000000,
+      "uid": "1f4eb268c9cee97277bb6bbc3cd2146efc3ab589c0659a444afaf0ea78ef573d",
+      "uncertainty_us": 0
+    },
+    {
+      "artifact": "4dda7566a75ca6702686d3fb3e1b6c52ebac10ee2a006ba3b58617ff02eef512",
+      "fields": {
+        "actor.user_id": "demo-user",
+        "app.id": "demo",
+        "auth.device_ref": "demo-device-2",
+        "auth.session_ref": "473a0d7640a54a35e6fe9348b1726b5d005d308445f2ec784e0e12608eddbefe",
+        "event.action": "auth.mfa.enroll",
+        "event.original_id": "event-00000011",
+        "event.outcome": "success",
+        "event.time_original": "2026-01-15T12:02:00Z",
+        "network.client_ip": "192.0.2.10",
+        "network.client_ip_basis": "peer",
+        "network.peer_ip": "192.0.2.10",
+        "source.authority": "idp_audit",
+        "source.platform_scope": "identity_provider",
+        "target.user_id": "demo-user",
+        "tenant.id": "local"
+      },
+      "flags": [],
+      "line": 12,
+      "offset": 2319,
+      "precision_us": 1000000,
+      "record_digest": "88290e003b4c3296f3afd35d2aa9bde76789f6655e20ab58275ddf5c9bb07954",
+      "source_id": "demo-audit",
+      "time": 1768478520000000,
+      "uid": "223a9874a4ef9929b53afa683b840c78cbd9e5500cfa1de0f9bd2162c779d924",
+      "uncertainty_us": 0
+    },
+    {
+      "artifact": "4dda7566a75ca6702686d3fb3e1b6c52ebac10ee2a006ba3b58617ff02eef512",
+      "fields": {
+        "actor.user_id": "demo-user",
+        "app.id": "demo",
+        "event.action": "auth.login",
+        "event.original_id": "event-00000000",
+        "event.outcome": "failure",
+        "event.time_original": "2026-01-15T12:00:00Z",
+        "network.client_ip": "192.0.2.10",
+        "network.client_ip_basis": "peer",
+        "network.peer_ip": "192.0.2.10",
+        "source.authority": "idp_audit",
+        "source.platform_scope": "identity_provider",
+        "tenant.id": "local"
+      },
+      "flags": [],
+      "line": 1,
+      "offset": 0,
+      "precision_us": 1000000,
+      "record_digest": "4b9ce54f937427e61c86d109c99c043017b8f3e3c9ade8e89c919f0c99cce297",
+      "source_id": "demo-audit",
+      "time": 1768478400000000,
+      "uid": "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+      "uncertainty_us": 0
+    },
+    {
+      "artifact": "4dda7566a75ca6702686d3fb3e1b6c52ebac10ee2a006ba3b58617ff02eef512",
+      "fields": {
+        "actor.user_id": "demo-user",
+        "app.id": "demo",
+        "auth.session_ref": "473a0d7640a54a35e6fe9348b1726b5d005d308445f2ec784e0e12608eddbefe",
+        "event.action": "auth.login",
+        "event.original_id": "event-00000010",
+        "event.outcome": "success",
+        "event.time_original": "2026-01-15T12:01:40Z",
+        "network.client_ip": "192.0.2.10",
+        "network.client_ip_basis": "peer",
+        "network.peer_ip": "192.0.2.10",
+        "source.authority": "idp_audit",
+        "source.platform_scope": "identity_provider",
+        "tenant.id": "local"
+      },
+      "flags": [],
+      "line": 11,
+      "offset": 2060,
+      "precision_us": 1000000,
+      "record_digest": "43995b5600b3e1d5ca2a160ccf4b77616a39db00102b239889f99fea234351dc",
+      "source_id": "demo-audit",
+      "time": 1768478500000000,
+      "uid": "504fc8dc69286e0dabda18b96f9e026f704ba286b05eb9d05632778f99d7b1f1",
+      "uncertainty_us": 0
+    },
+    {
+      "artifact": "4dda7566a75ca6702686d3fb3e1b6c52ebac10ee2a006ba3b58617ff02eef512",
+      "fields": {
+        "actor.user_id": "demo-user",
+        "app.id": "demo",
+        "event.action": "auth.login",
+        "event.original_id": "event-00000001",
+        "event.outcome": "failure",
+        "event.time_original": "2026-01-15T12:00:10Z",
+        "network.client_ip": "192.0.2.10",
+        "network.client_ip_basis": "peer",
+        "network.peer_ip": "192.0.2.10",
+        "source.authority": "idp_audit",
+        "source.platform_scope": "identity_provider",
+        "tenant.id": "local"
+      },
+      "flags": [],
+      "line": 2,
+      "offset": 206,
+      "precision_us": 1000000,
+      "record_digest": "d68e57601bd4949854aa7f7d670882812e91d17f36f71079d1a432af16ee4400",
+      "source_id": "demo-audit",
+      "time": 1768478410000000,
+      "uid": "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+      "uncertainty_us": 0
+    },
+    {
+      "artifact": "4dda7566a75ca6702686d3fb3e1b6c52ebac10ee2a006ba3b58617ff02eef512",
+      "fields": {
+        "actor.user_id": "demo-user",
+        "app.id": "demo",
+        "event.action": "auth.login",
+        "event.original_id": "event-00000009",
+        "event.outcome": "failure",
+        "event.time_original": "2026-01-15T12:01:30Z",
+        "network.client_ip": "192.0.2.10",
+        "network.client_ip_basis": "peer",
+        "network.peer_ip": "192.0.2.10",
+        "source.authority": "idp_audit",
+        "source.platform_scope": "identity_provider",
+        "tenant.id": "local"
+      },
+      "flags": [],
+      "line": 10,
+      "offset": 1854,
+      "precision_us": 1000000,
+      "record_digest": "7cad3421af5571dbf1686c541ce07c7bef9f6866e8ba0ce69430f42ead5daba2",
+      "source_id": "demo-audit",
+      "time": 1768478490000000,
+      "uid": "8e1cd4b72237e4bae782008f87bd679ff48fac2e7b1e620a7b87d41601adb14d",
+      "uncertainty_us": 0
+    },
+    {
+      "artifact": "4dda7566a75ca6702686d3fb3e1b6c52ebac10ee2a006ba3b58617ff02eef512",
+      "fields": {
+        "actor.user_id": "demo-user",
+        "app.id": "demo",
+        "event.action": "auth.login",
+        "event.original_id": "event-00000005",
+        "event.outcome": "failure",
+        "event.time_original": "2026-01-15T12:00:50Z",
+        "network.client_ip": "192.0.2.10",
+        "network.client_ip_basis": "peer",
+        "network.peer_ip": "192.0.2.10",
+        "source.authority": "idp_audit",
+        "source.platform_scope": "identity_provider",
+        "tenant.id": "local"
+      },
+      "flags": [],
+      "line": 6,
+      "offset": 1030,
+      "precision_us": 1000000,
+      "record_digest": "67bdff569c59e34babe3fc177b852ee9729fadfac6c0a18895c94e548d8fcef2",
+      "source_id": "demo-audit",
+      "time": 1768478450000000,
+      "uid": "a056a8437f9461e477fdce998d55bfe047fd931c6eb02ab614bb592f4bc8dcce",
+      "uncertainty_us": 0
+    },
+    {
+      "artifact": "4dda7566a75ca6702686d3fb3e1b6c52ebac10ee2a006ba3b58617ff02eef512",
+      "fields": {
+        "actor.user_id": "demo-user",
+        "app.id": "demo",
+        "event.action": "auth.login",
+        "event.original_id": "event-00000008",
+        "event.outcome": "failure",
+        "event.time_original": "2026-01-15T12:01:20Z",
+        "network.client_ip": "192.0.2.10",
+        "network.client_ip_basis": "peer",
+        "network.peer_ip": "192.0.2.10",
+        "source.authority": "idp_audit",
+        "source.platform_scope": "identity_provider",
+        "tenant.id": "local"
+      },
+      "flags": [],
+      "line": 9,
+      "offset": 1648,
+      "precision_us": 1000000,
+      "record_digest": "aaa7f33b03bdadc55b2c937df4856c165bf212e348c9e7ecf144f58d4757d808",
+      "source_id": "demo-audit",
+      "time": 1768478480000000,
+      "uid": "b22c7b325a12234a752a5691ac1e739ea6c916dabe0f97f91afd8a48483ef5e8",
+      "uncertainty_us": 0
+    },
+    {
+      "artifact": "4dda7566a75ca6702686d3fb3e1b6c52ebac10ee2a006ba3b58617ff02eef512",
+      "fields": {
+        "actor.user_id": "demo-user",
+        "app.id": "demo",
+        "event.action": "auth.login",
+        "event.original_id": "event-00000002",
+        "event.outcome": "failure",
+        "event.time_original": "2026-01-15T12:00:20Z",
+        "network.client_ip": "192.0.2.10",
+        "network.client_ip_basis": "peer",
+        "network.peer_ip": "192.0.2.10",
+        "source.authority": "idp_audit",
+        "source.platform_scope": "identity_provider",
+        "tenant.id": "local"
+      },
+      "flags": [],
+      "line": 3,
+      "offset": 412,
+      "precision_us": 1000000,
+      "record_digest": "879833d6730a2f7bc8fdcde70b05be9ee7be854062e720132d449bc527b70b52",
+      "source_id": "demo-audit",
+      "time": 1768478420000000,
+      "uid": "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+      "uncertainty_us": 0
+    },
+    {
+      "artifact": "4dda7566a75ca6702686d3fb3e1b6c52ebac10ee2a006ba3b58617ff02eef512",
+      "fields": {
+        "actor.user_id": "demo-user",
+        "app.id": "demo",
+        "event.action": "auth.login",
+        "event.original_id": "event-00000006",
+        "event.outcome": "failure",
+        "event.time_original": "2026-01-15T12:01:00Z",
+        "network.client_ip": "192.0.2.10",
+        "network.client_ip_basis": "peer",
+        "network.peer_ip": "192.0.2.10",
+        "source.authority": "idp_audit",
+        "source.platform_scope": "identity_provider",
+        "tenant.id": "local"
+      },
+      "flags": [],
+      "line": 7,
+      "offset": 1236,
+      "precision_us": 1000000,
+      "record_digest": "813d2af19644daf32143d7f86ab2888715ec91220020dd0b7bfefac383a0cf02",
+      "source_id": "demo-audit",
+      "time": 1768478460000000,
+      "uid": "f34a80d06acfa1f9d10945c83122da5587111710c231b393dbbb32bcdbb928bb",
+      "uncertainty_us": 0
+    },
+    {
+      "artifact": "4dda7566a75ca6702686d3fb3e1b6c52ebac10ee2a006ba3b58617ff02eef512",
+      "fields": {
+        "actor.user_id": "demo-user",
+        "app.id": "demo",
+        "event.action": "auth.login",
+        "event.original_id": "event-00000007",
+        "event.outcome": "failure",
+        "event.time_original": "2026-01-15T12:01:10Z",
+        "network.client_ip": "192.0.2.10",
+        "network.client_ip_basis": "peer",
+        "network.peer_ip": "192.0.2.10",
+        "source.authority": "idp_audit",
+        "source.platform_scope": "identity_provider",
+        "tenant.id": "local"
+      },
+      "flags": [],
+      "line": 8,
+      "offset": 1442,
+      "precision_us": 1000000,
+      "record_digest": "2b72d9bca69487754364b371d3cc128a1d20bdb2f32861143dc1af6179049dcd",
+      "source_id": "demo-audit",
+      "time": 1768478470000000,
+      "uid": "ffcddb9d966fbd50bf21aa140a360eadbe7894c8cb7a6b99f9f4bb7b55f415c4",
+      "uncertainty_us": 0
+    }
+  ],
+  "program_version": "0.1.0",
+  "quality": [
+    {
+      "candidates": 10,
+      "eligible": 10,
+      "eligible_percent": 100.0,
+      "excluded": 0,
+      "missing_fields": {},
+      "recommendation": "Record the required fields and explicit outcomes; missing observations do not establish safety.",
+      "required_capabilities": [
+        "auth.login.failure"
+      ],
+      "rule_id": "DET-001",
+      "status": "ready"
+    },
+    {
+      "candidates": 10,
+      "eligible": 10,
+      "eligible_percent": 100.0,
+      "excluded": 0,
+      "missing_fields": {},
+      "recommendation": "Record the required fields and explicit outcomes; missing observations do not establish safety.",
+      "required_capabilities": [
+        "auth.login.failure"
+      ],
+      "rule_id": "DET-002",
+      "status": "ready"
+    },
+    {
+      "candidates": 1,
+      "eligible": 1,
+      "eligible_percent": 100.0,
+      "excluded": 0,
+      "missing_fields": {},
+      "recommendation": "Record the required fields and explicit outcomes; missing observations do not establish safety.",
+      "required_capabilities": [
+        "auth.login.success"
+      ],
+      "rule_id": "DET-003",
+      "status": "ready"
+    },
+    {
+      "candidates": 10,
+      "eligible": 10,
+      "eligible_percent": 100.0,
+      "excluded": 0,
+      "missing_fields": {},
+      "recommendation": "Record the required fields and explicit outcomes; missing observations do not establish safety.",
+      "required_capabilities": [
+        "auth.login.failure"
+      ],
+      "rule_id": "DET-004",
+      "status": "ready"
+    },
+    {
+      "candidates": 0,
+      "eligible": 0,
+      "eligible_percent": null,
+      "excluded": 0,
+      "missing_fields": {},
+      "recommendation": "Record the required fields and explicit outcomes; missing observations do not establish safety.",
+      "required_capabilities": [
+        "auth.mfa.challenge"
+      ],
+      "rule_id": "DET-005",
+      "status": "no_data"
+    },
+    {
+      "candidates": 1,
+      "eligible": 1,
+      "eligible_percent": 100.0,
+      "excluded": 0,
+      "missing_fields": {},
+      "recommendation": "Record the required fields and explicit outcomes; missing observations do not establish safety.",
+      "required_capabilities": [
+        "auth.mfa.enroll"
+      ],
+      "rule_id": "DET-006",
+      "status": "ready"
+    },
+    {
+      "candidates": 0,
+      "eligible": 0,
+      "eligible_percent": null,
+      "excluded": 0,
+      "missing_fields": {},
+      "recommendation": "Record the required fields and explicit outcomes; missing observations do not establish safety.",
+      "required_capabilities": [
+        "http.request"
+      ],
+      "rule_id": "DET-007",
+      "status": "no_data"
+    },
+    {
+      "candidates": 0,
+      "eligible": 0,
+      "eligible_percent": null,
+      "excluded": 0,
+      "missing_fields": {},
+      "recommendation": "Record the required fields and explicit outcomes; missing observations do not establish safety.",
+      "required_capabilities": [
+        "authz.denied"
+      ],
+      "rule_id": "DET-008",
+      "status": "no_data"
+    }
+  ],
+  "quality_findings": [],
+  "rules_hash": "8e8f9030fdf889fd823cefab0bd45b80cf6ce7e0c78a5d8998bc8e658bb977aa",
+  "schema_version": "1.0"
+}

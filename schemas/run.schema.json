@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "exit_code": {
+      "enum": [
+        0,
+        2,
+        3,
+        4,
+        10,
+        130
+      ]
+    },
+    "schema_version": {
+      "const": "1.0"
+    },
+    "state": {
+      "enum": [
+        "created",
+        "ingesting",
+        "analyzing",
+        "completed",
+        "completed_with_warnings",
+        "failed",
+        "interrupted"
+      ]
+    }
+  },
+  "required": [
+    "schema_version",
+    "state",
+    "program_version",
+    "exit_code"
+  ],
+  "type": "object"
+}

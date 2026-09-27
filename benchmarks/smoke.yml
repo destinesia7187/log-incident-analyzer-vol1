@@ -1,0 +1,4 @@
+events: 1000
+runs: 1
+warmups: 0
+seed: 42

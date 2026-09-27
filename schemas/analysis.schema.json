@@ -1,0 +1,367 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "alerts": {
+      "items": {
+        "properties": {
+          "application_id": {
+            "type": "string"
+          },
+          "attack": {
+            "items": {
+              "type": "object"
+            },
+            "type": "array"
+          },
+          "confidence": {
+            "enum": [
+              "supported",
+              "limited"
+            ]
+          },
+          "end": {
+            "type": "integer"
+          },
+          "evidence_ids": {
+            "items": {
+              "type": "string"
+            },
+            "minItems": 1,
+            "type": "array",
+            "uniqueItems": true
+          },
+          "id": {
+            "pattern": "^ALT-",
+            "type": "string"
+          },
+          "rule_id": {
+            "type": "string"
+          },
+          "rule_version": {
+            "minimum": 1,
+            "type": "integer"
+          },
+          "severity": {
+            "enum": [
+              "low",
+              "medium",
+              "high"
+            ]
+          },
+          "start": {
+            "type": "integer"
+          },
+          "tenant_id": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "rule_id",
+          "rule_version",
+          "tenant_id",
+          "application_id",
+          "start",
+          "end",
+          "evidence_ids",
+          "severity",
+          "attack",
+          "confidence"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "cases": {
+      "items": {
+        "properties": {
+          "alert_ids": {
+            "items": {
+              "type": "string"
+            },
+            "minItems": 1,
+            "type": "array",
+            "uniqueItems": true
+          },
+          "alternatives": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "uniqueItems": true
+          },
+          "decision": {
+            "enum": [
+              "review",
+              "escalate"
+            ]
+          },
+          "edges": {
+            "items": {
+              "type": "object"
+            },
+            "type": "array"
+          },
+          "evidence_ids": {
+            "items": {
+              "type": "string"
+            },
+            "minItems": 1,
+            "type": "array",
+            "uniqueItems": true
+          },
+          "facts": {
+            "items": {
+              "type": "object"
+            },
+            "type": "array"
+          },
+          "history": {
+            "items": {
+              "type": "object"
+            },
+            "type": "array"
+          },
+          "hypotheses": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "uniqueItems": true
+          },
+          "id": {
+            "pattern": "^CASE-",
+            "type": "string"
+          },
+          "next_steps": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "uniqueItems": true
+          },
+          "notes": {
+            "items": {
+              "type": "object"
+            },
+            "type": "array"
+          },
+          "priority": {
+            "enum": [
+              "low",
+              "medium",
+              "high",
+              "critical"
+            ]
+          },
+          "score": {
+            "maximum": 100,
+            "minimum": 0,
+            "type": "integer"
+          },
+          "score_components": {
+            "items": {
+              "properties": {
+                "reason": {
+                  "type": "string"
+                },
+                "value": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "reason",
+                "value"
+              ],
+              "type": "object"
+            },
+            "minItems": 1,
+            "type": "array"
+          },
+          "status": {
+            "enum": [
+              "new",
+              "in_review",
+              "escalated",
+              "closed"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "alert_ids",
+          "evidence_ids",
+          "status",
+          "score",
+          "score_components",
+          "priority",
+          "decision",
+          "facts",
+          "hypotheses",
+          "alternatives",
+          "next_steps",
+          "history",
+          "notes",
+          "edges"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "dataset_hash": {
+      "pattern": "^[a-f0-9]{64}$",
+      "type": "string"
+    },
+    "event_count": {
+      "minimum": 0,
+      "type": "integer"
+    },
+    "evidence": {
+      "items": {
+        "properties": {
+          "artifact": {
+            "type": "string"
+          },
+          "fields": {
+            "properties": {
+              "app.id": {
+                "type": "string"
+              },
+              "event.action": {
+                "type": "string"
+              },
+              "event.outcome": {
+                "type": "string"
+              },
+              "tenant.id": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "event.action",
+              "event.outcome",
+              "tenant.id",
+              "app.id"
+            ],
+            "type": "object"
+          },
+          "flags": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "uniqueItems": true
+          },
+          "line": {
+            "minimum": 1,
+            "type": "integer"
+          },
+          "precision_us": {
+            "minimum": 1,
+            "type": "integer"
+          },
+          "record_digest": {
+            "type": "string"
+          },
+          "source_id": {
+            "type": "string"
+          },
+          "time": {
+            "type": "integer"
+          },
+          "uid": {
+            "pattern": "^[a-f0-9]{64}$",
+            "type": "string"
+          },
+          "uncertainty_us": {
+            "minimum": 0,
+            "type": "integer"
+          }
+        },
+        "required": [
+          "uid",
+          "time",
+          "fields",
+          "source_id",
+          "artifact",
+          "line",
+          "record_digest",
+          "precision_us",
+          "uncertainty_us",
+          "flags"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "quality": {
+      "items": {
+        "properties": {
+          "candidates": {
+            "minimum": 0,
+            "type": "integer"
+          },
+          "eligible": {
+            "minimum": 0,
+            "type": "integer"
+          },
+          "excluded": {
+            "minimum": 0,
+            "type": "integer"
+          },
+          "missing_fields": {
+            "additionalProperties": {
+              "minimum": 0,
+              "type": "integer"
+            },
+            "type": "object"
+          },
+          "rule_id": {
+            "type": "string"
+          },
+          "status": {
+            "enum": [
+              "ready",
+              "degraded",
+              "unavailable",
+              "no_data"
+            ]
+          }
+        },
+        "required": [
+          "rule_id",
+          "status",
+          "candidates",
+          "eligible",
+          "excluded",
+          "missing_fields"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "quality_findings": {
+      "items": {
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "schema_version": {
+      "const": "1.0"
+    }
+  },
+  "required": [
+    "schema_version",
+    "program_version",
+    "dataset_hash",
+    "rules_hash",
+    "config_hash",
+    "event_count",
+    "alerts",
+    "cases",
+    "evidence",
+    "quality",
+    "quality_findings"
+  ],
+  "type": "object"
+}

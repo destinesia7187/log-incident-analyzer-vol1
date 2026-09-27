@@ -1,0 +1,30 @@
+{
+  "dataset_hash": "9b7796292d10dd611c60e6a21aad57794ed12ae05aa208b6fec98b317e9d7c3c",
+  "interpretation": "Case assembly reduces review items from 3 to 1. Approval changes score, not observed behavior. All three alerts arise from a known benign recovery in this authored example; grouping does not reduce detector false positives. Analyst time was not measured.",
+  "variants": [
+    {
+      "alerts": 3,
+      "escalations": 2,
+      "review_items": 3,
+      "variant": "A: separate rules"
+    },
+    {
+      "alerts": 3,
+      "escalations": 1,
+      "review_items": 1,
+      "scores": [
+        75
+      ],
+      "variant": "B: cases"
+    },
+    {
+      "alerts": 3,
+      "escalations": 1,
+      "review_items": 1,
+      "scores": [
+        55
+      ],
+      "variant": "C: cases + approval + telemetry"
+    }
+  ]
+}

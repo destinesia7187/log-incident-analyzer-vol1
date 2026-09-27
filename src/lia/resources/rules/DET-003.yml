@@ -1,0 +1,75 @@
+{
+  "schema": "lia-rule/v1",
+  "id": "DET-003",
+  "version": 1,
+  "title": "Successful sign-in after failures",
+  "status": "stable",
+  "description": "Successful sign-in after failures. Review the supporting events.",
+  "rationale": "Observed events satisfy the documented rule conditions; intent requires analyst review.",
+  "owner": "project-maintainer",
+  "references": [
+    "https://attack.mitre.org/techniques/T1110/001/"
+  ],
+  "tests": [
+    "D03-001",
+    "D03-002",
+    "D03-003",
+    "D03-004",
+    "D03-005",
+    "D03-006",
+    "D03-007",
+    "D03-008"
+  ],
+  "required_capabilities": [
+    "auth.login.success"
+  ],
+  "required_fields": [
+    "actor.user_id",
+    "network.client_ip"
+  ],
+  "select": {
+    "all": [
+      {
+        "field": "event.action",
+        "equals": "auth.login"
+      },
+      {
+        "field": "event.outcome",
+        "equals": "success"
+      }
+    ]
+  },
+  "aggregate": {
+    "type": "sequence",
+    "group_by": [
+      "tenant.id",
+      "app.id",
+      "actor.user_id",
+      "network.client_ip"
+    ],
+    "upstream": "DET-001",
+    "match_fields": [
+      "tenant.id",
+      "app.id",
+      "actor.user_id",
+      "network.client_ip"
+    ],
+    "max_gap": "10m",
+    "strict_order": true,
+    "selection": "latest_qualifying_window"
+  },
+  "severity": "high",
+  "attack": [
+    {
+      "technique_id": "T1110.001",
+      "mapping_status": "candidate"
+    }
+  ],
+  "false_positives": [
+    "The owner may have recovered access. A successful login alone does not prove compromise."
+  ],
+  "next_steps": [
+    "Verify the account owner or service owner recognizes the activity.",
+    "Review related audit records and approved maintenance context."
+  ]
+}

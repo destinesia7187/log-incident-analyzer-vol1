@@ -1,0 +1,2 @@
+{"schema_version":"app-audit-v1","event_id":"lab-00000","timestamp":"2026-09-27T14:28:48.008348+00:00","actor":{"user_id":"lab-owner"},"network":{"peer_ip":"127.0.0.1"},"action":"auth.login","outcome":"success","auth":{"session_ref":"lab-session-0"}}
+{"schema_version":"app-audit-v1","event_id":"lab-00001","timestamp":"2026-09-27T14:28:48.020546+00:00","actor":{"user_id":"lab-owner"},"network":{"peer_ip":"127.0.0.1"},"action":"auth.mfa.enroll","outcome":"success","target":{"user_id":"lab-owner"},"auth":{"session_ref":"lab-session-0","device_ref":"lab-device-2"}}

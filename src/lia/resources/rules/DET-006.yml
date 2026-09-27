@@ -1,0 +1,77 @@
+{
+  "schema": "lia-rule/v1",
+  "id": "DET-006",
+  "version": 1,
+  "title": "MFA device registration after suspicious sign-in",
+  "status": "stable",
+  "description": "MFA device registration after suspicious sign-in. Review the supporting events.",
+  "rationale": "Observed events satisfy the documented rule conditions; intent requires analyst review.",
+  "owner": "project-maintainer",
+  "references": [
+    "https://attack.mitre.org/techniques/T1098/005/"
+  ],
+  "tests": [
+    "D06-001",
+    "D06-002",
+    "D06-003",
+    "D06-004",
+    "D06-005",
+    "D06-006",
+    "D06-007",
+    "D06-008"
+  ],
+  "required_capabilities": [
+    "auth.mfa.enroll"
+  ],
+  "required_fields": [
+    "actor.user_id",
+    "target.user_id",
+    "auth.session_ref",
+    "auth.device_ref"
+  ],
+  "select": {
+    "all": [
+      {
+        "field": "event.action",
+        "equals": "auth.mfa.enroll"
+      },
+      {
+        "field": "event.outcome",
+        "equals": "success"
+      }
+    ]
+  },
+  "aggregate": {
+    "type": "sequence",
+    "group_by": [
+      "tenant.id",
+      "app.id",
+      "actor.user_id",
+      "auth.session_ref"
+    ],
+    "upstream": "DET-003",
+    "match_fields": [
+      "tenant.id",
+      "app.id",
+      "actor.user_id",
+      "auth.session_ref"
+    ],
+    "max_gap": "15m",
+    "strict_order": true,
+    "selection": "latest_qualifying_window"
+  },
+  "severity": "high",
+  "attack": [
+    {
+      "technique_id": "T1098.005",
+      "mapping_status": "candidate"
+    }
+  ],
+  "false_positives": [
+    "An authorized account recovery may include registration of a new device."
+  ],
+  "next_steps": [
+    "Verify the account owner or service owner recognizes the activity.",
+    "Review related audit records and approved maintenance context."
+  ]
+}

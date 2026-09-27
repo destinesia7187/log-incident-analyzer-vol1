@@ -1,0 +1,62 @@
+{
+  "checks": [
+    {
+      "command": [
+        "python.exe",
+        "-m",
+        "ruff",
+        "check",
+        "src",
+        "tests",
+        "tools"
+      ],
+      "exit_code": 0,
+      "output": "All checks passed!\n"
+    },
+    {
+      "command": [
+        "python.exe",
+        "-m",
+        "ruff",
+        "format",
+        "--check",
+        "src",
+        "tests",
+        "tools"
+      ],
+      "exit_code": 0,
+      "output": "46 files already formatted\n"
+    },
+    {
+      "command": [
+        "python.exe",
+        "-m",
+        "mypy",
+        "src"
+      ],
+      "exit_code": 0,
+      "output": "Success: no issues found in 16 source files\n"
+    },
+    {
+      "command": [
+        "python.exe",
+        "tools/check_links.py"
+      ],
+      "exit_code": 0,
+      "output": "{\"local_links_checked\": 26, \"missing\": [], \"passed\": true}\n"
+    },
+    {
+      "command": [
+        "git.exe",
+        "-c",
+        "safe.directory=<this repository>",
+        "diff",
+        "--cached",
+        "--check"
+      ],
+      "exit_code": 0,
+      "output": ""
+    }
+  ],
+  "passed": true
+}

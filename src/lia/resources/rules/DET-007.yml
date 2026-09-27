@@ -1,0 +1,62 @@
+{
+  "schema": "lia-rule/v1",
+  "id": "DET-007",
+  "version": 1,
+  "title": "Sensitive path probing",
+  "status": "stable",
+  "description": "Sensitive path probing. Review the supporting events.",
+  "rationale": "Observed events satisfy the documented rule conditions; intent requires analyst review.",
+  "owner": "project-maintainer",
+  "references": [
+    "https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html"
+  ],
+  "tests": [
+    "D07-001",
+    "D07-002",
+    "D07-003",
+    "D07-004",
+    "D07-005",
+    "D07-006",
+    "D07-007",
+    "D07-008"
+  ],
+  "required_capabilities": [
+    "http.request"
+  ],
+  "required_fields": [
+    "network.client_ip",
+    "http.path",
+    "http.method",
+    "http.status"
+  ],
+  "select": {
+    "all": [
+      {
+        "field": "event.action",
+        "equals": "http.request"
+      }
+    ]
+  },
+  "aggregate": {
+    "type": "distinct_count",
+    "group_by": [
+      "tenant.id",
+      "app.id",
+      "network.client_ip"
+    ],
+    "window": "10m",
+    "threshold": {
+      "gte": 5
+    },
+    "field": "http.path"
+  },
+  "severity": "low",
+  "attack": [],
+  "false_positives": [
+    "An authorized scanner may probe these paths. HTTP status does not prove data disclosure."
+  ],
+  "next_steps": [
+    "Verify the account owner or service owner recognizes the activity.",
+    "Review related audit records and approved maintenance context."
+  ]
+}

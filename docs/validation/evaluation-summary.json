@@ -1,0 +1,243 @@
+{
+  "all_detector_counts": {
+    "alerts": 89,
+    "alerts_on_benign_events": 34,
+    "alerts_per_10000_benign_events": 200.94562647754137,
+    "benign_events": 1692,
+    "case_reduction": 0.2921348314606742,
+    "cases": 63,
+    "events": 2567
+  },
+  "contract_scenarios_passed": 120,
+  "declared_target_passed": true,
+  "families": {
+    "DET-001": {
+      "ambiguous": 0,
+      "attack_episodes": 5,
+      "auxiliary_alerts": 0,
+      "benign_episodes": 10,
+      "duplicate_alerts": 0,
+      "eligible_recall": 1.0,
+      "end_to_end_recall": 1.0,
+      "f1": 0.9090909090909091,
+      "fn": 0,
+      "fp": 1,
+      "fp_per_100_benign_episodes": 10.0,
+      "precision": 0.8333333333333334,
+      "precision_95ci": [
+        0.43649717781352987,
+        0.9699466302516935
+      ],
+      "recall_95ci": [
+        0.5655175352168251,
+        1
+      ],
+      "tn": 9,
+      "tp": 5,
+      "unassessed": 0
+    },
+    "DET-002": {
+      "ambiguous": 0,
+      "attack_episodes": 5,
+      "auxiliary_alerts": 0,
+      "benign_episodes": 10,
+      "duplicate_alerts": 0,
+      "eligible_recall": 1.0,
+      "end_to_end_recall": 1.0,
+      "f1": 1.0,
+      "fn": 0,
+      "fp": 0,
+      "fp_per_100_benign_episodes": 0.0,
+      "precision": 1.0,
+      "precision_95ci": [
+        0.5655175352168251,
+        1
+      ],
+      "recall_95ci": [
+        0.5655175352168251,
+        1
+      ],
+      "tn": 10,
+      "tp": 5,
+      "unassessed": 0
+    },
+    "DET-003": {
+      "ambiguous": 0,
+      "attack_episodes": 5,
+      "auxiliary_alerts": 15,
+      "benign_episodes": 10,
+      "duplicate_alerts": 0,
+      "eligible_recall": 1.0,
+      "end_to_end_recall": 1.0,
+      "f1": 0.9090909090909091,
+      "fn": 0,
+      "fp": 1,
+      "fp_per_100_benign_episodes": 10.0,
+      "precision": 0.8333333333333334,
+      "precision_95ci": [
+        0.43649717781352987,
+        0.9699466302516935
+      ],
+      "recall_95ci": [
+        0.5655175352168251,
+        1
+      ],
+      "tn": 9,
+      "tp": 5,
+      "unassessed": 0
+    },
+    "DET-004": {
+      "ambiguous": 0,
+      "attack_episodes": 5,
+      "auxiliary_alerts": 0,
+      "benign_episodes": 10,
+      "duplicate_alerts": 0,
+      "eligible_recall": 1.0,
+      "end_to_end_recall": 1.0,
+      "f1": 1.0,
+      "fn": 0,
+      "fp": 0,
+      "fp_per_100_benign_episodes": 0.0,
+      "precision": 1.0,
+      "precision_95ci": [
+        0.5655175352168251,
+        1
+      ],
+      "recall_95ci": [
+        0.5655175352168251,
+        1
+      ],
+      "tn": 10,
+      "tp": 5,
+      "unassessed": 0
+    },
+    "DET-005": {
+      "ambiguous": 0,
+      "attack_episodes": 5,
+      "auxiliary_alerts": 0,
+      "benign_episodes": 10,
+      "duplicate_alerts": 0,
+      "eligible_recall": 1.0,
+      "end_to_end_recall": 1.0,
+      "f1": 0.9090909090909091,
+      "fn": 0,
+      "fp": 1,
+      "fp_per_100_benign_episodes": 10.0,
+      "precision": 0.8333333333333334,
+      "precision_95ci": [
+        0.43649717781352987,
+        0.9699466302516935
+      ],
+      "recall_95ci": [
+        0.5655175352168251,
+        1
+      ],
+      "tn": 9,
+      "tp": 5,
+      "unassessed": 0
+    },
+    "DET-006": {
+      "ambiguous": 0,
+      "attack_episodes": 5,
+      "auxiliary_alerts": 30,
+      "benign_episodes": 10,
+      "duplicate_alerts": 0,
+      "eligible_recall": 1.0,
+      "end_to_end_recall": 1.0,
+      "f1": 1.0,
+      "fn": 0,
+      "fp": 0,
+      "fp_per_100_benign_episodes": 0.0,
+      "precision": 1.0,
+      "precision_95ci": [
+        0.5655175352168251,
+        1
+      ],
+      "recall_95ci": [
+        0.5655175352168251,
+        1
+      ],
+      "tn": 10,
+      "tp": 5,
+      "unassessed": 0
+    },
+    "DET-007": {
+      "ambiguous": 0,
+      "attack_episodes": 5,
+      "auxiliary_alerts": 0,
+      "benign_episodes": 10,
+      "duplicate_alerts": 0,
+      "eligible_recall": 1.0,
+      "end_to_end_recall": 1.0,
+      "f1": 0.9090909090909091,
+      "fn": 0,
+      "fp": 1,
+      "fp_per_100_benign_episodes": 10.0,
+      "precision": 0.8333333333333334,
+      "precision_95ci": [
+        0.43649717781352987,
+        0.9699466302516935
+      ],
+      "recall_95ci": [
+        0.5655175352168251,
+        1
+      ],
+      "tn": 9,
+      "tp": 5,
+      "unassessed": 0
+    },
+    "DET-008": {
+      "ambiguous": 0,
+      "attack_episodes": 5,
+      "auxiliary_alerts": 0,
+      "benign_episodes": 10,
+      "duplicate_alerts": 0,
+      "eligible_recall": 1.0,
+      "end_to_end_recall": 1.0,
+      "f1": 1.0,
+      "fn": 0,
+      "fp": 0,
+      "fp_per_100_benign_episodes": 0.0,
+      "precision": 1.0,
+      "precision_95ci": [
+        0.5655175352168251,
+        1
+      ],
+      "recall_95ci": [
+        0.5655175352168251,
+        1
+      ],
+      "tn": 10,
+      "tp": 5,
+      "unassessed": 0
+    }
+  },
+  "limitation": "Authored controlled data. Five attacks per family give wide intervals; no field-accuracy claim. All-detector alert counts include auxiliary alerts and are not primary precision.",
+  "primary_metrics": {
+    "ambiguous": 0,
+    "attack_episodes": 40,
+    "auxiliary_alerts": 45,
+    "benign_episodes": 80,
+    "duplicate_alerts": 0,
+    "eligible_recall": 1.0,
+    "end_to_end_recall": 1.0,
+    "f1": 0.9523809523809523,
+    "fn": 0,
+    "fp": 4,
+    "fp_per_100_benign_episodes": 5.0,
+    "precision": 0.9090909090909091,
+    "precision_95ci": [
+      0.7884076083340138,
+      0.9640778067726837
+    ],
+    "recall_95ci": [
+      0.9123783988027135,
+      1
+    ],
+    "tn": 76,
+    "tp": 40,
+    "unassessed": 0
+  },
+  "scenario_count": 120,
+  "suite_hash": "fb44449cfab078881b3a8f9809976a9dd8103eff875fbc8443fbe56e90a60b4e"
+}

@@ -1,0 +1,50 @@
+{
+  "catalog": {
+    "expected": 256,
+    "implemented": 256,
+    "missing": [],
+    "not_passed": [
+      "PERF-001",
+      "PERF-002",
+      "SEC-020"
+    ],
+    "unknown": []
+  },
+  "combined_test_outcomes": {
+    "failed": 0,
+    "passed": 326,
+    "skipped": 2
+  },
+  "full_v1_acceptance": false,
+  "open_gates": [
+    "Linux CI matrix",
+    "Docker SEC-020",
+    "fixed Linux PERF-001/PERF-002"
+  ],
+  "performance": [
+    {
+      "events": 100000,
+      "max_disk_bytes": 249793802,
+      "max_seconds": 34.50486020001699,
+      "measured_runs": 5,
+      "median_seconds": 16.266095800005132,
+      "peak_rss_mib": 325.48046875,
+      "platform": "Windows-11-10.0.26200-SP0",
+      "warmups": 1
+    },
+    {
+      "events": 1000000,
+      "max_disk_bytes": 2649728994,
+      "max_seconds": 279.8832631999976,
+      "measured_runs": 5,
+      "median_seconds": 271.507348300016,
+      "peak_rss_mib": 505.45703125,
+      "platform": "Windows-11-10.0.26200-SP0",
+      "warmups": 1
+    }
+  ],
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.14",
+  "python313_passed": 322,
+  "source_hash": "571cddd273260846f2e18533e7a120f927695581ef7c58c060f4283e668bf32e"
+}

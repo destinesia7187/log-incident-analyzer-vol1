@@ -1,0 +1,8 @@
+{
+  "browser": "headless msedge",
+  "version": "154.0.4258.37",
+  "page_errors": [],
+  "external_requests": [],
+  "mobile_overflow": false,
+  "passed": true
+}

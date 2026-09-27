@@ -1,0 +1,4407 @@
+{
+  "generator": "tools/build_datasets.py",
+  "scenarios": [
+    {
+      "dataset_hash": "69b2fa38428e7ad3e2c010d09e1ded972f678b3a39bafa42f9f463528acd2355",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478507000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-1-0",
+          "id": "det001-attack-00",
+          "label": "attack",
+          "primary_rules": [
+            "DET-001"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "106c16d0f1c454b536a394637d930175cc6a2689cc7dcac4648984600c108d87",
+            "1f4eb268c9cee97277bb6bbc3cd2146efc3ab589c0659a444afaf0ea78ef573d",
+            "a056a8437f9461e477fdce998d55bfe047fd931c6eb02ab614bb592f4bc8dcce",
+            "f34a80d06acfa1f9d10945c83122da5587111710c231b393dbbb32bcdbb928bb",
+            "ffcddb9d966fbd50bf21aa140a360eadbe7894c8cb7a6b99f9f4bb7b55f415c4",
+            "b22c7b325a12234a752a5691ac1e739ea6c916dabe0f97f91afd8a48483ef5e8",
+            "8e1cd4b72237e4bae782008f87bd679ff48fac2e7b1e620a7b87d41601adb14d",
+            "504fc8dc69286e0dabda18b96f9e026f704ba286b05eb9d05632778f99d7b1f1",
+            "223a9874a4ef9929b53afa683b840c78cbd9e5500cfa1de0f9bd2162c779d924"
+          ],
+          "start": 1768478400000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [
+        "DET-001"
+      ],
+      "family_id": "DET-001-two-burst",
+      "forbidden_rules": [],
+      "id": "det001-attack-00",
+      "manifest": "det001-attack-00/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "df0e898728f02e6de7a8169b669f0fd17cf3384ee4520485a1cf1c92b492277f",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478510000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-1-1",
+          "id": "det001-attack-01",
+          "label": "attack",
+          "primary_rules": [
+            "DET-001"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "106c16d0f1c454b536a394637d930175cc6a2689cc7dcac4648984600c108d87",
+            "1f4eb268c9cee97277bb6bbc3cd2146efc3ab589c0659a444afaf0ea78ef573d",
+            "a056a8437f9461e477fdce998d55bfe047fd931c6eb02ab614bb592f4bc8dcce",
+            "f34a80d06acfa1f9d10945c83122da5587111710c231b393dbbb32bcdbb928bb",
+            "ffcddb9d966fbd50bf21aa140a360eadbe7894c8cb7a6b99f9f4bb7b55f415c4",
+            "b22c7b325a12234a752a5691ac1e739ea6c916dabe0f97f91afd8a48483ef5e8",
+            "8e1cd4b72237e4bae782008f87bd679ff48fac2e7b1e620a7b87d41601adb14d",
+            "504fc8dc69286e0dabda18b96f9e026f704ba286b05eb9d05632778f99d7b1f1",
+            "223a9874a4ef9929b53afa683b840c78cbd9e5500cfa1de0f9bd2162c779d924"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [
+        "DET-001"
+      ],
+      "family_id": "DET-001-two-burst",
+      "forbidden_rules": [],
+      "id": "det001-attack-01",
+      "manifest": "det001-attack-01/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "5b41121a8121accd62d91133438a5f2aa70df060dcb46c31248990c032959ac1",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478513000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-1-2",
+          "id": "det001-attack-02",
+          "label": "attack",
+          "primary_rules": [
+            "DET-001"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "106c16d0f1c454b536a394637d930175cc6a2689cc7dcac4648984600c108d87",
+            "1f4eb268c9cee97277bb6bbc3cd2146efc3ab589c0659a444afaf0ea78ef573d",
+            "a056a8437f9461e477fdce998d55bfe047fd931c6eb02ab614bb592f4bc8dcce",
+            "f34a80d06acfa1f9d10945c83122da5587111710c231b393dbbb32bcdbb928bb",
+            "ffcddb9d966fbd50bf21aa140a360eadbe7894c8cb7a6b99f9f4bb7b55f415c4",
+            "b22c7b325a12234a752a5691ac1e739ea6c916dabe0f97f91afd8a48483ef5e8",
+            "8e1cd4b72237e4bae782008f87bd679ff48fac2e7b1e620a7b87d41601adb14d",
+            "504fc8dc69286e0dabda18b96f9e026f704ba286b05eb9d05632778f99d7b1f1",
+            "223a9874a4ef9929b53afa683b840c78cbd9e5500cfa1de0f9bd2162c779d924"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [
+        "DET-001"
+      ],
+      "family_id": "DET-001-two-burst",
+      "forbidden_rules": [],
+      "id": "det001-attack-02",
+      "manifest": "det001-attack-02/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "f18d7ad38db8ed03f4bebebe3ba178ff7abcf43e2e270ca49c93ff865244e2fa",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478516000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-1-3",
+          "id": "det001-attack-03",
+          "label": "attack",
+          "primary_rules": [
+            "DET-001"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "106c16d0f1c454b536a394637d930175cc6a2689cc7dcac4648984600c108d87",
+            "1f4eb268c9cee97277bb6bbc3cd2146efc3ab589c0659a444afaf0ea78ef573d",
+            "a056a8437f9461e477fdce998d55bfe047fd931c6eb02ab614bb592f4bc8dcce",
+            "f34a80d06acfa1f9d10945c83122da5587111710c231b393dbbb32bcdbb928bb",
+            "ffcddb9d966fbd50bf21aa140a360eadbe7894c8cb7a6b99f9f4bb7b55f415c4",
+            "b22c7b325a12234a752a5691ac1e739ea6c916dabe0f97f91afd8a48483ef5e8",
+            "8e1cd4b72237e4bae782008f87bd679ff48fac2e7b1e620a7b87d41601adb14d",
+            "504fc8dc69286e0dabda18b96f9e026f704ba286b05eb9d05632778f99d7b1f1",
+            "223a9874a4ef9929b53afa683b840c78cbd9e5500cfa1de0f9bd2162c779d924"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [
+        "DET-001"
+      ],
+      "family_id": "DET-001-two-burst",
+      "forbidden_rules": [],
+      "id": "det001-attack-03",
+      "manifest": "det001-attack-03/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "f373ff87d9c4681c837e8aa9df5ee320e7efa27a1c5c1ca67f50d03dbfd10585",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478519000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-1-4",
+          "id": "det001-attack-04",
+          "label": "attack",
+          "primary_rules": [
+            "DET-001"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "106c16d0f1c454b536a394637d930175cc6a2689cc7dcac4648984600c108d87",
+            "1f4eb268c9cee97277bb6bbc3cd2146efc3ab589c0659a444afaf0ea78ef573d",
+            "a056a8437f9461e477fdce998d55bfe047fd931c6eb02ab614bb592f4bc8dcce",
+            "f34a80d06acfa1f9d10945c83122da5587111710c231b393dbbb32bcdbb928bb",
+            "ffcddb9d966fbd50bf21aa140a360eadbe7894c8cb7a6b99f9f4bb7b55f415c4",
+            "b22c7b325a12234a752a5691ac1e739ea6c916dabe0f97f91afd8a48483ef5e8",
+            "8e1cd4b72237e4bae782008f87bd679ff48fac2e7b1e620a7b87d41601adb14d",
+            "504fc8dc69286e0dabda18b96f9e026f704ba286b05eb9d05632778f99d7b1f1",
+            "223a9874a4ef9929b53afa683b840c78cbd9e5500cfa1de0f9bd2162c779d924"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [
+        "DET-001"
+      ],
+      "family_id": "DET-001-two-burst",
+      "forbidden_rules": [],
+      "id": "det001-attack-04",
+      "manifest": "det001-attack-04/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "530aabd0f3647edf7b01c84f6c1aea1e05ae81f0eca880ff0c6b8a70b1d29dfd",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478493000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-1-5",
+          "id": "det001-benign-05",
+          "label": "benign",
+          "primary_rules": [
+            "DET-001"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-001-two-burst",
+      "forbidden_rules": [
+        "DET-001"
+      ],
+      "id": "det001-benign-05",
+      "manifest": "det001-benign-05/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "ae7dc49e9581a8da08ab5ed706526a28f98b684d8d0d65ff2605cdeb17a552ff",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478506000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-1-6",
+          "id": "det001-benign-06",
+          "label": "benign",
+          "primary_rules": [
+            "DET-001"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-001-two-burst",
+      "forbidden_rules": [
+        "DET-001"
+      ],
+      "id": "det001-benign-06",
+      "manifest": "det001-benign-06/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "da041ce0c43d27712fbe9632f1fda98d8c22ea4d3813a1fb19fd1b521371e799",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478519000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-1-7",
+          "id": "det001-benign-07",
+          "label": "benign",
+          "primary_rules": [
+            "DET-001"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-001-two-burst",
+      "forbidden_rules": [
+        "DET-001"
+      ],
+      "id": "det001-benign-07",
+      "manifest": "det001-benign-07/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "f1aa7fa6fd4fd02c27d143fd10f1d68e87deae82e89196ac6729b2452ea1432a",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478532000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-1-8",
+          "id": "det001-benign-08",
+          "label": "benign",
+          "primary_rules": [
+            "DET-001"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-001-two-burst",
+      "forbidden_rules": [
+        "DET-001"
+      ],
+      "id": "det001-benign-08",
+      "manifest": "det001-benign-08/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "8250f8cb6d4ef6d0e0bc627c93a0b9cdc19e85f0dbb4fae68551a1b88a3e13c6",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478545000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-1-9",
+          "id": "det001-benign-09",
+          "label": "benign",
+          "primary_rules": [
+            "DET-001"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-001-two-burst",
+      "forbidden_rules": [
+        "DET-001"
+      ],
+      "id": "det001-benign-09",
+      "manifest": "det001-benign-09/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "35bdcb88bd4c330e623aecd3e49cf3cd770985b8c4c7d305194999336fbad237",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478558000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-1-10",
+          "id": "det001-benign-10",
+          "label": "benign",
+          "primary_rules": [
+            "DET-001"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-001-two-burst",
+      "forbidden_rules": [
+        "DET-001"
+      ],
+      "id": "det001-benign-10",
+      "manifest": "det001-benign-10/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "4c4f5326f5fe42d129633a725e8755f44e46e7fba81b46583129a84d6d8da14f",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478571000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-1-11",
+          "id": "det001-benign-11",
+          "label": "benign",
+          "primary_rules": [
+            "DET-001"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-001-two-burst",
+      "forbidden_rules": [
+        "DET-001"
+      ],
+      "id": "det001-benign-11",
+      "manifest": "det001-benign-11/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "6d628565ec1e18daf577e96e1d4d0f422ad4cb6e4949a70df87b4b4b19e61afb",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478584000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-1-12",
+          "id": "det001-benign-12",
+          "label": "benign",
+          "primary_rules": [
+            "DET-001"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-001-two-burst",
+      "forbidden_rules": [
+        "DET-001"
+      ],
+      "id": "det001-benign-12",
+      "manifest": "det001-benign-12/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "83f774c7312f48cf2025089618bab65df85f171ed0481a30a19a06c4a4134998",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478597000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-1-13",
+          "id": "det001-benign-13",
+          "label": "benign",
+          "primary_rules": [
+            "DET-001"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-001-two-burst",
+      "forbidden_rules": [
+        "DET-001"
+      ],
+      "id": "det001-benign-13",
+      "manifest": "det001-benign-13/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "82fe7e13827b1672b5e29876cf3e95791181d0d043d8bf9241cab1c53f4c245c",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478610000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-1-14",
+          "id": "det001-benign-14",
+          "label": "benign",
+          "primary_rules": [
+            "DET-001"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-001-two-burst",
+      "forbidden_rules": [
+        "DET-001"
+      ],
+      "id": "det001-benign-14",
+      "manifest": "det001-benign-14/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "8f85c6db29df87bd86f62154922645bb19bf4b9e0f7886c6a0a6fdc618204bf4",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478521000000,
+          "entity_field": "client_ip",
+          "entity_value": "192.0.2.10",
+          "id": "det002-attack-00",
+          "label": "attack",
+          "primary_rules": [
+            "DET-002"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "106c16d0f1c454b536a394637d930175cc6a2689cc7dcac4648984600c108d87",
+            "1f4eb268c9cee97277bb6bbc3cd2146efc3ab589c0659a444afaf0ea78ef573d",
+            "a056a8437f9461e477fdce998d55bfe047fd931c6eb02ab614bb592f4bc8dcce",
+            "f34a80d06acfa1f9d10945c83122da5587111710c231b393dbbb32bcdbb928bb",
+            "ffcddb9d966fbd50bf21aa140a360eadbe7894c8cb7a6b99f9f4bb7b55f415c4",
+            "b22c7b325a12234a752a5691ac1e739ea6c916dabe0f97f91afd8a48483ef5e8",
+            "8e1cd4b72237e4bae782008f87bd679ff48fac2e7b1e620a7b87d41601adb14d",
+            "504fc8dc69286e0dabda18b96f9e026f704ba286b05eb9d05632778f99d7b1f1",
+            "223a9874a4ef9929b53afa683b840c78cbd9e5500cfa1de0f9bd2162c779d924"
+          ],
+          "start": 1768478400000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [
+        "DET-002"
+      ],
+      "family_id": "DET-002-two-burst",
+      "forbidden_rules": [],
+      "id": "det002-attack-00",
+      "manifest": "det002-attack-00/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "f08ffd057dc683eb5b2e0af764674c1ef575c2b93951b7fa8d3ba55e0ebeb0ce",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478524000000,
+          "entity_field": "client_ip",
+          "entity_value": "192.0.2.10",
+          "id": "det002-attack-01",
+          "label": "attack",
+          "primary_rules": [
+            "DET-002"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "106c16d0f1c454b536a394637d930175cc6a2689cc7dcac4648984600c108d87",
+            "1f4eb268c9cee97277bb6bbc3cd2146efc3ab589c0659a444afaf0ea78ef573d",
+            "a056a8437f9461e477fdce998d55bfe047fd931c6eb02ab614bb592f4bc8dcce",
+            "f34a80d06acfa1f9d10945c83122da5587111710c231b393dbbb32bcdbb928bb",
+            "ffcddb9d966fbd50bf21aa140a360eadbe7894c8cb7a6b99f9f4bb7b55f415c4",
+            "b22c7b325a12234a752a5691ac1e739ea6c916dabe0f97f91afd8a48483ef5e8",
+            "8e1cd4b72237e4bae782008f87bd679ff48fac2e7b1e620a7b87d41601adb14d",
+            "504fc8dc69286e0dabda18b96f9e026f704ba286b05eb9d05632778f99d7b1f1",
+            "223a9874a4ef9929b53afa683b840c78cbd9e5500cfa1de0f9bd2162c779d924"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [
+        "DET-002"
+      ],
+      "family_id": "DET-002-two-burst",
+      "forbidden_rules": [],
+      "id": "det002-attack-01",
+      "manifest": "det002-attack-01/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "cf25ac06212893ff6331e8431c6de6304652684c698c01a38655d2276d21731a",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478527000000,
+          "entity_field": "client_ip",
+          "entity_value": "192.0.2.10",
+          "id": "det002-attack-02",
+          "label": "attack",
+          "primary_rules": [
+            "DET-002"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "106c16d0f1c454b536a394637d930175cc6a2689cc7dcac4648984600c108d87",
+            "1f4eb268c9cee97277bb6bbc3cd2146efc3ab589c0659a444afaf0ea78ef573d",
+            "a056a8437f9461e477fdce998d55bfe047fd931c6eb02ab614bb592f4bc8dcce",
+            "f34a80d06acfa1f9d10945c83122da5587111710c231b393dbbb32bcdbb928bb",
+            "ffcddb9d966fbd50bf21aa140a360eadbe7894c8cb7a6b99f9f4bb7b55f415c4",
+            "b22c7b325a12234a752a5691ac1e739ea6c916dabe0f97f91afd8a48483ef5e8",
+            "8e1cd4b72237e4bae782008f87bd679ff48fac2e7b1e620a7b87d41601adb14d",
+            "504fc8dc69286e0dabda18b96f9e026f704ba286b05eb9d05632778f99d7b1f1",
+            "223a9874a4ef9929b53afa683b840c78cbd9e5500cfa1de0f9bd2162c779d924"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [
+        "DET-002"
+      ],
+      "family_id": "DET-002-two-burst",
+      "forbidden_rules": [],
+      "id": "det002-attack-02",
+      "manifest": "det002-attack-02/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "40800c44ac19e02759393cfee9a459844da64f23dc42a9153ea3fbda06dcd887",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478530000000,
+          "entity_field": "client_ip",
+          "entity_value": "192.0.2.10",
+          "id": "det002-attack-03",
+          "label": "attack",
+          "primary_rules": [
+            "DET-002"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "106c16d0f1c454b536a394637d930175cc6a2689cc7dcac4648984600c108d87",
+            "1f4eb268c9cee97277bb6bbc3cd2146efc3ab589c0659a444afaf0ea78ef573d",
+            "a056a8437f9461e477fdce998d55bfe047fd931c6eb02ab614bb592f4bc8dcce",
+            "f34a80d06acfa1f9d10945c83122da5587111710c231b393dbbb32bcdbb928bb",
+            "ffcddb9d966fbd50bf21aa140a360eadbe7894c8cb7a6b99f9f4bb7b55f415c4",
+            "b22c7b325a12234a752a5691ac1e739ea6c916dabe0f97f91afd8a48483ef5e8",
+            "8e1cd4b72237e4bae782008f87bd679ff48fac2e7b1e620a7b87d41601adb14d",
+            "504fc8dc69286e0dabda18b96f9e026f704ba286b05eb9d05632778f99d7b1f1",
+            "223a9874a4ef9929b53afa683b840c78cbd9e5500cfa1de0f9bd2162c779d924"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [
+        "DET-002"
+      ],
+      "family_id": "DET-002-two-burst",
+      "forbidden_rules": [],
+      "id": "det002-attack-03",
+      "manifest": "det002-attack-03/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "40b0bb9330440ce753b4e36cfe522314870b3b706542ec2e969d36b81796f010",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478533000000,
+          "entity_field": "client_ip",
+          "entity_value": "192.0.2.10",
+          "id": "det002-attack-04",
+          "label": "attack",
+          "primary_rules": [
+            "DET-002"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "106c16d0f1c454b536a394637d930175cc6a2689cc7dcac4648984600c108d87",
+            "1f4eb268c9cee97277bb6bbc3cd2146efc3ab589c0659a444afaf0ea78ef573d",
+            "a056a8437f9461e477fdce998d55bfe047fd931c6eb02ab614bb592f4bc8dcce",
+            "f34a80d06acfa1f9d10945c83122da5587111710c231b393dbbb32bcdbb928bb",
+            "ffcddb9d966fbd50bf21aa140a360eadbe7894c8cb7a6b99f9f4bb7b55f415c4",
+            "b22c7b325a12234a752a5691ac1e739ea6c916dabe0f97f91afd8a48483ef5e8",
+            "8e1cd4b72237e4bae782008f87bd679ff48fac2e7b1e620a7b87d41601adb14d",
+            "504fc8dc69286e0dabda18b96f9e026f704ba286b05eb9d05632778f99d7b1f1",
+            "223a9874a4ef9929b53afa683b840c78cbd9e5500cfa1de0f9bd2162c779d924"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [
+        "DET-002"
+      ],
+      "family_id": "DET-002-two-burst",
+      "forbidden_rules": [],
+      "id": "det002-attack-04",
+      "manifest": "det002-attack-04/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "590a811a2e8d26b1471a7e927b6dce14eb2de29909ef12866f57e7564315706c",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478493000000,
+          "entity_field": "client_ip",
+          "entity_value": "192.0.2.10",
+          "id": "det002-benign-05",
+          "label": "benign",
+          "primary_rules": [
+            "DET-002"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-002-two-burst",
+      "forbidden_rules": [
+        "DET-002"
+      ],
+      "id": "det002-benign-05",
+      "manifest": "det002-benign-05/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "cda2ffd14706dd625e8fbc3bbf9c0d684ff9008ef19036afbdd74f051641e4a4",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478506000000,
+          "entity_field": "client_ip",
+          "entity_value": "192.0.2.10",
+          "id": "det002-benign-06",
+          "label": "benign",
+          "primary_rules": [
+            "DET-002"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-002-two-burst",
+      "forbidden_rules": [
+        "DET-002"
+      ],
+      "id": "det002-benign-06",
+      "manifest": "det002-benign-06/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "266990d36f0498edeefb9c772c1daa88dbc7482abe3210acd0f4f27a1b4b0d6e",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478519000000,
+          "entity_field": "client_ip",
+          "entity_value": "192.0.2.10",
+          "id": "det002-benign-07",
+          "label": "benign",
+          "primary_rules": [
+            "DET-002"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-002-two-burst",
+      "forbidden_rules": [
+        "DET-002"
+      ],
+      "id": "det002-benign-07",
+      "manifest": "det002-benign-07/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "7cbea8c6b007389cdc59628a2afb04a702bb2b3fd671e57ec59493260c11c38c",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478532000000,
+          "entity_field": "client_ip",
+          "entity_value": "192.0.2.10",
+          "id": "det002-benign-08",
+          "label": "benign",
+          "primary_rules": [
+            "DET-002"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-002-two-burst",
+      "forbidden_rules": [
+        "DET-002"
+      ],
+      "id": "det002-benign-08",
+      "manifest": "det002-benign-08/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "fc6499f2e92704121ce7bc540b0b20d4f777ebccc461ba878a6e08248ffcc490",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478545000000,
+          "entity_field": "client_ip",
+          "entity_value": "192.0.2.10",
+          "id": "det002-benign-09",
+          "label": "benign",
+          "primary_rules": [
+            "DET-002"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-002-two-burst",
+      "forbidden_rules": [
+        "DET-002"
+      ],
+      "id": "det002-benign-09",
+      "manifest": "det002-benign-09/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "3dad27091db6ae655c34fdcc5432ad3863e17a23c0501333c68043fdd00f2db5",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478558000000,
+          "entity_field": "client_ip",
+          "entity_value": "192.0.2.10",
+          "id": "det002-benign-10",
+          "label": "benign",
+          "primary_rules": [
+            "DET-002"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-002-two-burst",
+      "forbidden_rules": [
+        "DET-002"
+      ],
+      "id": "det002-benign-10",
+      "manifest": "det002-benign-10/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "e6be95b823a36c5b5618df9520823fb71d276928d5ed95e30d927eed98ea17cd",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478571000000,
+          "entity_field": "client_ip",
+          "entity_value": "192.0.2.10",
+          "id": "det002-benign-11",
+          "label": "benign",
+          "primary_rules": [
+            "DET-002"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-002-two-burst",
+      "forbidden_rules": [
+        "DET-002"
+      ],
+      "id": "det002-benign-11",
+      "manifest": "det002-benign-11/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "f91fd903e5d063108eb96911567f0fdbb48dee7aaf7c0529cd596b1626187187",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478584000000,
+          "entity_field": "client_ip",
+          "entity_value": "192.0.2.10",
+          "id": "det002-benign-12",
+          "label": "benign",
+          "primary_rules": [
+            "DET-002"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-002-two-burst",
+      "forbidden_rules": [
+        "DET-002"
+      ],
+      "id": "det002-benign-12",
+      "manifest": "det002-benign-12/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "428413a8d4f7418a7c92c82da6543c6f4aee6306c81c1288ae921c047c9d75b1",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478597000000,
+          "entity_field": "client_ip",
+          "entity_value": "192.0.2.10",
+          "id": "det002-benign-13",
+          "label": "benign",
+          "primary_rules": [
+            "DET-002"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-002-two-burst",
+      "forbidden_rules": [
+        "DET-002"
+      ],
+      "id": "det002-benign-13",
+      "manifest": "det002-benign-13/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "57aaaee641554db8b05f9e3605ac4af4c241f299137e7139aead382d72193d30",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478610000000,
+          "entity_field": "client_ip",
+          "entity_value": "192.0.2.10",
+          "id": "det002-benign-14",
+          "label": "benign",
+          "primary_rules": [
+            "DET-002"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-002-two-burst",
+      "forbidden_rules": [
+        "DET-002"
+      ],
+      "id": "det002-benign-14",
+      "manifest": "det002-benign-14/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "f784dbe7ab7d38b072999066e036100318915360bd75b9fef7a5f047cac8cb03",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478600000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-3-0",
+          "id": "det003-attack-00",
+          "label": "attack",
+          "primary_rules": [
+            "DET-003"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "106c16d0f1c454b536a394637d930175cc6a2689cc7dcac4648984600c108d87",
+            "1f4eb268c9cee97277bb6bbc3cd2146efc3ab589c0659a444afaf0ea78ef573d",
+            "a056a8437f9461e477fdce998d55bfe047fd931c6eb02ab614bb592f4bc8dcce",
+            "f34a80d06acfa1f9d10945c83122da5587111710c231b393dbbb32bcdbb928bb",
+            "ffcddb9d966fbd50bf21aa140a360eadbe7894c8cb7a6b99f9f4bb7b55f415c4",
+            "b22c7b325a12234a752a5691ac1e739ea6c916dabe0f97f91afd8a48483ef5e8",
+            "8e1cd4b72237e4bae782008f87bd679ff48fac2e7b1e620a7b87d41601adb14d",
+            "504fc8dc69286e0dabda18b96f9e026f704ba286b05eb9d05632778f99d7b1f1",
+            "223a9874a4ef9929b53afa683b840c78cbd9e5500cfa1de0f9bd2162c779d924",
+            "b407101aac6db79f8d8b932ed799285ac50e93df63323cb0794cc644cb64238d"
+          ],
+          "start": 1768478400000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [
+        "DET-003"
+      ],
+      "family_id": "DET-003-two-burst",
+      "forbidden_rules": [],
+      "id": "det003-attack-00",
+      "manifest": "det003-attack-00/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "e26a2a4e06009f6902d523b43955a92e89e26aae8912f102cad9f3e19ed0bdb9",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478603000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-3-1",
+          "id": "det003-attack-01",
+          "label": "attack",
+          "primary_rules": [
+            "DET-003"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "106c16d0f1c454b536a394637d930175cc6a2689cc7dcac4648984600c108d87",
+            "1f4eb268c9cee97277bb6bbc3cd2146efc3ab589c0659a444afaf0ea78ef573d",
+            "a056a8437f9461e477fdce998d55bfe047fd931c6eb02ab614bb592f4bc8dcce",
+            "f34a80d06acfa1f9d10945c83122da5587111710c231b393dbbb32bcdbb928bb",
+            "ffcddb9d966fbd50bf21aa140a360eadbe7894c8cb7a6b99f9f4bb7b55f415c4",
+            "b22c7b325a12234a752a5691ac1e739ea6c916dabe0f97f91afd8a48483ef5e8",
+            "8e1cd4b72237e4bae782008f87bd679ff48fac2e7b1e620a7b87d41601adb14d",
+            "504fc8dc69286e0dabda18b96f9e026f704ba286b05eb9d05632778f99d7b1f1",
+            "223a9874a4ef9929b53afa683b840c78cbd9e5500cfa1de0f9bd2162c779d924",
+            "b407101aac6db79f8d8b932ed799285ac50e93df63323cb0794cc644cb64238d"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [
+        "DET-003"
+      ],
+      "family_id": "DET-003-two-burst",
+      "forbidden_rules": [],
+      "id": "det003-attack-01",
+      "manifest": "det003-attack-01/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "8b9d8b75aeb6c84240ba12ad8082fadc055e5b079aa3a23963a7614d98b5f808",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478606000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-3-2",
+          "id": "det003-attack-02",
+          "label": "attack",
+          "primary_rules": [
+            "DET-003"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "106c16d0f1c454b536a394637d930175cc6a2689cc7dcac4648984600c108d87",
+            "1f4eb268c9cee97277bb6bbc3cd2146efc3ab589c0659a444afaf0ea78ef573d",
+            "a056a8437f9461e477fdce998d55bfe047fd931c6eb02ab614bb592f4bc8dcce",
+            "f34a80d06acfa1f9d10945c83122da5587111710c231b393dbbb32bcdbb928bb",
+            "ffcddb9d966fbd50bf21aa140a360eadbe7894c8cb7a6b99f9f4bb7b55f415c4",
+            "b22c7b325a12234a752a5691ac1e739ea6c916dabe0f97f91afd8a48483ef5e8",
+            "8e1cd4b72237e4bae782008f87bd679ff48fac2e7b1e620a7b87d41601adb14d",
+            "504fc8dc69286e0dabda18b96f9e026f704ba286b05eb9d05632778f99d7b1f1",
+            "223a9874a4ef9929b53afa683b840c78cbd9e5500cfa1de0f9bd2162c779d924",
+            "b407101aac6db79f8d8b932ed799285ac50e93df63323cb0794cc644cb64238d"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [
+        "DET-003"
+      ],
+      "family_id": "DET-003-two-burst",
+      "forbidden_rules": [],
+      "id": "det003-attack-02",
+      "manifest": "det003-attack-02/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "7b45b35ff4639cb4d67f6ce4a37d51db3685d26c48b4964f2783fabe55fdccfe",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478609000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-3-3",
+          "id": "det003-attack-03",
+          "label": "attack",
+          "primary_rules": [
+            "DET-003"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "106c16d0f1c454b536a394637d930175cc6a2689cc7dcac4648984600c108d87",
+            "1f4eb268c9cee97277bb6bbc3cd2146efc3ab589c0659a444afaf0ea78ef573d",
+            "a056a8437f9461e477fdce998d55bfe047fd931c6eb02ab614bb592f4bc8dcce",
+            "f34a80d06acfa1f9d10945c83122da5587111710c231b393dbbb32bcdbb928bb",
+            "ffcddb9d966fbd50bf21aa140a360eadbe7894c8cb7a6b99f9f4bb7b55f415c4",
+            "b22c7b325a12234a752a5691ac1e739ea6c916dabe0f97f91afd8a48483ef5e8",
+            "8e1cd4b72237e4bae782008f87bd679ff48fac2e7b1e620a7b87d41601adb14d",
+            "504fc8dc69286e0dabda18b96f9e026f704ba286b05eb9d05632778f99d7b1f1",
+            "223a9874a4ef9929b53afa683b840c78cbd9e5500cfa1de0f9bd2162c779d924",
+            "b407101aac6db79f8d8b932ed799285ac50e93df63323cb0794cc644cb64238d"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [
+        "DET-003"
+      ],
+      "family_id": "DET-003-two-burst",
+      "forbidden_rules": [],
+      "id": "det003-attack-03",
+      "manifest": "det003-attack-03/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "c7c2c25a061b031115402157190b2b647bbc45047bea3d7a1c4cfd4ce60111a1",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478612000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-3-4",
+          "id": "det003-attack-04",
+          "label": "attack",
+          "primary_rules": [
+            "DET-003"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "106c16d0f1c454b536a394637d930175cc6a2689cc7dcac4648984600c108d87",
+            "1f4eb268c9cee97277bb6bbc3cd2146efc3ab589c0659a444afaf0ea78ef573d",
+            "a056a8437f9461e477fdce998d55bfe047fd931c6eb02ab614bb592f4bc8dcce",
+            "f34a80d06acfa1f9d10945c83122da5587111710c231b393dbbb32bcdbb928bb",
+            "ffcddb9d966fbd50bf21aa140a360eadbe7894c8cb7a6b99f9f4bb7b55f415c4",
+            "b22c7b325a12234a752a5691ac1e739ea6c916dabe0f97f91afd8a48483ef5e8",
+            "8e1cd4b72237e4bae782008f87bd679ff48fac2e7b1e620a7b87d41601adb14d",
+            "504fc8dc69286e0dabda18b96f9e026f704ba286b05eb9d05632778f99d7b1f1",
+            "223a9874a4ef9929b53afa683b840c78cbd9e5500cfa1de0f9bd2162c779d924",
+            "b407101aac6db79f8d8b932ed799285ac50e93df63323cb0794cc644cb64238d"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [
+        "DET-003"
+      ],
+      "family_id": "DET-003-two-burst",
+      "forbidden_rules": [],
+      "id": "det003-attack-04",
+      "manifest": "det003-attack-04/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "6c760d090bfa1647dd1194162c7834618c853e15833c2781dd0c0f9d6ba439dd",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478615000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-3-5",
+          "id": "det003-benign-05",
+          "label": "benign",
+          "primary_rules": [
+            "DET-003"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "b407101aac6db79f8d8b932ed799285ac50e93df63323cb0794cc644cb64238d"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-003-two-burst",
+      "forbidden_rules": [
+        "DET-003"
+      ],
+      "id": "det003-benign-05",
+      "manifest": "det003-benign-05/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "6ed018a206b7027c9b3b7d6e91b0e2f492f994cf420ae24589e0277a838cd7de",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478618000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-3-6",
+          "id": "det003-benign-06",
+          "label": "benign",
+          "primary_rules": [
+            "DET-003"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "b407101aac6db79f8d8b932ed799285ac50e93df63323cb0794cc644cb64238d"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-003-two-burst",
+      "forbidden_rules": [
+        "DET-003"
+      ],
+      "id": "det003-benign-06",
+      "manifest": "det003-benign-06/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "bdc44e404841304647ef251b416a890e86053668fa867c2474a4d901158add75",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478621000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-3-7",
+          "id": "det003-benign-07",
+          "label": "benign",
+          "primary_rules": [
+            "DET-003"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "b407101aac6db79f8d8b932ed799285ac50e93df63323cb0794cc644cb64238d"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-003-two-burst",
+      "forbidden_rules": [
+        "DET-003"
+      ],
+      "id": "det003-benign-07",
+      "manifest": "det003-benign-07/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "3d0b6527d3792dfc0934d8a194bbb111125dc245fc6e9b713603eaa67f0959c8",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478624000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-3-8",
+          "id": "det003-benign-08",
+          "label": "benign",
+          "primary_rules": [
+            "DET-003"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "b407101aac6db79f8d8b932ed799285ac50e93df63323cb0794cc644cb64238d"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-003-two-burst",
+      "forbidden_rules": [
+        "DET-003"
+      ],
+      "id": "det003-benign-08",
+      "manifest": "det003-benign-08/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "8d6e1ca749e84bce181f3dfc2179883987df17dce368c6fb5f11c04f4908493a",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478627000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-3-9",
+          "id": "det003-benign-09",
+          "label": "benign",
+          "primary_rules": [
+            "DET-003"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "b407101aac6db79f8d8b932ed799285ac50e93df63323cb0794cc644cb64238d"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-003-two-burst",
+      "forbidden_rules": [
+        "DET-003"
+      ],
+      "id": "det003-benign-09",
+      "manifest": "det003-benign-09/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "9045b3ee1c35cafe01de9ee6cdccb2c4e811138ecb066ccd2d645b270e3432c0",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478630000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-3-10",
+          "id": "det003-benign-10",
+          "label": "benign",
+          "primary_rules": [
+            "DET-003"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "b407101aac6db79f8d8b932ed799285ac50e93df63323cb0794cc644cb64238d"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-003-two-burst",
+      "forbidden_rules": [
+        "DET-003"
+      ],
+      "id": "det003-benign-10",
+      "manifest": "det003-benign-10/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "85480cd8befb03cf977015743890875002877a314406f38c82265664cd032fbc",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478633000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-3-11",
+          "id": "det003-benign-11",
+          "label": "benign",
+          "primary_rules": [
+            "DET-003"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "b407101aac6db79f8d8b932ed799285ac50e93df63323cb0794cc644cb64238d"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-003-two-burst",
+      "forbidden_rules": [
+        "DET-003"
+      ],
+      "id": "det003-benign-11",
+      "manifest": "det003-benign-11/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "aa079dc68e942972631ebef2a7bc80e8d267085639be9cd390def8ab8537fa72",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478636000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-3-12",
+          "id": "det003-benign-12",
+          "label": "benign",
+          "primary_rules": [
+            "DET-003"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "b407101aac6db79f8d8b932ed799285ac50e93df63323cb0794cc644cb64238d"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-003-two-burst",
+      "forbidden_rules": [
+        "DET-003"
+      ],
+      "id": "det003-benign-12",
+      "manifest": "det003-benign-12/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "f2a4f884bd9530a94ce20d958a5c8a6805584b251d66ad2ed532585b2590018c",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478639000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-3-13",
+          "id": "det003-benign-13",
+          "label": "benign",
+          "primary_rules": [
+            "DET-003"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "b407101aac6db79f8d8b932ed799285ac50e93df63323cb0794cc644cb64238d"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-003-two-burst",
+      "forbidden_rules": [
+        "DET-003"
+      ],
+      "id": "det003-benign-13",
+      "manifest": "det003-benign-13/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "8e2f71061cc41549215f6950bcee1c1e3e23e042d9489e18def10c024e997802",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478642000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-3-14",
+          "id": "det003-benign-14",
+          "label": "benign",
+          "primary_rules": [
+            "DET-003"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "b407101aac6db79f8d8b932ed799285ac50e93df63323cb0794cc644cb64238d"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-003-two-burst",
+      "forbidden_rules": [
+        "DET-003"
+      ],
+      "id": "det003-benign-14",
+      "manifest": "det003-benign-14/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "74a8c0a19726931b1aabecc4b0e3baa9f7fce13f43ba5bb950b2726c34dc7dba",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478607000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-4-0",
+          "id": "det004-attack-00",
+          "label": "attack",
+          "primary_rules": [
+            "DET-004"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "106c16d0f1c454b536a394637d930175cc6a2689cc7dcac4648984600c108d87",
+            "1f4eb268c9cee97277bb6bbc3cd2146efc3ab589c0659a444afaf0ea78ef573d",
+            "a056a8437f9461e477fdce998d55bfe047fd931c6eb02ab614bb592f4bc8dcce",
+            "f34a80d06acfa1f9d10945c83122da5587111710c231b393dbbb32bcdbb928bb",
+            "ffcddb9d966fbd50bf21aa140a360eadbe7894c8cb7a6b99f9f4bb7b55f415c4",
+            "b22c7b325a12234a752a5691ac1e739ea6c916dabe0f97f91afd8a48483ef5e8",
+            "8e1cd4b72237e4bae782008f87bd679ff48fac2e7b1e620a7b87d41601adb14d",
+            "504fc8dc69286e0dabda18b96f9e026f704ba286b05eb9d05632778f99d7b1f1",
+            "223a9874a4ef9929b53afa683b840c78cbd9e5500cfa1de0f9bd2162c779d924",
+            "e21753e1e85f49507dfa572dd65272ac0dfa92c4da0e50d66a90354c39b02c2a",
+            "73d881382f9d7af988fc60bf6cb1e94dc529ecec55693605b578162c72f072e0",
+            "5116325ca87f75eaccf43a260309a5798fa9c83b9725ef05281191bed93fb518",
+            "3ce62e8dc0d51cdd628b9566403e4d17093b93854048fbbd93a01dd43882f4e2",
+            "4412873e2bcee3bff18fccd7dc34e17c5497f937ba0c4ee95fb17df168dbdd2e",
+            "39fc94b8d24fbd8845d9ee41a0efb7bd84b00a4d62db03c20711dff24eecc20a",
+            "e0d5ac18b9053cd4061494906490f9d41424729ef00c57647018cbdee44989f2",
+            "0c2129e18239db4cdd3dd78e58f93e19241568b5777a0b08e24e6543f6ac5669",
+            "49130ff8d0b4ccb299e3a58cf6747c86be29927d4d58ace498d53c230c922f7f",
+            "4a7cd29b32fe5a2b87565cae28ff51b139c5e79884a3c403fe082bfd3c37c189",
+            "1c2b66c2530346b80401d8882e57160dbfd0927fe160791c60a41046d916e5df",
+            "43e33e9771922a01bb02bcd0c269cbb3fec9489c9aeba4831c7db0d23e0988ca"
+          ],
+          "start": 1768478400000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [
+        "DET-004"
+      ],
+      "family_id": "DET-004-two-burst",
+      "forbidden_rules": [],
+      "id": "det004-attack-00",
+      "manifest": "det004-attack-00/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "bc91594468f96d2c72a2657efc48ce391bd7daf9da199d221870cefd7e9db0f6",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478610000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-4-1",
+          "id": "det004-attack-01",
+          "label": "attack",
+          "primary_rules": [
+            "DET-004"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "106c16d0f1c454b536a394637d930175cc6a2689cc7dcac4648984600c108d87",
+            "1f4eb268c9cee97277bb6bbc3cd2146efc3ab589c0659a444afaf0ea78ef573d",
+            "a056a8437f9461e477fdce998d55bfe047fd931c6eb02ab614bb592f4bc8dcce",
+            "f34a80d06acfa1f9d10945c83122da5587111710c231b393dbbb32bcdbb928bb",
+            "ffcddb9d966fbd50bf21aa140a360eadbe7894c8cb7a6b99f9f4bb7b55f415c4",
+            "b22c7b325a12234a752a5691ac1e739ea6c916dabe0f97f91afd8a48483ef5e8",
+            "8e1cd4b72237e4bae782008f87bd679ff48fac2e7b1e620a7b87d41601adb14d",
+            "504fc8dc69286e0dabda18b96f9e026f704ba286b05eb9d05632778f99d7b1f1",
+            "223a9874a4ef9929b53afa683b840c78cbd9e5500cfa1de0f9bd2162c779d924",
+            "e21753e1e85f49507dfa572dd65272ac0dfa92c4da0e50d66a90354c39b02c2a",
+            "73d881382f9d7af988fc60bf6cb1e94dc529ecec55693605b578162c72f072e0",
+            "5116325ca87f75eaccf43a260309a5798fa9c83b9725ef05281191bed93fb518",
+            "3ce62e8dc0d51cdd628b9566403e4d17093b93854048fbbd93a01dd43882f4e2",
+            "4412873e2bcee3bff18fccd7dc34e17c5497f937ba0c4ee95fb17df168dbdd2e",
+            "39fc94b8d24fbd8845d9ee41a0efb7bd84b00a4d62db03c20711dff24eecc20a",
+            "e0d5ac18b9053cd4061494906490f9d41424729ef00c57647018cbdee44989f2",
+            "0c2129e18239db4cdd3dd78e58f93e19241568b5777a0b08e24e6543f6ac5669",
+            "49130ff8d0b4ccb299e3a58cf6747c86be29927d4d58ace498d53c230c922f7f",
+            "4a7cd29b32fe5a2b87565cae28ff51b139c5e79884a3c403fe082bfd3c37c189",
+            "1c2b66c2530346b80401d8882e57160dbfd0927fe160791c60a41046d916e5df",
+            "43e33e9771922a01bb02bcd0c269cbb3fec9489c9aeba4831c7db0d23e0988ca"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [
+        "DET-004"
+      ],
+      "family_id": "DET-004-two-burst",
+      "forbidden_rules": [],
+      "id": "det004-attack-01",
+      "manifest": "det004-attack-01/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "894af7778c46c17eed08d05ed495d529e3a0a3b63b641578d09ee3f3679bee96",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478613000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-4-2",
+          "id": "det004-attack-02",
+          "label": "attack",
+          "primary_rules": [
+            "DET-004"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "106c16d0f1c454b536a394637d930175cc6a2689cc7dcac4648984600c108d87",
+            "1f4eb268c9cee97277bb6bbc3cd2146efc3ab589c0659a444afaf0ea78ef573d",
+            "a056a8437f9461e477fdce998d55bfe047fd931c6eb02ab614bb592f4bc8dcce",
+            "f34a80d06acfa1f9d10945c83122da5587111710c231b393dbbb32bcdbb928bb",
+            "ffcddb9d966fbd50bf21aa140a360eadbe7894c8cb7a6b99f9f4bb7b55f415c4",
+            "b22c7b325a12234a752a5691ac1e739ea6c916dabe0f97f91afd8a48483ef5e8",
+            "8e1cd4b72237e4bae782008f87bd679ff48fac2e7b1e620a7b87d41601adb14d",
+            "504fc8dc69286e0dabda18b96f9e026f704ba286b05eb9d05632778f99d7b1f1",
+            "223a9874a4ef9929b53afa683b840c78cbd9e5500cfa1de0f9bd2162c779d924",
+            "e21753e1e85f49507dfa572dd65272ac0dfa92c4da0e50d66a90354c39b02c2a",
+            "73d881382f9d7af988fc60bf6cb1e94dc529ecec55693605b578162c72f072e0",
+            "5116325ca87f75eaccf43a260309a5798fa9c83b9725ef05281191bed93fb518",
+            "3ce62e8dc0d51cdd628b9566403e4d17093b93854048fbbd93a01dd43882f4e2",
+            "4412873e2bcee3bff18fccd7dc34e17c5497f937ba0c4ee95fb17df168dbdd2e",
+            "39fc94b8d24fbd8845d9ee41a0efb7bd84b00a4d62db03c20711dff24eecc20a",
+            "e0d5ac18b9053cd4061494906490f9d41424729ef00c57647018cbdee44989f2",
+            "0c2129e18239db4cdd3dd78e58f93e19241568b5777a0b08e24e6543f6ac5669",
+            "49130ff8d0b4ccb299e3a58cf6747c86be29927d4d58ace498d53c230c922f7f",
+            "4a7cd29b32fe5a2b87565cae28ff51b139c5e79884a3c403fe082bfd3c37c189",
+            "1c2b66c2530346b80401d8882e57160dbfd0927fe160791c60a41046d916e5df",
+            "43e33e9771922a01bb02bcd0c269cbb3fec9489c9aeba4831c7db0d23e0988ca"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [
+        "DET-004"
+      ],
+      "family_id": "DET-004-two-burst",
+      "forbidden_rules": [],
+      "id": "det004-attack-02",
+      "manifest": "det004-attack-02/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "341d440e749edc92914411df698f1ac62dabd57df930d38c8c3f8a49eb4269f3",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478616000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-4-3",
+          "id": "det004-attack-03",
+          "label": "attack",
+          "primary_rules": [
+            "DET-004"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "106c16d0f1c454b536a394637d930175cc6a2689cc7dcac4648984600c108d87",
+            "1f4eb268c9cee97277bb6bbc3cd2146efc3ab589c0659a444afaf0ea78ef573d",
+            "a056a8437f9461e477fdce998d55bfe047fd931c6eb02ab614bb592f4bc8dcce",
+            "f34a80d06acfa1f9d10945c83122da5587111710c231b393dbbb32bcdbb928bb",
+            "ffcddb9d966fbd50bf21aa140a360eadbe7894c8cb7a6b99f9f4bb7b55f415c4",
+            "b22c7b325a12234a752a5691ac1e739ea6c916dabe0f97f91afd8a48483ef5e8",
+            "8e1cd4b72237e4bae782008f87bd679ff48fac2e7b1e620a7b87d41601adb14d",
+            "504fc8dc69286e0dabda18b96f9e026f704ba286b05eb9d05632778f99d7b1f1",
+            "223a9874a4ef9929b53afa683b840c78cbd9e5500cfa1de0f9bd2162c779d924",
+            "e21753e1e85f49507dfa572dd65272ac0dfa92c4da0e50d66a90354c39b02c2a",
+            "73d881382f9d7af988fc60bf6cb1e94dc529ecec55693605b578162c72f072e0",
+            "5116325ca87f75eaccf43a260309a5798fa9c83b9725ef05281191bed93fb518",
+            "3ce62e8dc0d51cdd628b9566403e4d17093b93854048fbbd93a01dd43882f4e2",
+            "4412873e2bcee3bff18fccd7dc34e17c5497f937ba0c4ee95fb17df168dbdd2e",
+            "39fc94b8d24fbd8845d9ee41a0efb7bd84b00a4d62db03c20711dff24eecc20a",
+            "e0d5ac18b9053cd4061494906490f9d41424729ef00c57647018cbdee44989f2",
+            "0c2129e18239db4cdd3dd78e58f93e19241568b5777a0b08e24e6543f6ac5669",
+            "49130ff8d0b4ccb299e3a58cf6747c86be29927d4d58ace498d53c230c922f7f",
+            "4a7cd29b32fe5a2b87565cae28ff51b139c5e79884a3c403fe082bfd3c37c189",
+            "1c2b66c2530346b80401d8882e57160dbfd0927fe160791c60a41046d916e5df",
+            "43e33e9771922a01bb02bcd0c269cbb3fec9489c9aeba4831c7db0d23e0988ca"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [
+        "DET-004"
+      ],
+      "family_id": "DET-004-two-burst",
+      "forbidden_rules": [],
+      "id": "det004-attack-03",
+      "manifest": "det004-attack-03/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "e267f8b161df234e8f7bdb02fb9014a95cf8e2d0a9d97ef74dd6541cc6667a56",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478619000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-4-4",
+          "id": "det004-attack-04",
+          "label": "attack",
+          "primary_rules": [
+            "DET-004"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "106c16d0f1c454b536a394637d930175cc6a2689cc7dcac4648984600c108d87",
+            "1f4eb268c9cee97277bb6bbc3cd2146efc3ab589c0659a444afaf0ea78ef573d",
+            "a056a8437f9461e477fdce998d55bfe047fd931c6eb02ab614bb592f4bc8dcce",
+            "f34a80d06acfa1f9d10945c83122da5587111710c231b393dbbb32bcdbb928bb",
+            "ffcddb9d966fbd50bf21aa140a360eadbe7894c8cb7a6b99f9f4bb7b55f415c4",
+            "b22c7b325a12234a752a5691ac1e739ea6c916dabe0f97f91afd8a48483ef5e8",
+            "8e1cd4b72237e4bae782008f87bd679ff48fac2e7b1e620a7b87d41601adb14d",
+            "504fc8dc69286e0dabda18b96f9e026f704ba286b05eb9d05632778f99d7b1f1",
+            "223a9874a4ef9929b53afa683b840c78cbd9e5500cfa1de0f9bd2162c779d924",
+            "e21753e1e85f49507dfa572dd65272ac0dfa92c4da0e50d66a90354c39b02c2a",
+            "73d881382f9d7af988fc60bf6cb1e94dc529ecec55693605b578162c72f072e0",
+            "5116325ca87f75eaccf43a260309a5798fa9c83b9725ef05281191bed93fb518",
+            "3ce62e8dc0d51cdd628b9566403e4d17093b93854048fbbd93a01dd43882f4e2",
+            "4412873e2bcee3bff18fccd7dc34e17c5497f937ba0c4ee95fb17df168dbdd2e",
+            "39fc94b8d24fbd8845d9ee41a0efb7bd84b00a4d62db03c20711dff24eecc20a",
+            "e0d5ac18b9053cd4061494906490f9d41424729ef00c57647018cbdee44989f2",
+            "0c2129e18239db4cdd3dd78e58f93e19241568b5777a0b08e24e6543f6ac5669",
+            "49130ff8d0b4ccb299e3a58cf6747c86be29927d4d58ace498d53c230c922f7f",
+            "4a7cd29b32fe5a2b87565cae28ff51b139c5e79884a3c403fe082bfd3c37c189",
+            "1c2b66c2530346b80401d8882e57160dbfd0927fe160791c60a41046d916e5df",
+            "43e33e9771922a01bb02bcd0c269cbb3fec9489c9aeba4831c7db0d23e0988ca"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [
+        "DET-004"
+      ],
+      "family_id": "DET-004-two-burst",
+      "forbidden_rules": [],
+      "id": "det004-attack-04",
+      "manifest": "det004-attack-04/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "d82afad81e187082ad0fbb04c2c8c02a1c920a56c298fb22cf64546da56987f3",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478493000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-4-5",
+          "id": "det004-benign-05",
+          "label": "benign",
+          "primary_rules": [
+            "DET-004"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "106c16d0f1c454b536a394637d930175cc6a2689cc7dcac4648984600c108d87",
+            "1f4eb268c9cee97277bb6bbc3cd2146efc3ab589c0659a444afaf0ea78ef573d",
+            "a056a8437f9461e477fdce998d55bfe047fd931c6eb02ab614bb592f4bc8dcce",
+            "f34a80d06acfa1f9d10945c83122da5587111710c231b393dbbb32bcdbb928bb",
+            "ffcddb9d966fbd50bf21aa140a360eadbe7894c8cb7a6b99f9f4bb7b55f415c4",
+            "b22c7b325a12234a752a5691ac1e739ea6c916dabe0f97f91afd8a48483ef5e8"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-004-two-burst",
+      "forbidden_rules": [
+        "DET-004"
+      ],
+      "id": "det004-benign-05",
+      "manifest": "det004-benign-05/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "0ebc24967ef0cdffb67ced123608724872b5e3e2344936428906159a7ebb798d",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478506000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-4-6",
+          "id": "det004-benign-06",
+          "label": "benign",
+          "primary_rules": [
+            "DET-004"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "106c16d0f1c454b536a394637d930175cc6a2689cc7dcac4648984600c108d87",
+            "1f4eb268c9cee97277bb6bbc3cd2146efc3ab589c0659a444afaf0ea78ef573d",
+            "a056a8437f9461e477fdce998d55bfe047fd931c6eb02ab614bb592f4bc8dcce",
+            "f34a80d06acfa1f9d10945c83122da5587111710c231b393dbbb32bcdbb928bb",
+            "ffcddb9d966fbd50bf21aa140a360eadbe7894c8cb7a6b99f9f4bb7b55f415c4",
+            "b22c7b325a12234a752a5691ac1e739ea6c916dabe0f97f91afd8a48483ef5e8"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-004-two-burst",
+      "forbidden_rules": [
+        "DET-004"
+      ],
+      "id": "det004-benign-06",
+      "manifest": "det004-benign-06/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "8d556e0f25494491b0affb0104ee5a0e2dde3e46b3955e31357f3466b8e5f8e3",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478519000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-4-7",
+          "id": "det004-benign-07",
+          "label": "benign",
+          "primary_rules": [
+            "DET-004"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "106c16d0f1c454b536a394637d930175cc6a2689cc7dcac4648984600c108d87",
+            "1f4eb268c9cee97277bb6bbc3cd2146efc3ab589c0659a444afaf0ea78ef573d",
+            "a056a8437f9461e477fdce998d55bfe047fd931c6eb02ab614bb592f4bc8dcce",
+            "f34a80d06acfa1f9d10945c83122da5587111710c231b393dbbb32bcdbb928bb",
+            "ffcddb9d966fbd50bf21aa140a360eadbe7894c8cb7a6b99f9f4bb7b55f415c4",
+            "b22c7b325a12234a752a5691ac1e739ea6c916dabe0f97f91afd8a48483ef5e8"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-004-two-burst",
+      "forbidden_rules": [
+        "DET-004"
+      ],
+      "id": "det004-benign-07",
+      "manifest": "det004-benign-07/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "7657cd8a85ce6c8584dbc064363e34905223684e507957f53d7199af74a99476",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478532000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-4-8",
+          "id": "det004-benign-08",
+          "label": "benign",
+          "primary_rules": [
+            "DET-004"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "106c16d0f1c454b536a394637d930175cc6a2689cc7dcac4648984600c108d87",
+            "1f4eb268c9cee97277bb6bbc3cd2146efc3ab589c0659a444afaf0ea78ef573d",
+            "a056a8437f9461e477fdce998d55bfe047fd931c6eb02ab614bb592f4bc8dcce",
+            "f34a80d06acfa1f9d10945c83122da5587111710c231b393dbbb32bcdbb928bb",
+            "ffcddb9d966fbd50bf21aa140a360eadbe7894c8cb7a6b99f9f4bb7b55f415c4",
+            "b22c7b325a12234a752a5691ac1e739ea6c916dabe0f97f91afd8a48483ef5e8"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-004-two-burst",
+      "forbidden_rules": [
+        "DET-004"
+      ],
+      "id": "det004-benign-08",
+      "manifest": "det004-benign-08/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "f6893262f9963db154a4f7a5a581545b850bd6949c99a3a7a1fe6a96572e6daa",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478545000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-4-9",
+          "id": "det004-benign-09",
+          "label": "benign",
+          "primary_rules": [
+            "DET-004"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "106c16d0f1c454b536a394637d930175cc6a2689cc7dcac4648984600c108d87",
+            "1f4eb268c9cee97277bb6bbc3cd2146efc3ab589c0659a444afaf0ea78ef573d",
+            "a056a8437f9461e477fdce998d55bfe047fd931c6eb02ab614bb592f4bc8dcce",
+            "f34a80d06acfa1f9d10945c83122da5587111710c231b393dbbb32bcdbb928bb",
+            "ffcddb9d966fbd50bf21aa140a360eadbe7894c8cb7a6b99f9f4bb7b55f415c4",
+            "b22c7b325a12234a752a5691ac1e739ea6c916dabe0f97f91afd8a48483ef5e8"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-004-two-burst",
+      "forbidden_rules": [
+        "DET-004"
+      ],
+      "id": "det004-benign-09",
+      "manifest": "det004-benign-09/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "3559b280106d1b5f39e97f8a8815ed80ba1f4cc032c5d6cf20ac01c4907eeed0",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478558000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-4-10",
+          "id": "det004-benign-10",
+          "label": "benign",
+          "primary_rules": [
+            "DET-004"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "106c16d0f1c454b536a394637d930175cc6a2689cc7dcac4648984600c108d87",
+            "1f4eb268c9cee97277bb6bbc3cd2146efc3ab589c0659a444afaf0ea78ef573d",
+            "a056a8437f9461e477fdce998d55bfe047fd931c6eb02ab614bb592f4bc8dcce",
+            "f34a80d06acfa1f9d10945c83122da5587111710c231b393dbbb32bcdbb928bb",
+            "ffcddb9d966fbd50bf21aa140a360eadbe7894c8cb7a6b99f9f4bb7b55f415c4",
+            "b22c7b325a12234a752a5691ac1e739ea6c916dabe0f97f91afd8a48483ef5e8"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-004-two-burst",
+      "forbidden_rules": [
+        "DET-004"
+      ],
+      "id": "det004-benign-10",
+      "manifest": "det004-benign-10/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "a84a25d368652cbb1b9b352946d60542c424f9897fe64bc28dd8a8bf1e9f2bd5",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478571000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-4-11",
+          "id": "det004-benign-11",
+          "label": "benign",
+          "primary_rules": [
+            "DET-004"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "106c16d0f1c454b536a394637d930175cc6a2689cc7dcac4648984600c108d87",
+            "1f4eb268c9cee97277bb6bbc3cd2146efc3ab589c0659a444afaf0ea78ef573d",
+            "a056a8437f9461e477fdce998d55bfe047fd931c6eb02ab614bb592f4bc8dcce",
+            "f34a80d06acfa1f9d10945c83122da5587111710c231b393dbbb32bcdbb928bb",
+            "ffcddb9d966fbd50bf21aa140a360eadbe7894c8cb7a6b99f9f4bb7b55f415c4",
+            "b22c7b325a12234a752a5691ac1e739ea6c916dabe0f97f91afd8a48483ef5e8"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-004-two-burst",
+      "forbidden_rules": [
+        "DET-004"
+      ],
+      "id": "det004-benign-11",
+      "manifest": "det004-benign-11/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "44949585f4e16cd9598403a9ada18ba0463c4a750be38900df9e6b5e5eea9391",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478584000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-4-12",
+          "id": "det004-benign-12",
+          "label": "benign",
+          "primary_rules": [
+            "DET-004"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "106c16d0f1c454b536a394637d930175cc6a2689cc7dcac4648984600c108d87",
+            "1f4eb268c9cee97277bb6bbc3cd2146efc3ab589c0659a444afaf0ea78ef573d",
+            "a056a8437f9461e477fdce998d55bfe047fd931c6eb02ab614bb592f4bc8dcce",
+            "f34a80d06acfa1f9d10945c83122da5587111710c231b393dbbb32bcdbb928bb",
+            "ffcddb9d966fbd50bf21aa140a360eadbe7894c8cb7a6b99f9f4bb7b55f415c4",
+            "b22c7b325a12234a752a5691ac1e739ea6c916dabe0f97f91afd8a48483ef5e8"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-004-two-burst",
+      "forbidden_rules": [
+        "DET-004"
+      ],
+      "id": "det004-benign-12",
+      "manifest": "det004-benign-12/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "699d27845dcbb59044482f9dda3b401a8056a8810469284095cc3f404bf97940",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478597000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-4-13",
+          "id": "det004-benign-13",
+          "label": "benign",
+          "primary_rules": [
+            "DET-004"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "106c16d0f1c454b536a394637d930175cc6a2689cc7dcac4648984600c108d87",
+            "1f4eb268c9cee97277bb6bbc3cd2146efc3ab589c0659a444afaf0ea78ef573d",
+            "a056a8437f9461e477fdce998d55bfe047fd931c6eb02ab614bb592f4bc8dcce",
+            "f34a80d06acfa1f9d10945c83122da5587111710c231b393dbbb32bcdbb928bb",
+            "ffcddb9d966fbd50bf21aa140a360eadbe7894c8cb7a6b99f9f4bb7b55f415c4",
+            "b22c7b325a12234a752a5691ac1e739ea6c916dabe0f97f91afd8a48483ef5e8"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-004-two-burst",
+      "forbidden_rules": [
+        "DET-004"
+      ],
+      "id": "det004-benign-13",
+      "manifest": "det004-benign-13/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "60adcce83c64f037cdaae0d1106fa0ed3a4f99e571bc7db79198e9fd1bca64e2",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478610000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-4-14",
+          "id": "det004-benign-14",
+          "label": "benign",
+          "primary_rules": [
+            "DET-004"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "106c16d0f1c454b536a394637d930175cc6a2689cc7dcac4648984600c108d87",
+            "1f4eb268c9cee97277bb6bbc3cd2146efc3ab589c0659a444afaf0ea78ef573d",
+            "a056a8437f9461e477fdce998d55bfe047fd931c6eb02ab614bb592f4bc8dcce",
+            "f34a80d06acfa1f9d10945c83122da5587111710c231b393dbbb32bcdbb928bb",
+            "ffcddb9d966fbd50bf21aa140a360eadbe7894c8cb7a6b99f9f4bb7b55f415c4",
+            "b22c7b325a12234a752a5691ac1e739ea6c916dabe0f97f91afd8a48483ef5e8"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-004-two-burst",
+      "forbidden_rules": [
+        "DET-004"
+      ],
+      "id": "det004-benign-14",
+      "manifest": "det004-benign-14/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "18837d99d778c04e2b73589664a49d1a9a1abcfcff62da3d5d08a0a719aea50c",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478435000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-5-0",
+          "id": "det005-attack-00",
+          "label": "attack",
+          "primary_rules": [
+            "DET-005"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "106c16d0f1c454b536a394637d930175cc6a2689cc7dcac4648984600c108d87",
+            "1f4eb268c9cee97277bb6bbc3cd2146efc3ab589c0659a444afaf0ea78ef573d",
+            "a056a8437f9461e477fdce998d55bfe047fd931c6eb02ab614bb592f4bc8dcce"
+          ],
+          "start": 1768478400000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [
+        "DET-005"
+      ],
+      "family_id": "DET-005-two-burst",
+      "forbidden_rules": [],
+      "id": "det005-attack-00",
+      "manifest": "det005-attack-00/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "67b15635a9f0fefdc93883306e77f6c0b86bfb16240a82b0040b522670f29b91",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478441000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-5-1",
+          "id": "det005-attack-01",
+          "label": "attack",
+          "primary_rules": [
+            "DET-005"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "106c16d0f1c454b536a394637d930175cc6a2689cc7dcac4648984600c108d87",
+            "1f4eb268c9cee97277bb6bbc3cd2146efc3ab589c0659a444afaf0ea78ef573d",
+            "a056a8437f9461e477fdce998d55bfe047fd931c6eb02ab614bb592f4bc8dcce"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [
+        "DET-005"
+      ],
+      "family_id": "DET-005-two-burst",
+      "forbidden_rules": [],
+      "id": "det005-attack-01",
+      "manifest": "det005-attack-01/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "21b7f103eb667898ebe37488585b4829237a6bd3cf903173c0d2137f65a44817",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478454000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-5-2",
+          "id": "det005-attack-02",
+          "label": "attack",
+          "primary_rules": [
+            "DET-005"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "106c16d0f1c454b536a394637d930175cc6a2689cc7dcac4648984600c108d87",
+            "1f4eb268c9cee97277bb6bbc3cd2146efc3ab589c0659a444afaf0ea78ef573d",
+            "a056a8437f9461e477fdce998d55bfe047fd931c6eb02ab614bb592f4bc8dcce"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [
+        "DET-005"
+      ],
+      "family_id": "DET-005-two-burst",
+      "forbidden_rules": [],
+      "id": "det005-attack-02",
+      "manifest": "det005-attack-02/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "4c94801056865781f9bd7cb9cfdde07f4c315b13320abd6eb36b8eb04510fee9",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478467000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-5-3",
+          "id": "det005-attack-03",
+          "label": "attack",
+          "primary_rules": [
+            "DET-005"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "106c16d0f1c454b536a394637d930175cc6a2689cc7dcac4648984600c108d87",
+            "1f4eb268c9cee97277bb6bbc3cd2146efc3ab589c0659a444afaf0ea78ef573d",
+            "a056a8437f9461e477fdce998d55bfe047fd931c6eb02ab614bb592f4bc8dcce"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [
+        "DET-005"
+      ],
+      "family_id": "DET-005-two-burst",
+      "forbidden_rules": [],
+      "id": "det005-attack-03",
+      "manifest": "det005-attack-03/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "3abcccfa8378897b070c655f44b2d810b4a434284730657514f39c35d12dcb80",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478480000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-5-4",
+          "id": "det005-attack-04",
+          "label": "attack",
+          "primary_rules": [
+            "DET-005"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "106c16d0f1c454b536a394637d930175cc6a2689cc7dcac4648984600c108d87",
+            "1f4eb268c9cee97277bb6bbc3cd2146efc3ab589c0659a444afaf0ea78ef573d",
+            "a056a8437f9461e477fdce998d55bfe047fd931c6eb02ab614bb592f4bc8dcce"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [
+        "DET-005"
+      ],
+      "family_id": "DET-005-two-burst",
+      "forbidden_rules": [],
+      "id": "det005-attack-04",
+      "manifest": "det005-attack-04/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "5d4a7a5bbc813934362b3a33cc859c59ae7a08bd481312476d050b9ebad57025",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478493000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-5-5",
+          "id": "det005-benign-05",
+          "label": "benign",
+          "primary_rules": [
+            "DET-005"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-005-two-burst",
+      "forbidden_rules": [
+        "DET-005"
+      ],
+      "id": "det005-benign-05",
+      "manifest": "det005-benign-05/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "0f417a3c99873badad69c15e8641e614cfd7c6e5053c548f49cbdfa2458cf0a3",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478506000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-5-6",
+          "id": "det005-benign-06",
+          "label": "benign",
+          "primary_rules": [
+            "DET-005"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-005-two-burst",
+      "forbidden_rules": [
+        "DET-005"
+      ],
+      "id": "det005-benign-06",
+      "manifest": "det005-benign-06/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "49ecaf57af82cd2bb0a5be4582bf8f752e6b07289938d070f0b9950341bc365e",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478519000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-5-7",
+          "id": "det005-benign-07",
+          "label": "benign",
+          "primary_rules": [
+            "DET-005"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-005-two-burst",
+      "forbidden_rules": [
+        "DET-005"
+      ],
+      "id": "det005-benign-07",
+      "manifest": "det005-benign-07/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "7f9faf1679615167cd49de1820447256b857bd656ec76267d52e0aab45313721",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478532000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-5-8",
+          "id": "det005-benign-08",
+          "label": "benign",
+          "primary_rules": [
+            "DET-005"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-005-two-burst",
+      "forbidden_rules": [
+        "DET-005"
+      ],
+      "id": "det005-benign-08",
+      "manifest": "det005-benign-08/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "ca0d6ddaf120411f8a992412634f631c14366f88dfc03828ad1f99854db12380",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478545000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-5-9",
+          "id": "det005-benign-09",
+          "label": "benign",
+          "primary_rules": [
+            "DET-005"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-005-two-burst",
+      "forbidden_rules": [
+        "DET-005"
+      ],
+      "id": "det005-benign-09",
+      "manifest": "det005-benign-09/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "ddc917f21db858eb37f24a1a4bf96cf59941703e5e9468600b21f6d322febf75",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478558000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-5-10",
+          "id": "det005-benign-10",
+          "label": "benign",
+          "primary_rules": [
+            "DET-005"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-005-two-burst",
+      "forbidden_rules": [
+        "DET-005"
+      ],
+      "id": "det005-benign-10",
+      "manifest": "det005-benign-10/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "8370e2126750bd4e74676e5c7080cc92da64b91201a10bb12f4df3c8d122d7c8",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478571000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-5-11",
+          "id": "det005-benign-11",
+          "label": "benign",
+          "primary_rules": [
+            "DET-005"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-005-two-burst",
+      "forbidden_rules": [
+        "DET-005"
+      ],
+      "id": "det005-benign-11",
+      "manifest": "det005-benign-11/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "25183db2aeb44570b713459f083bc5c885ed79d2f184e4601f1aedcbcc6dd74a",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478584000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-5-12",
+          "id": "det005-benign-12",
+          "label": "benign",
+          "primary_rules": [
+            "DET-005"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-005-two-burst",
+      "forbidden_rules": [
+        "DET-005"
+      ],
+      "id": "det005-benign-12",
+      "manifest": "det005-benign-12/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "3790e89f6fcbd9a93be01c1f06f38c9eed07851f35baf1d0c7ebb0fb08bd5136",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478597000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-5-13",
+          "id": "det005-benign-13",
+          "label": "benign",
+          "primary_rules": [
+            "DET-005"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-005-two-burst",
+      "forbidden_rules": [
+        "DET-005"
+      ],
+      "id": "det005-benign-13",
+      "manifest": "det005-benign-13/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "330eacf455dc8070cedd17aa4a7508ad2f1767ce1e306bfaa53eb31a76054bde",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478610000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-5-14",
+          "id": "det005-benign-14",
+          "label": "benign",
+          "primary_rules": [
+            "DET-005"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-005-two-burst",
+      "forbidden_rules": [
+        "DET-005"
+      ],
+      "id": "det005-benign-14",
+      "manifest": "det005-benign-14/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "41c2cc0f2790e1dae654634eb2134050a015719c291686e6edec698701ab1113",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478640000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-6-0",
+          "id": "det006-attack-00",
+          "label": "attack",
+          "primary_rules": [
+            "DET-006"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "106c16d0f1c454b536a394637d930175cc6a2689cc7dcac4648984600c108d87",
+            "1f4eb268c9cee97277bb6bbc3cd2146efc3ab589c0659a444afaf0ea78ef573d",
+            "a056a8437f9461e477fdce998d55bfe047fd931c6eb02ab614bb592f4bc8dcce",
+            "f34a80d06acfa1f9d10945c83122da5587111710c231b393dbbb32bcdbb928bb",
+            "ffcddb9d966fbd50bf21aa140a360eadbe7894c8cb7a6b99f9f4bb7b55f415c4",
+            "b22c7b325a12234a752a5691ac1e739ea6c916dabe0f97f91afd8a48483ef5e8",
+            "8e1cd4b72237e4bae782008f87bd679ff48fac2e7b1e620a7b87d41601adb14d",
+            "504fc8dc69286e0dabda18b96f9e026f704ba286b05eb9d05632778f99d7b1f1",
+            "223a9874a4ef9929b53afa683b840c78cbd9e5500cfa1de0f9bd2162c779d924",
+            "b407101aac6db79f8d8b932ed799285ac50e93df63323cb0794cc644cb64238d",
+            "87d170fa981693f267ff81bbf4c96c400284703f855058b17fda0cdfeddef7ba"
+          ],
+          "start": 1768478400000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [
+        "DET-006"
+      ],
+      "family_id": "DET-006-two-burst",
+      "forbidden_rules": [],
+      "id": "det006-attack-00",
+      "manifest": "det006-attack-00/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "4e5fda2f40c0162b455fd404d4e36df5b6c9d12ce5648e4f2d5a95997c93bed5",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478643000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-6-1",
+          "id": "det006-attack-01",
+          "label": "attack",
+          "primary_rules": [
+            "DET-006"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "106c16d0f1c454b536a394637d930175cc6a2689cc7dcac4648984600c108d87",
+            "1f4eb268c9cee97277bb6bbc3cd2146efc3ab589c0659a444afaf0ea78ef573d",
+            "a056a8437f9461e477fdce998d55bfe047fd931c6eb02ab614bb592f4bc8dcce",
+            "f34a80d06acfa1f9d10945c83122da5587111710c231b393dbbb32bcdbb928bb",
+            "ffcddb9d966fbd50bf21aa140a360eadbe7894c8cb7a6b99f9f4bb7b55f415c4",
+            "b22c7b325a12234a752a5691ac1e739ea6c916dabe0f97f91afd8a48483ef5e8",
+            "8e1cd4b72237e4bae782008f87bd679ff48fac2e7b1e620a7b87d41601adb14d",
+            "504fc8dc69286e0dabda18b96f9e026f704ba286b05eb9d05632778f99d7b1f1",
+            "223a9874a4ef9929b53afa683b840c78cbd9e5500cfa1de0f9bd2162c779d924",
+            "b407101aac6db79f8d8b932ed799285ac50e93df63323cb0794cc644cb64238d",
+            "87d170fa981693f267ff81bbf4c96c400284703f855058b17fda0cdfeddef7ba"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [
+        "DET-006"
+      ],
+      "family_id": "DET-006-two-burst",
+      "forbidden_rules": [],
+      "id": "det006-attack-01",
+      "manifest": "det006-attack-01/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "b6694b4d93fb3bf752eb8925c81d6c372fbeef032b4e81ff6a4668d1d2a9481a",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478646000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-6-2",
+          "id": "det006-attack-02",
+          "label": "attack",
+          "primary_rules": [
+            "DET-006"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "106c16d0f1c454b536a394637d930175cc6a2689cc7dcac4648984600c108d87",
+            "1f4eb268c9cee97277bb6bbc3cd2146efc3ab589c0659a444afaf0ea78ef573d",
+            "a056a8437f9461e477fdce998d55bfe047fd931c6eb02ab614bb592f4bc8dcce",
+            "f34a80d06acfa1f9d10945c83122da5587111710c231b393dbbb32bcdbb928bb",
+            "ffcddb9d966fbd50bf21aa140a360eadbe7894c8cb7a6b99f9f4bb7b55f415c4",
+            "b22c7b325a12234a752a5691ac1e739ea6c916dabe0f97f91afd8a48483ef5e8",
+            "8e1cd4b72237e4bae782008f87bd679ff48fac2e7b1e620a7b87d41601adb14d",
+            "504fc8dc69286e0dabda18b96f9e026f704ba286b05eb9d05632778f99d7b1f1",
+            "223a9874a4ef9929b53afa683b840c78cbd9e5500cfa1de0f9bd2162c779d924",
+            "b407101aac6db79f8d8b932ed799285ac50e93df63323cb0794cc644cb64238d",
+            "87d170fa981693f267ff81bbf4c96c400284703f855058b17fda0cdfeddef7ba"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [
+        "DET-006"
+      ],
+      "family_id": "DET-006-two-burst",
+      "forbidden_rules": [],
+      "id": "det006-attack-02",
+      "manifest": "det006-attack-02/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "432bf58f3688414d7c2a7b0d159ae95b45d0e1dfe7c3c97e7e6247466f5954fe",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478649000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-6-3",
+          "id": "det006-attack-03",
+          "label": "attack",
+          "primary_rules": [
+            "DET-006"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "106c16d0f1c454b536a394637d930175cc6a2689cc7dcac4648984600c108d87",
+            "1f4eb268c9cee97277bb6bbc3cd2146efc3ab589c0659a444afaf0ea78ef573d",
+            "a056a8437f9461e477fdce998d55bfe047fd931c6eb02ab614bb592f4bc8dcce",
+            "f34a80d06acfa1f9d10945c83122da5587111710c231b393dbbb32bcdbb928bb",
+            "ffcddb9d966fbd50bf21aa140a360eadbe7894c8cb7a6b99f9f4bb7b55f415c4",
+            "b22c7b325a12234a752a5691ac1e739ea6c916dabe0f97f91afd8a48483ef5e8",
+            "8e1cd4b72237e4bae782008f87bd679ff48fac2e7b1e620a7b87d41601adb14d",
+            "504fc8dc69286e0dabda18b96f9e026f704ba286b05eb9d05632778f99d7b1f1",
+            "223a9874a4ef9929b53afa683b840c78cbd9e5500cfa1de0f9bd2162c779d924",
+            "b407101aac6db79f8d8b932ed799285ac50e93df63323cb0794cc644cb64238d",
+            "87d170fa981693f267ff81bbf4c96c400284703f855058b17fda0cdfeddef7ba"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [
+        "DET-006"
+      ],
+      "family_id": "DET-006-two-burst",
+      "forbidden_rules": [],
+      "id": "det006-attack-03",
+      "manifest": "det006-attack-03/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "6b18f7b805a3274c4aba40157eef963b59f8fc03b3bfb596eede90488f1b9809",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478652000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-6-4",
+          "id": "det006-attack-04",
+          "label": "attack",
+          "primary_rules": [
+            "DET-006"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "106c16d0f1c454b536a394637d930175cc6a2689cc7dcac4648984600c108d87",
+            "1f4eb268c9cee97277bb6bbc3cd2146efc3ab589c0659a444afaf0ea78ef573d",
+            "a056a8437f9461e477fdce998d55bfe047fd931c6eb02ab614bb592f4bc8dcce",
+            "f34a80d06acfa1f9d10945c83122da5587111710c231b393dbbb32bcdbb928bb",
+            "ffcddb9d966fbd50bf21aa140a360eadbe7894c8cb7a6b99f9f4bb7b55f415c4",
+            "b22c7b325a12234a752a5691ac1e739ea6c916dabe0f97f91afd8a48483ef5e8",
+            "8e1cd4b72237e4bae782008f87bd679ff48fac2e7b1e620a7b87d41601adb14d",
+            "504fc8dc69286e0dabda18b96f9e026f704ba286b05eb9d05632778f99d7b1f1",
+            "223a9874a4ef9929b53afa683b840c78cbd9e5500cfa1de0f9bd2162c779d924",
+            "b407101aac6db79f8d8b932ed799285ac50e93df63323cb0794cc644cb64238d",
+            "87d170fa981693f267ff81bbf4c96c400284703f855058b17fda0cdfeddef7ba"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [
+        "DET-006"
+      ],
+      "family_id": "DET-006-two-burst",
+      "forbidden_rules": [],
+      "id": "det006-attack-04",
+      "manifest": "det006-attack-04/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "e3c00a060203d9c8e032488e9cab102263c2f190a3765564c3d5a1049ad79863",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478655000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-6-5",
+          "id": "det006-benign-05",
+          "label": "benign",
+          "primary_rules": [
+            "DET-006"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "b407101aac6db79f8d8b932ed799285ac50e93df63323cb0794cc644cb64238d",
+            "87d170fa981693f267ff81bbf4c96c400284703f855058b17fda0cdfeddef7ba"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-006-two-burst",
+      "forbidden_rules": [
+        "DET-006"
+      ],
+      "id": "det006-benign-05",
+      "manifest": "det006-benign-05/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "c25967f4f851cc3329d219298e7c8c38d488e705a5bfe887dc0614efa04de5cb",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478658000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-6-6",
+          "id": "det006-benign-06",
+          "label": "benign",
+          "primary_rules": [
+            "DET-006"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "b407101aac6db79f8d8b932ed799285ac50e93df63323cb0794cc644cb64238d",
+            "87d170fa981693f267ff81bbf4c96c400284703f855058b17fda0cdfeddef7ba"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-006-two-burst",
+      "forbidden_rules": [
+        "DET-006"
+      ],
+      "id": "det006-benign-06",
+      "manifest": "det006-benign-06/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "1ee02bfe4d407a72f7e144081d6adee0029ec198b96865d7153a3c6a0ccb1eae",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478661000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-6-7",
+          "id": "det006-benign-07",
+          "label": "benign",
+          "primary_rules": [
+            "DET-006"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "b407101aac6db79f8d8b932ed799285ac50e93df63323cb0794cc644cb64238d",
+            "87d170fa981693f267ff81bbf4c96c400284703f855058b17fda0cdfeddef7ba"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-006-two-burst",
+      "forbidden_rules": [
+        "DET-006"
+      ],
+      "id": "det006-benign-07",
+      "manifest": "det006-benign-07/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "05c267a1346efc62bcb9667aaa06b0003ef6d33e75d042de868b306ebf6d1226",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478664000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-6-8",
+          "id": "det006-benign-08",
+          "label": "benign",
+          "primary_rules": [
+            "DET-006"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "b407101aac6db79f8d8b932ed799285ac50e93df63323cb0794cc644cb64238d",
+            "87d170fa981693f267ff81bbf4c96c400284703f855058b17fda0cdfeddef7ba"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-006-two-burst",
+      "forbidden_rules": [
+        "DET-006"
+      ],
+      "id": "det006-benign-08",
+      "manifest": "det006-benign-08/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "7669095bc4228099a1802b495be4b2ec73fa17ecb796da191efe90f20231d606",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478667000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-6-9",
+          "id": "det006-benign-09",
+          "label": "benign",
+          "primary_rules": [
+            "DET-006"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "b407101aac6db79f8d8b932ed799285ac50e93df63323cb0794cc644cb64238d",
+            "87d170fa981693f267ff81bbf4c96c400284703f855058b17fda0cdfeddef7ba"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-006-two-burst",
+      "forbidden_rules": [
+        "DET-006"
+      ],
+      "id": "det006-benign-09",
+      "manifest": "det006-benign-09/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "a3f57b1852769a454af124c8cddda7347b293ddf446a29c0f4687b422406b875",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478670000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-6-10",
+          "id": "det006-benign-10",
+          "label": "benign",
+          "primary_rules": [
+            "DET-006"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "b407101aac6db79f8d8b932ed799285ac50e93df63323cb0794cc644cb64238d",
+            "87d170fa981693f267ff81bbf4c96c400284703f855058b17fda0cdfeddef7ba"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-006-two-burst",
+      "forbidden_rules": [
+        "DET-006"
+      ],
+      "id": "det006-benign-10",
+      "manifest": "det006-benign-10/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "a904d3cc785002a6fba6920dc7050cb860ad09ed3b7f4bdc86cfdc11f4f1957c",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478673000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-6-11",
+          "id": "det006-benign-11",
+          "label": "benign",
+          "primary_rules": [
+            "DET-006"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "b407101aac6db79f8d8b932ed799285ac50e93df63323cb0794cc644cb64238d",
+            "87d170fa981693f267ff81bbf4c96c400284703f855058b17fda0cdfeddef7ba"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-006-two-burst",
+      "forbidden_rules": [
+        "DET-006"
+      ],
+      "id": "det006-benign-11",
+      "manifest": "det006-benign-11/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "3c07778a835008642686f062b8283bcd60ecf31df784319df44c6eb47866d67f",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478676000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-6-12",
+          "id": "det006-benign-12",
+          "label": "benign",
+          "primary_rules": [
+            "DET-006"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "b407101aac6db79f8d8b932ed799285ac50e93df63323cb0794cc644cb64238d",
+            "87d170fa981693f267ff81bbf4c96c400284703f855058b17fda0cdfeddef7ba"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-006-two-burst",
+      "forbidden_rules": [
+        "DET-006"
+      ],
+      "id": "det006-benign-12",
+      "manifest": "det006-benign-12/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "d8ff2df8c655446798b13e80a02ba2ae507d9eb526e32bfca2eece481b93d5aa",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478679000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-6-13",
+          "id": "det006-benign-13",
+          "label": "benign",
+          "primary_rules": [
+            "DET-006"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "b407101aac6db79f8d8b932ed799285ac50e93df63323cb0794cc644cb64238d",
+            "87d170fa981693f267ff81bbf4c96c400284703f855058b17fda0cdfeddef7ba"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-006-two-burst",
+      "forbidden_rules": [
+        "DET-006"
+      ],
+      "id": "det006-benign-13",
+      "manifest": "det006-benign-13/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "461a3196d335e13e9a5e121b785ad44589b25aa14318e94a3acabd912a21dcae",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478682000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-6-14",
+          "id": "det006-benign-14",
+          "label": "benign",
+          "primary_rules": [
+            "DET-006"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "b407101aac6db79f8d8b932ed799285ac50e93df63323cb0794cc644cb64238d",
+            "87d170fa981693f267ff81bbf4c96c400284703f855058b17fda0cdfeddef7ba"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-006-two-burst",
+      "forbidden_rules": [
+        "DET-006"
+      ],
+      "id": "det006-benign-14",
+      "manifest": "det006-benign-14/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "db924973c3782c66831ac13ed52ec4c84a7e469290e31f4c7beabbdea84a6886",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478428000000,
+          "entity_field": "client_ip",
+          "entity_value": "192.0.2.10",
+          "id": "det007-attack-00",
+          "label": "attack",
+          "primary_rules": [
+            "DET-007"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "106c16d0f1c454b536a394637d930175cc6a2689cc7dcac4648984600c108d87",
+            "1f4eb268c9cee97277bb6bbc3cd2146efc3ab589c0659a444afaf0ea78ef573d"
+          ],
+          "start": 1768478400000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [
+        "DET-007"
+      ],
+      "family_id": "DET-007-two-burst",
+      "forbidden_rules": [],
+      "id": "det007-attack-00",
+      "manifest": "det007-attack-00/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "abca61d23dfba409fcfaf610dc29edc5814cca99f6975b772830fccc0f90b789",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478441000000,
+          "entity_field": "client_ip",
+          "entity_value": "192.0.2.10",
+          "id": "det007-attack-01",
+          "label": "attack",
+          "primary_rules": [
+            "DET-007"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "106c16d0f1c454b536a394637d930175cc6a2689cc7dcac4648984600c108d87",
+            "1f4eb268c9cee97277bb6bbc3cd2146efc3ab589c0659a444afaf0ea78ef573d"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [
+        "DET-007"
+      ],
+      "family_id": "DET-007-two-burst",
+      "forbidden_rules": [],
+      "id": "det007-attack-01",
+      "manifest": "det007-attack-01/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "010806c12e916e8411683de798bc44ca5b6a6fa7cc85299a6d7680e9e7e54c38",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478454000000,
+          "entity_field": "client_ip",
+          "entity_value": "192.0.2.10",
+          "id": "det007-attack-02",
+          "label": "attack",
+          "primary_rules": [
+            "DET-007"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "106c16d0f1c454b536a394637d930175cc6a2689cc7dcac4648984600c108d87",
+            "1f4eb268c9cee97277bb6bbc3cd2146efc3ab589c0659a444afaf0ea78ef573d"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [
+        "DET-007"
+      ],
+      "family_id": "DET-007-two-burst",
+      "forbidden_rules": [],
+      "id": "det007-attack-02",
+      "manifest": "det007-attack-02/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "460e7c9f7c2cdc88c3d38457fa602fe541cc701ebb3802fd8ec478ec3abcd50b",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478467000000,
+          "entity_field": "client_ip",
+          "entity_value": "192.0.2.10",
+          "id": "det007-attack-03",
+          "label": "attack",
+          "primary_rules": [
+            "DET-007"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "106c16d0f1c454b536a394637d930175cc6a2689cc7dcac4648984600c108d87",
+            "1f4eb268c9cee97277bb6bbc3cd2146efc3ab589c0659a444afaf0ea78ef573d"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [
+        "DET-007"
+      ],
+      "family_id": "DET-007-two-burst",
+      "forbidden_rules": [],
+      "id": "det007-attack-03",
+      "manifest": "det007-attack-03/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "ed621e6d0e78156917abdb5b48516eef3cca62de3fbd6c38c2c38db0a49937ba",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478480000000,
+          "entity_field": "client_ip",
+          "entity_value": "192.0.2.10",
+          "id": "det007-attack-04",
+          "label": "attack",
+          "primary_rules": [
+            "DET-007"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "106c16d0f1c454b536a394637d930175cc6a2689cc7dcac4648984600c108d87",
+            "1f4eb268c9cee97277bb6bbc3cd2146efc3ab589c0659a444afaf0ea78ef573d"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [
+        "DET-007"
+      ],
+      "family_id": "DET-007-two-burst",
+      "forbidden_rules": [],
+      "id": "det007-attack-04",
+      "manifest": "det007-attack-04/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "e37c049d8c2d9dffeb27963f14a1bf06728ce1527592170eab5bf4dab264c20d",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478493000000,
+          "entity_field": "client_ip",
+          "entity_value": "192.0.2.10",
+          "id": "det007-benign-05",
+          "label": "benign",
+          "primary_rules": [
+            "DET-007"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-007-two-burst",
+      "forbidden_rules": [
+        "DET-007"
+      ],
+      "id": "det007-benign-05",
+      "manifest": "det007-benign-05/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "df6aa7710aae1c318ad67168194b951fc1cf0d0c300e23125d9b004b45c568ea",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478506000000,
+          "entity_field": "client_ip",
+          "entity_value": "192.0.2.10",
+          "id": "det007-benign-06",
+          "label": "benign",
+          "primary_rules": [
+            "DET-007"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-007-two-burst",
+      "forbidden_rules": [
+        "DET-007"
+      ],
+      "id": "det007-benign-06",
+      "manifest": "det007-benign-06/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "3d782a5a0384be3a23b70339e8b7f81e04588f7e496c77c053618b3f5848429f",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478519000000,
+          "entity_field": "client_ip",
+          "entity_value": "192.0.2.10",
+          "id": "det007-benign-07",
+          "label": "benign",
+          "primary_rules": [
+            "DET-007"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-007-two-burst",
+      "forbidden_rules": [
+        "DET-007"
+      ],
+      "id": "det007-benign-07",
+      "manifest": "det007-benign-07/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "b00c9d018957bdb8eda7018cb2f96fd9500d9940a07d80eccf0fb8e2706bd10d",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478532000000,
+          "entity_field": "client_ip",
+          "entity_value": "192.0.2.10",
+          "id": "det007-benign-08",
+          "label": "benign",
+          "primary_rules": [
+            "DET-007"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-007-two-burst",
+      "forbidden_rules": [
+        "DET-007"
+      ],
+      "id": "det007-benign-08",
+      "manifest": "det007-benign-08/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "e97d325f432bb543b3cb86e2e3f150063bcc3b0c1d56ca65d828862aba254302",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478545000000,
+          "entity_field": "client_ip",
+          "entity_value": "192.0.2.10",
+          "id": "det007-benign-09",
+          "label": "benign",
+          "primary_rules": [
+            "DET-007"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-007-two-burst",
+      "forbidden_rules": [
+        "DET-007"
+      ],
+      "id": "det007-benign-09",
+      "manifest": "det007-benign-09/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "7a71b37543df936f8ea2e6c38899673fb1aacf9263563290fcc6a3a6bd7789b8",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478558000000,
+          "entity_field": "client_ip",
+          "entity_value": "192.0.2.10",
+          "id": "det007-benign-10",
+          "label": "benign",
+          "primary_rules": [
+            "DET-007"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-007-two-burst",
+      "forbidden_rules": [
+        "DET-007"
+      ],
+      "id": "det007-benign-10",
+      "manifest": "det007-benign-10/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "84e27edcb78c8116f8c25bc22bc9be90404fc18304f532906a1d0c1ff6b6da8f",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478571000000,
+          "entity_field": "client_ip",
+          "entity_value": "192.0.2.10",
+          "id": "det007-benign-11",
+          "label": "benign",
+          "primary_rules": [
+            "DET-007"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-007-two-burst",
+      "forbidden_rules": [
+        "DET-007"
+      ],
+      "id": "det007-benign-11",
+      "manifest": "det007-benign-11/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "1be5597e6ba53fa559758824087e8c2906d3d72f4e29e2681cf49a1c2e3924f8",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478584000000,
+          "entity_field": "client_ip",
+          "entity_value": "192.0.2.10",
+          "id": "det007-benign-12",
+          "label": "benign",
+          "primary_rules": [
+            "DET-007"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-007-two-burst",
+      "forbidden_rules": [
+        "DET-007"
+      ],
+      "id": "det007-benign-12",
+      "manifest": "det007-benign-12/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "7bd3ce8a44dded1fdb44a8a3ebb2e07b750e1c307000d69b934646ebd1c7d8e2",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478597000000,
+          "entity_field": "client_ip",
+          "entity_value": "192.0.2.10",
+          "id": "det007-benign-13",
+          "label": "benign",
+          "primary_rules": [
+            "DET-007"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-007-two-burst",
+      "forbidden_rules": [
+        "DET-007"
+      ],
+      "id": "det007-benign-13",
+      "manifest": "det007-benign-13/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "d25d307cf9bcfbf9354f6d560e807cad5c8eb569945fc8c9dee076339e14c146",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478610000000,
+          "entity_field": "client_ip",
+          "entity_value": "192.0.2.10",
+          "id": "det007-benign-14",
+          "label": "benign",
+          "primary_rules": [
+            "DET-007"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-007-two-burst",
+      "forbidden_rules": [
+        "DET-007"
+      ],
+      "id": "det007-benign-14",
+      "manifest": "det007-benign-14/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "e5f8356229befa7b0b117fef386569e49f10ecd09ee877fc920ade9429d650bb",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478507000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-8-0",
+          "id": "det008-attack-00",
+          "label": "attack",
+          "primary_rules": [
+            "DET-008"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "106c16d0f1c454b536a394637d930175cc6a2689cc7dcac4648984600c108d87",
+            "1f4eb268c9cee97277bb6bbc3cd2146efc3ab589c0659a444afaf0ea78ef573d",
+            "a056a8437f9461e477fdce998d55bfe047fd931c6eb02ab614bb592f4bc8dcce",
+            "f34a80d06acfa1f9d10945c83122da5587111710c231b393dbbb32bcdbb928bb",
+            "ffcddb9d966fbd50bf21aa140a360eadbe7894c8cb7a6b99f9f4bb7b55f415c4",
+            "b22c7b325a12234a752a5691ac1e739ea6c916dabe0f97f91afd8a48483ef5e8",
+            "8e1cd4b72237e4bae782008f87bd679ff48fac2e7b1e620a7b87d41601adb14d",
+            "504fc8dc69286e0dabda18b96f9e026f704ba286b05eb9d05632778f99d7b1f1",
+            "223a9874a4ef9929b53afa683b840c78cbd9e5500cfa1de0f9bd2162c779d924"
+          ],
+          "start": 1768478400000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [
+        "DET-008"
+      ],
+      "family_id": "DET-008-two-burst",
+      "forbidden_rules": [],
+      "id": "det008-attack-00",
+      "manifest": "det008-attack-00/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "c2b9762047fad0d643f313e4b070f79dc690029e47b95952fe2f790f617b8127",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478510000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-8-1",
+          "id": "det008-attack-01",
+          "label": "attack",
+          "primary_rules": [
+            "DET-008"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "106c16d0f1c454b536a394637d930175cc6a2689cc7dcac4648984600c108d87",
+            "1f4eb268c9cee97277bb6bbc3cd2146efc3ab589c0659a444afaf0ea78ef573d",
+            "a056a8437f9461e477fdce998d55bfe047fd931c6eb02ab614bb592f4bc8dcce",
+            "f34a80d06acfa1f9d10945c83122da5587111710c231b393dbbb32bcdbb928bb",
+            "ffcddb9d966fbd50bf21aa140a360eadbe7894c8cb7a6b99f9f4bb7b55f415c4",
+            "b22c7b325a12234a752a5691ac1e739ea6c916dabe0f97f91afd8a48483ef5e8",
+            "8e1cd4b72237e4bae782008f87bd679ff48fac2e7b1e620a7b87d41601adb14d",
+            "504fc8dc69286e0dabda18b96f9e026f704ba286b05eb9d05632778f99d7b1f1",
+            "223a9874a4ef9929b53afa683b840c78cbd9e5500cfa1de0f9bd2162c779d924"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [
+        "DET-008"
+      ],
+      "family_id": "DET-008-two-burst",
+      "forbidden_rules": [],
+      "id": "det008-attack-01",
+      "manifest": "det008-attack-01/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "d5a4f64d59bd7dfc6a2e60051464f9b1b005b49a072681ce5a19d73f3d69e90c",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478513000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-8-2",
+          "id": "det008-attack-02",
+          "label": "attack",
+          "primary_rules": [
+            "DET-008"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "106c16d0f1c454b536a394637d930175cc6a2689cc7dcac4648984600c108d87",
+            "1f4eb268c9cee97277bb6bbc3cd2146efc3ab589c0659a444afaf0ea78ef573d",
+            "a056a8437f9461e477fdce998d55bfe047fd931c6eb02ab614bb592f4bc8dcce",
+            "f34a80d06acfa1f9d10945c83122da5587111710c231b393dbbb32bcdbb928bb",
+            "ffcddb9d966fbd50bf21aa140a360eadbe7894c8cb7a6b99f9f4bb7b55f415c4",
+            "b22c7b325a12234a752a5691ac1e739ea6c916dabe0f97f91afd8a48483ef5e8",
+            "8e1cd4b72237e4bae782008f87bd679ff48fac2e7b1e620a7b87d41601adb14d",
+            "504fc8dc69286e0dabda18b96f9e026f704ba286b05eb9d05632778f99d7b1f1",
+            "223a9874a4ef9929b53afa683b840c78cbd9e5500cfa1de0f9bd2162c779d924"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [
+        "DET-008"
+      ],
+      "family_id": "DET-008-two-burst",
+      "forbidden_rules": [],
+      "id": "det008-attack-02",
+      "manifest": "det008-attack-02/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "0d237e77801688f0d887c35e62dac370f5eb991d4abd1175e80b338c78030580",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478516000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-8-3",
+          "id": "det008-attack-03",
+          "label": "attack",
+          "primary_rules": [
+            "DET-008"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "106c16d0f1c454b536a394637d930175cc6a2689cc7dcac4648984600c108d87",
+            "1f4eb268c9cee97277bb6bbc3cd2146efc3ab589c0659a444afaf0ea78ef573d",
+            "a056a8437f9461e477fdce998d55bfe047fd931c6eb02ab614bb592f4bc8dcce",
+            "f34a80d06acfa1f9d10945c83122da5587111710c231b393dbbb32bcdbb928bb",
+            "ffcddb9d966fbd50bf21aa140a360eadbe7894c8cb7a6b99f9f4bb7b55f415c4",
+            "b22c7b325a12234a752a5691ac1e739ea6c916dabe0f97f91afd8a48483ef5e8",
+            "8e1cd4b72237e4bae782008f87bd679ff48fac2e7b1e620a7b87d41601adb14d",
+            "504fc8dc69286e0dabda18b96f9e026f704ba286b05eb9d05632778f99d7b1f1",
+            "223a9874a4ef9929b53afa683b840c78cbd9e5500cfa1de0f9bd2162c779d924"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [
+        "DET-008"
+      ],
+      "family_id": "DET-008-two-burst",
+      "forbidden_rules": [],
+      "id": "det008-attack-03",
+      "manifest": "det008-attack-03/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "2dcf73aa840cca0af46f00ae922b9f0e78570ce714f00eee257ba2905cb18ca8",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478519000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-8-4",
+          "id": "det008-attack-04",
+          "label": "attack",
+          "primary_rules": [
+            "DET-008"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa",
+            "106c16d0f1c454b536a394637d930175cc6a2689cc7dcac4648984600c108d87",
+            "1f4eb268c9cee97277bb6bbc3cd2146efc3ab589c0659a444afaf0ea78ef573d",
+            "a056a8437f9461e477fdce998d55bfe047fd931c6eb02ab614bb592f4bc8dcce",
+            "f34a80d06acfa1f9d10945c83122da5587111710c231b393dbbb32bcdbb928bb",
+            "ffcddb9d966fbd50bf21aa140a360eadbe7894c8cb7a6b99f9f4bb7b55f415c4",
+            "b22c7b325a12234a752a5691ac1e739ea6c916dabe0f97f91afd8a48483ef5e8",
+            "8e1cd4b72237e4bae782008f87bd679ff48fac2e7b1e620a7b87d41601adb14d",
+            "504fc8dc69286e0dabda18b96f9e026f704ba286b05eb9d05632778f99d7b1f1",
+            "223a9874a4ef9929b53afa683b840c78cbd9e5500cfa1de0f9bd2162c779d924"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [
+        "DET-008"
+      ],
+      "family_id": "DET-008-two-burst",
+      "forbidden_rules": [],
+      "id": "det008-attack-04",
+      "manifest": "det008-attack-04/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "12e3aeca48f639910020f025b538a381bab443a5ccf45ce79b25b36300d4b2a8",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478493000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-8-5",
+          "id": "det008-benign-05",
+          "label": "benign",
+          "primary_rules": [
+            "DET-008"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-008-two-burst",
+      "forbidden_rules": [
+        "DET-008"
+      ],
+      "id": "det008-benign-05",
+      "manifest": "det008-benign-05/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "131db17f3641d4e0663a28bdb5774ebdb44006fc04baf5ac1f0af2fa7ac6a43c",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478506000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-8-6",
+          "id": "det008-benign-06",
+          "label": "benign",
+          "primary_rules": [
+            "DET-008"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-008-two-burst",
+      "forbidden_rules": [
+        "DET-008"
+      ],
+      "id": "det008-benign-06",
+      "manifest": "det008-benign-06/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "e39415fbc5401f2cb8bd2f4602822e4192a76059cc761a87a2d33a8f7c6d9771",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478519000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-8-7",
+          "id": "det008-benign-07",
+          "label": "benign",
+          "primary_rules": [
+            "DET-008"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-008-two-burst",
+      "forbidden_rules": [
+        "DET-008"
+      ],
+      "id": "det008-benign-07",
+      "manifest": "det008-benign-07/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "57fd6c82a017cf993b68638181221a6f8427fad0c418d2fd6a7cca49b8a27d22",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478532000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-8-8",
+          "id": "det008-benign-08",
+          "label": "benign",
+          "primary_rules": [
+            "DET-008"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-008-two-burst",
+      "forbidden_rules": [
+        "DET-008"
+      ],
+      "id": "det008-benign-08",
+      "manifest": "det008-benign-08/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "da034539fa3deebd2b4a8eb956d60533337d81897273b0a23a11257e9f118e5d",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478545000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-8-9",
+          "id": "det008-benign-09",
+          "label": "benign",
+          "primary_rules": [
+            "DET-008"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-008-two-burst",
+      "forbidden_rules": [
+        "DET-008"
+      ],
+      "id": "det008-benign-09",
+      "manifest": "det008-benign-09/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "c70d027d674153bae74271b2d5de3ba9090c8b2e10c75a5b03f3c3c7417e2c34",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478558000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-8-10",
+          "id": "det008-benign-10",
+          "label": "benign",
+          "primary_rules": [
+            "DET-008"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-008-two-burst",
+      "forbidden_rules": [
+        "DET-008"
+      ],
+      "id": "det008-benign-10",
+      "manifest": "det008-benign-10/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "f8bee56ea1653a6d281ebf2533a7103824fd44a20836b95e9d9fc1387fb3b339",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478571000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-8-11",
+          "id": "det008-benign-11",
+          "label": "benign",
+          "primary_rules": [
+            "DET-008"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-008-two-burst",
+      "forbidden_rules": [
+        "DET-008"
+      ],
+      "id": "det008-benign-11",
+      "manifest": "det008-benign-11/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "196a23c8397b816b153c241f7a3d724b0d9bc24d25f70216d37f877cdb856dfe",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478584000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-8-12",
+          "id": "det008-benign-12",
+          "label": "benign",
+          "primary_rules": [
+            "DET-008"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-008-two-burst",
+      "forbidden_rules": [
+        "DET-008"
+      ],
+      "id": "det008-benign-12",
+      "manifest": "det008-benign-12/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "33cf236966d310fb9693f399ef5f6f6e6a66acaaa20ccc51154507ecd545385c",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478597000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-8-13",
+          "id": "det008-benign-13",
+          "label": "benign",
+          "primary_rules": [
+            "DET-008"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-008-two-burst",
+      "forbidden_rules": [
+        "DET-008"
+      ],
+      "id": "det008-benign-13",
+      "manifest": "det008-benign-13/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    },
+    {
+      "dataset_hash": "f18b3c1c33b4222d606e4001d1042178565de3a1f48d2e37c86b23a4e5a90fa3",
+      "episodes": [
+        {
+          "application_id": "demo",
+          "eligible": true,
+          "end": 1768478610000000,
+          "entity_field": "user_id",
+          "entity_value": "eval-user-8-14",
+          "id": "det008-benign-14",
+          "label": "benign",
+          "primary_rules": [
+            "DET-008"
+          ],
+          "relevant_event_ids": [
+            "4d4e1b9359e1f9579f9d8c0587e792eee90a39800293cccda29ab8805760a299",
+            "85e4a9283875a8c5793e9003d318fa32da4bd56371e7a11d09068c6e62c1b745",
+            "b51f623ff87d08af8e9d2779fb97d030f454eac3f77fd58675723b7c1e6278aa"
+          ],
+          "start": 1768478402000000,
+          "tenant_id": "local"
+        }
+      ],
+      "expected_rules": [],
+      "family_id": "DET-008-two-burst",
+      "forbidden_rules": [
+        "DET-008"
+      ],
+      "id": "det008-benign-14",
+      "manifest": "det008-benign-14/manifest.yml",
+      "origin": "authored synthetic events",
+      "split": "evaluation"
+    }
+  ],
+  "schema": "lia-suite/v1",
+  "version": 1
+}

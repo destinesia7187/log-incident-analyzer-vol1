@@ -1,0 +1,69 @@
+{
+  "schema": "lia-rule/v1",
+  "id": "DET-001",
+  "version": 1,
+  "title": "Repeated failed sign-ins",
+  "status": "stable",
+  "description": "Repeated failed sign-ins. Review the supporting events.",
+  "rationale": "Observed events satisfy the documented rule conditions; intent requires analyst review.",
+  "owner": "project-maintainer",
+  "references": [
+    "https://attack.mitre.org/techniques/T1110/001/"
+  ],
+  "tests": [
+    "D01-001",
+    "D01-002",
+    "D01-003",
+    "D01-004",
+    "D01-005",
+    "D01-006",
+    "D01-007",
+    "D01-008"
+  ],
+  "required_capabilities": [
+    "auth.login.failure"
+  ],
+  "required_fields": [
+    "actor.user_id",
+    "network.client_ip"
+  ],
+  "select": {
+    "all": [
+      {
+        "field": "event.action",
+        "equals": "auth.login"
+      },
+      {
+        "field": "event.outcome",
+        "equals": "failure"
+      }
+    ]
+  },
+  "aggregate": {
+    "type": "event_count",
+    "group_by": [
+      "tenant.id",
+      "app.id",
+      "actor.user_id",
+      "network.client_ip"
+    ],
+    "window": "5m",
+    "threshold": {
+      "gte": 10
+    }
+  },
+  "severity": "medium",
+  "attack": [
+    {
+      "technique_id": "T1110.001",
+      "mapping_status": "candidate"
+    }
+  ],
+  "false_positives": [
+    "The account owner may have mistyped or used an outdated password."
+  ],
+  "next_steps": [
+    "Verify the account owner or service owner recognizes the activity.",
+    "Review related audit records and approved maintenance context."
+  ]
+}

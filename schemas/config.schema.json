@@ -1,0 +1,210 @@
+{
+  "$defs": {
+    "ContextEntry": {
+      "additionalProperties": false,
+      "properties": {
+        "application_id": {
+          "minLength": 1,
+          "title": "Application Id",
+          "type": "string"
+        },
+        "author": {
+          "minLength": 1,
+          "title": "Author",
+          "type": "string"
+        },
+        "client_ip": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Client Ip"
+        },
+        "created_at": {
+          "title": "Created At",
+          "type": "string"
+        },
+        "expires_at": {
+          "title": "Expires At",
+          "type": "string"
+        },
+        "id": {
+          "minLength": 1,
+          "title": "Id",
+          "type": "string"
+        },
+        "kind": {
+          "enum": [
+            "critical",
+            "approved",
+            "suppression",
+            "nat"
+          ],
+          "title": "Kind",
+          "type": "string"
+        },
+        "reason": {
+          "minLength": 1,
+          "title": "Reason",
+          "type": "string"
+        },
+        "rule_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Rule Id"
+        },
+        "source": {
+          "minLength": 1,
+          "title": "Source",
+          "type": "string"
+        },
+        "tenant_id": {
+          "minLength": 1,
+          "title": "Tenant Id",
+          "type": "string"
+        },
+        "user_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "User Id"
+        },
+        "valid_from": {
+          "title": "Valid From",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "kind",
+        "tenant_id",
+        "application_id",
+        "source",
+        "author",
+        "reason",
+        "created_at",
+        "valid_from",
+        "expires_at"
+      ],
+      "title": "ContextEntry",
+      "type": "object"
+    },
+    "Limits": {
+      "additionalProperties": false,
+      "properties": {
+        "gzip_grace_bytes": {
+          "default": 10485760,
+          "minimum": 1,
+          "title": "Gzip Grace Bytes",
+          "type": "integer"
+        },
+        "gzip_ratio": {
+          "default": 100,
+          "minimum": 1,
+          "title": "Gzip Ratio",
+          "type": "integer"
+        },
+        "input_bytes": {
+          "default": 2147483648,
+          "minimum": 1,
+          "title": "Input Bytes",
+          "type": "integer"
+        },
+        "line_bytes": {
+          "default": 262144,
+          "minimum": 1,
+          "title": "Line Bytes",
+          "type": "integer"
+        },
+        "max_files": {
+          "default": 100,
+          "minimum": 1,
+          "title": "Max Files",
+          "type": "integer"
+        },
+        "max_groups": {
+          "default": 100000,
+          "minimum": 1,
+          "title": "Max Groups",
+          "type": "integer"
+        },
+        "workspace_bytes": {
+          "default": 17179869184,
+          "minimum": 1,
+          "title": "Workspace Bytes",
+          "type": "integer"
+        }
+      },
+      "title": "Limits",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "context": {
+      "items": {
+        "$ref": "#/$defs/ContextEntry"
+      },
+      "title": "Context",
+      "type": "array"
+    },
+    "enabled_rules": {
+      "anyOf": [
+        {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Enabled Rules"
+    },
+    "limits": {
+      "$ref": "#/$defs/Limits"
+    },
+    "schema": {
+      "const": "lia-config/v1",
+      "default": "lia-config/v1",
+      "title": "Schema",
+      "type": "string"
+    },
+    "sensitive_paths": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Sensitive Paths",
+      "type": "array"
+    },
+    "trusted_proxy_cidrs": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Trusted Proxy Cidrs",
+      "type": "array"
+    }
+  },
+  "title": "Config",
+  "type": "object"
+}
